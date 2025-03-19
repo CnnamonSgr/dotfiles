@@ -1,0 +1,20 @@
+<unity_prefs version_major="1" version_minor="1">
+	<pref name="BrainCloudWrapper.brainCloud.anonymousId" type="string">MzFjYjM3MjgtNWY3MC00YzA5LTg3N2MtMDhjNzMzZWZhMTZk</pref>
+	<pref name="BrainCloudWrapper.brainCloud.authenticationType" type="string"></pref>
+	<pref name="BrainCloudWrapper.brainCloud.profileId" type="string"></pref>
+	<pref name="I2 Language" type="string">RW5nbGlzaA==</pref>
+	<pref name="I2SourceVersion_I2Languages1uBiJfjrYD9OMvVfNzmUAaagvLkHqX49jEMpHNKghN8k" type="string">MTc0MDUxNjQ4NTQ0Mw==</pref>
+	<pref name="LastGoogleUpdate_I2Languages1uBiJfjrYD9OMvVfNzmUAaagvLkHqX49jEMpHNKghN8k" type="string">MDIvMjYvMjAyNSAxNDozMDo0MA==</pref>
+	<pref name="Screenmanager Fullscreen mode" type="int">1</pref>
+	<pref name="Screenmanager Fullscreen mode Default" type="int">1</pref>
+	<pref name="Screenmanager Resolution Height" type="int">1080</pref>
+	<pref name="Screenmanager Resolution Height Default" type="int">768</pref>
+	<pref name="Screenmanager Resolution Use Native" type="int">1</pref>
+	<pref name="Screenmanager Resolution Use Native Default" type="int">1</pref>
+	<pref name="Screenmanager Resolution Width" type="int">1920</pref>
+	<pref name="Screenmanager Resolution Width Default" type="int">1024</pref>
+	<pref name="UnitySelectMonitor" type="int">0</pref>
+	<pref name="unity.cloud_userid" type="string">YzhiM2NjZTIxOWNlYTY5NzU4ZDY5NjRiM2FhZGIwNjA=</pref>
+	<pref name="unity.player_session_count" type="string">MQ==</pref>
+	<pref name="unity.player_sessionid" type="string">NzkwMzMwMjE1NzEyNDcwODA2NQ==</pref>
+</unity_prefs>

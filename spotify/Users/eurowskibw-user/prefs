@@ -1,0 +1,6 @@
+connect.mdns_devices="[{\"created_timestamp\":1739995735,\"device_id\":\"\",\"device_info\":{\"addresses\":[\"192.168.88.187\"],\"availability\":\"any\",\"device_type\":\"unknown\",\"get_info_json\":\"\",\"is_group\":false,\"should_send_wol\":false},\"discovery_name\":\"5298ba02ddbcae60._spotify-connect._tcp.local\",\"display_name\":\"\",\"hostname\":\"5298ba02ddbcae60.local\",\"last_seen\":1739995913,\"page_uri\":\"/zc\",\"port\":34969,\"public_ip\":\"195.117.231.130\",\"required_device_info\":{\"public_key\":\"\",\"remote_name\":\"\",\"version\":\"\"},\"ttl\":120,\"txt_records\":{\"CPath\":\"/zc\",\"Stack\":\"SP\",\"VERSION\":\"1.0\"}}]"
+connect.dial_devices="[{\"address\":\"192.168.88.187\",\"app_state\":\"MISSING\",\"created_timestamp\":1739995735,\"device_id\":\"00000000-0000-0000-0000-ecbe5f4c0dbd\",\"dial_location_url\":\"http://192.168.88.187:56790/dd.xml\",\"display_name\":\"HbbTV_Remote_Launch\",\"last_seen\":1739995913,\"manufacturer\":\"vestel\",\"model_name\":\"Ata\",\"product_cap\":\"\",\"public_ip\":\"195.117.231.130\",\"wol\":{\"all_interfaces\":false,\"delay_ms\":250,\"mac\":\"ecbe5f554304\",\"port\":9,\"retries\":240}}]"
+audio.play_bitrate_non_metered_migrated=true
+ui.track_notifications_enabled=false
+ui.hide_hpto=true
+app.player.volume=54260

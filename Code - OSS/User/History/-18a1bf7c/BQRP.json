@@ -1,0 +1,25 @@
+{
+    "settingsSync.enabled": true,
+    "settingsSync.keybindingsPerPlatform": false,
+    "settingsSync.ignoredSettings": [],
+    "settingsSync.ignoredExtensions": [],
+    "settingsSync.syncExtensions": true,
+    "jupyter.enableMathJax": true,
+    "jupyter.renderMath": true,
+    "notebook.experimental.useMarkdownRenderer": true,
+    "jupyter.kernelspecs": {
+        "sagemath": {
+            "display_name": "SageMath",
+            "argv": [
+                "/usr/bin/sage",
+                "--python",
+                "-m",
+                "ipykernel_launcher",
+                "-f",
+                "{connection_file}"
+            ],
+            "language": "python"
+        }
+    },
+    "workbench.editor.empty.hint": "hidden"
+}

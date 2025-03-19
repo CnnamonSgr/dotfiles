@@ -1,0 +1,68 @@
+2025-03-11 13:54:43.796 [info] Started local extension host with pid 45481.
+2025-03-11 13:54:44.074 [error] Extension 'ms-python.debugpy CANNOT USE these API proposals 'portsAttributes, debugVisualization, contribViewsWelcome'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2025-03-11 13:54:44.074 [error] Extension 'ms-python.python CANNOT USE these API proposals 'contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, codeActionAI, notebookReplDocument, notebookVariableProvider'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2025-03-11 13:54:44.074 [error] Extension 'ms-toolsai.jupyter-renderers CANNOT USE these API proposals 'contribNotebookStaticPreloads'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2025-03-11 13:54:44.096 [error] [ms-python.python]: editor/content is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribEditorContentMenu"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+2025-03-11 13:54:46.711 [error] An unknown error occurred. Please consult the log for more details.
+2025-03-11 13:54:47.244 [error] Error while getting the latest version for the extension ms-python.debugpy. Cannot read properties of undefined (reading 'replace')
+2025-03-11 13:54:47.244 [error] Error while getting the latest version for the extension ms-python.python. Cannot read properties of undefined (reading 'replace')
+2025-03-11 13:54:47.244 [error] Error while getting the latest version for the extension ms-toolsai.jupyter. Cannot read properties of undefined (reading 'replace')
+2025-03-11 13:54:47.245 [error] Error while getting the latest version for the extension ms-toolsai.jupyter-keymap. Cannot read properties of undefined (reading 'replace')
+2025-03-11 13:54:47.245 [error] Error while getting the latest version for the extension ms-toolsai.jupyter-renderers. Cannot read properties of undefined (reading 'replace')
+2025-03-11 13:54:47.245 [error] Error while getting the latest version for the extension ms-toolsai.vscode-jupyter-cell-tags. Cannot read properties of undefined (reading 'replace')
+2025-03-11 13:54:47.245 [error] Error while getting the latest version for the extension ms-toolsai.vscode-jupyter-slideshow. Cannot read properties of undefined (reading 'replace')
+2025-03-11 13:54:47.523 [info] [perf] Render performance baseline is 28ms
+2025-03-11 14:47:31.345 [error] UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value: Error: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+	at ae (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1973990)
+	at oe (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1971950)
+	at Immediate.<anonymous> (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1968244)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-03-11 15:01:53.080 [error] lock() request could not be registered.: Error: lock() request could not be registered.
+2025-03-11 15:02:22.601 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-03-11 15:04:33.366 [error] lock() request could not be registered.: Error: lock() request could not be registered.
+2025-03-11 15:07:00.717 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-03-11 15:07:18.112 [error] spawn xterm ENOENT: Error: spawn xterm ENOENT
+    at ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:483:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-03-11 15:20:43.844 [error] UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value: Error: UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value
+	at ae (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1973990)
+	at oe (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1971950)
+	at Immediate.<anonymous> (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1968244)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-03-11 15:20:51.147 [error] UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value: Error: UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value
+	at ae (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1973990)
+	at oe (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1971950)
+	at Immediate.<anonymous> (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1968244)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-03-11 15:23:22.991 [error] UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value: Error: UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value
+	at ae (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1973990)
+	at oe (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1971950)
+	at Immediate.<anonymous> (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1968244)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-03-11 15:34:45.590 [error] UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value: Error: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+	at ae (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1973990)
+	at oe (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1971950)
+	at Immediate.<anonymous> (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1968244)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-03-11 15:39:32.227 [error] UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value: Error: UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value
+	at ae (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1973990)
+	at oe (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1971950)
+	at Immediate.<anonymous> (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1968244)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-03-11 15:46:54.767 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-03-11 15:48:59.745 [error] UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value: Error: UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value
+	at ae (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1973990)
+	at oe (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1971950)
+	at Immediate.<anonymous> (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1968244)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-03-11 15:49:54.958 [error] UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value: Error: UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value
+	at ae (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1973990)
+	at oe (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1971950)
+	at Immediate.<anonymous> (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1968244)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-03-11 15:54:50.619 [error] UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value: Error: UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value
+	at ae (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1973990)
+	at oe (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1971950)
+	at Immediate.<anonymous> (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1968244)
+	at process.processImmediate (node:internal/timers:483:21)

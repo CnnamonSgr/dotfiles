@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# selects random wallpaper from the directory
+WALLPAPER=$(find ~/TapetyJakies -type f \( -iname "*.png" -o -iname "*.jpg" \) | shuf n1)
+
+# adds a new wallpaper to hyprpaper (without removing preload)
+sed -i "/^wallpaper =/c\wallpaper = ,$WALLPAPER" ~/.config/hypr/hyprpaper.conf
+
+# restarts hyprpaper to load a new wallpaper
+pkill hyprpaper
+hyprpaper &

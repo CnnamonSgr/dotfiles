@@ -1,0 +1,133 @@
+2025-03-18 13:48:49.470 [warning] Dir "/home/bartosh/programowanie/pythonowa_nauka/.pixi/envs" is not watchable (directory does not exist)
+2025-03-18 13:48:49.470 [error] Unable to check if shell integration is active [Error: Extension 'ms-python.python' CANNOT use API proposal: terminalDataWriteEvent.
+Its package.json#enabledApiProposals-property declares:  but NOT terminalDataWriteEvent.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at N (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:106:19035)
+	at a.onDidWriteTerminalData (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:172:46304)
+	at new v (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:877941)
+	at ge (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1684578)
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1687942
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1687970
+	at Se (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1688037)
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1688517
+	at we (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1688458)
+	at Pe (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1688492)
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1685731
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1687336
+	at Array.reduce (<anonymous>)
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1687308
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1687590
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1687970
+	at Se (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1688037)
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1688517
+	at we (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1688458)
+	at Pe (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1688492)
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1685731
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1715401
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1715422
+	at e._get (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1714435)
+	at e._getButThrowIfAsync (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1714495)
+	at e.get (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1710204)
+	at e.dynamicValue (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1699937)
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1686114
+	at Ee (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1686370)
+	at Se (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1688086)
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1688517
+	at we (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1688458)
+	at Pe (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1688492)
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1685731
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1685665
+	at Array.map (<anonymous>)
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1685636
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1687336
+	at Array.reduce (<anonymous>)
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1687308
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1687590
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1687970
+	at Se (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1688037)
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1688517
+	at we (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1688458)
+	at Pe (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1688492)
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1685731
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1715401
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1715422
+	at e._get (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1714435)
+	at e._getButThrowIfAsync (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1714495)
+	at e.get (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1710204)
+	at a.get (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:536568)
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:451405
+	at async t.activateComponents (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:449685)
+	at async /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:2639568
+	at async e (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:2639100)
+	at async pw.n (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:13415)
+	at async pw.m (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:13378)
+	at async pw.l (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:12834)]
+2025-03-18 13:48:49.470 [info] > conda info --json
+2025-03-18 13:48:49.470 [info] Python interpreter path: /bin/python
+2025-03-18 13:48:49.470 [info] > pyenv which python
+2025-03-18 13:48:49.470 [info] cwd: .
+2025-03-18 13:48:49.545 [error] [
+  'Failed to activate a workspace, Class name = v, completed in 224ms, has a falsy return value, Arg 1: <Uri:/home/bartosh/programowanie/pythonowa_nauka/coswymysle.py>, Arg 2: {"started":1742302128963}, Return Value: undefined',
+  [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+  Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+   The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+  	at N (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:106:19035)
+  	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:172:39547)
+  	at C.activate (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:908493)
+  	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:2457
+  	at Array.map (<anonymous>)
+  	at v.activateWorkspace (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:2447)]
+]
+2025-03-18 13:48:49.545 [error] Failure during activation. [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at N (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:106:19035)
+	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:172:39547)
+	at C.activate (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:908493)
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:2457
+	at Array.map (<anonymous>)
+	at v.activateWorkspace (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:2447)]
+2025-03-18 13:48:49.546 [error] sendStartupTelemetry() failed. [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at N (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:106:19035)
+	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:172:39547)
+	at C.activate (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:908493)
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:2457
+	at Array.map (<anonymous>)
+	at v.activateWorkspace (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:2447)]
+2025-03-18 13:48:50.475 [info] Starting Jedi language server for pythonowa_nauka.
+2025-03-18 13:48:52.900 [info] Starting Environment refresh
+2025-03-18 13:48:52.900 [info] Searching for interpreters in posix paths locator
+2025-03-18 13:48:52.901 [info] Searching for pyenv environments
+2025-03-18 13:48:52.901 [info] Searching for conda environments
+2025-03-18 13:48:52.901 [info] Searching for global virtual environments
+2025-03-18 13:48:52.901 [info] Searching for custom virtual environments
+2025-03-18 13:48:52.906 [info] > hatch env show --json
+2025-03-18 13:48:52.906 [info] cwd: .
+2025-03-18 13:48:52.908 [info] pyenv is not installed
+2025-03-18 13:48:52.908 [info] Finished searching for pyenv environments: 8 milliseconds
+2025-03-18 13:48:52.908 [info] Finished searching for custom virtual envs: 7 milliseconds
+2025-03-18 13:48:52.912 [info] Finished searching for global virtual envs: 11 milliseconds
+2025-03-18 13:48:52.920 [info] Found: /bin/python --> /bin/python3.13
+2025-03-18 13:48:52.921 [info] Found: /bin/python3 --> /bin/python3.13
+2025-03-18 13:48:52.921 [info] Found: /bin/python3.13 --> /bin/python3.13
+2025-03-18 13:48:52.951 [info] > /bin/python -I ~/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/python_files/interpreterInfo.py
+2025-03-18 13:48:52.984 [info] Found: /sbin/python --> /sbin/python3.13
+2025-03-18 13:48:52.985 [info] Found: /sbin/python3 --> /sbin/python3.13
+2025-03-18 13:48:52.985 [info] Found: /sbin/python3.13 --> /sbin/python3.13
+2025-03-18 13:48:53.000 [info] Found: /usr/bin/python --> /usr/bin/python3.13
+2025-03-18 13:48:53.003 [info] Found: /usr/bin/python3 --> /usr/bin/python3.13
+2025-03-18 13:48:53.004 [info] Found: /usr/bin/python3.13 --> /usr/bin/python3.13
+2025-03-18 13:48:53.046 [info] Found: /usr/sbin/python --> /usr/sbin/python3.13
+2025-03-18 13:48:53.047 [info] Found: /usr/sbin/python3 --> /usr/sbin/python3.13
+2025-03-18 13:48:53.047 [info] Found: /usr/sbin/python3.13 --> /usr/sbin/python3.13
+2025-03-18 13:48:53.058 [info] > /sbin/python -I ~/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/python_files/interpreterInfo.py
+2025-03-18 13:48:53.068 [info] Finished searching for interpreters in posix paths locator: 164 milliseconds
+2025-03-18 13:48:53.068 [info] > /usr/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/python_files/interpreterInfo.py
+2025-03-18 13:48:53.075 [info] Environments refresh paths discovered (event): 176 milliseconds
+2025-03-18 13:48:53.075 [info] Environments refresh paths discovered: 176 milliseconds
+2025-03-18 13:48:53.110 [info] > /usr/sbin/python -I ~/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/python_files/interpreterInfo.py
+2025-03-18 13:48:53.162 [info] Environments refresh finished (event): 263 milliseconds
+2025-03-18 13:48:53.168 [info] Environment refresh took 270 milliseconds
+2025-03-19 12:29:28.212 [info] Discover tests for workspace name: pythonowa_nauka - uri: /home/bartosh/programowanie/pythonowa_nauka/projekt_kolos/szkielet.py

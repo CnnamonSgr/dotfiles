@@ -1,0 +1,801 @@
+[26/02/2025 14:30:38.511] WwiseUnity: Wwise(R) SDK Version 2021.1.7 Build 7796.
+[26/02/2025 14:30:38.516] WwiseUnity: Setting Plugin DLL path to: /home/bartosh/.local/share/Steam/steamapps/common/Ultimate Chicken Horse/UltimateChickenHorse_Data/Plugins/
+[26/02/2025 14:30:38.533] WwiseUnity: Sound engine initialized successfully.
+[26/02/2025 14:30:38.546] Waiting to initialize: 0 then loading main menu
+[26/02/2025 14:30:38.550] Worker Thread Manager initialized.
+[26/02/2025 14:30:38.552] Creating Local Saves folder at /home/bartosh/.config/unity3d/Clever Endeavour Games/Ultimate Chicken Horse/snapshots
+[26/02/2025 14:30:38.552] Creating Local Thumbnails folder at /home/bartosh/.config/unity3d/Clever Endeavour Games/Ultimate Chicken Horse/snapshots/thumbnails
+[26/02/2025 14:30:38.552] Creating Rule Preset folder at /home/bartosh/.config/unity3d/Clever Endeavour Games/Ultimate Chicken Horse/rules
+[26/02/2025 14:30:38.560] [02/26/2025 14:30:38] [UnetRelayTransport] Transport initialized
+[26/02/2025 14:30:38.586] Scene change: Init
+[26/02/2025 14:30:38.598] CheckOnStart: 0. Args being used: /home/bartosh/.local/share/Steam/steamapps/common/Ultimate Chicken Horse/UltimateChickenHorse.x86_64
+[26/02/2025 14:30:38.608] Done waiting for initialization, loading main menu.
+[26/02/2025 14:30:39.393] UTC Time offset : +01:00
+						  Game Version = 1.11.01
+						  Country = Poland
+						  User = xworuE
+[26/02/2025 14:30:39.738] GSManager Awake. Instance: 
+[26/02/2025 14:30:39.739] Creating Braincloud Wrapper instance
+[26/02/2025 14:30:39.939] Creating main menu image folder at /home/bartosh/.config/unity3d/Clever Endeavour Games/Ultimate Chicken Horse/mainmenu
+[26/02/2025 14:30:39.970] Scene change: MainMenu, destroying lobby manager
+[26/02/2025 14:30:40.081] Ip set to:177.143.183.6
+[26/02/2025 14:30:40.145] Loading game from: /home/bartosh/.config/unity3d/Clever Endeavour Games/Ultimate Chicken Horse/saveData.uch
+[26/02/2025 14:30:40.183] Save file loading finished. Checking achievements...
+[26/02/2025 14:30:40.205] Ultimate Chicken Horse - version 1.11.01
+[26/02/2025 14:30:40.205] Date UTC: 02/26/2025 13:30:40
+[26/02/2025 14:30:40.319] Warning! Page PlayOnlinePage has no page number text element!
+[26/02/2025 14:30:40.319] Warning! Page TabletInterface has no page number text element!
+[26/02/2025 14:30:40.335] Handling language stuff : 1
+[26/02/2025 14:30:40.446] Backend: attempting to connect with Steam
+[26/02/2025 14:30:40.743] Found region file ap_region.json
+[26/02/2025 14:30:41.369] Found region file eu_region.json
+[26/02/2025 14:30:41.755] Successfully connected backend to Steam (xworuE)
+[26/02/2025 14:30:41.755] [Net] Backend Auth: Could not read permission level for main user.
+[26/02/2025 14:30:41.954] Found region file na_region.json
+[26/02/2025 14:30:42.508] [Net] Backend Auth: Could not read permission level for main user.
+[26/02/2025 14:30:42.559] Testing main DNS availability ap.clevendeav.net
+[26/02/2025 14:30:43.169] Frozen Lobby Code : 
+[26/02/2025 14:30:43.621] Main DNS available.
+[26/02/2025 14:30:43.664] Sending http request to https://ap.clevendeav.net:443/health/ping, attempt # 0
+[26/02/2025 14:30:43.669] Sending http request to https://eu.clevendeav.net:443/health/ping, attempt # 0
+[26/02/2025 14:30:43.669] Sending http request to https://na.clevendeav.net:443/health/ping, attempt # 0
+[26/02/2025 14:30:44.185] Http request to https://eu.clevendeav.net:443/health/ping, responsed with http code 200
+[26/02/2025 14:30:44.193] Sending http request to https://eu.clevendeav.net:443/health/ping, attempt # 0
+[26/02/2025 14:30:44.401] Http request to https://na.clevendeav.net:443/health/ping, responsed with http code 200
+[26/02/2025 14:30:44.401] Sending http request to https://na.clevendeav.net:443/health/ping, attempt # 0
+[26/02/2025 14:30:44.570] Http request to https://eu.clevendeav.net:443/health/ping, responsed with http code 200
+[26/02/2025 14:30:44.570] Sending http request to https://eu.clevendeav.net:443/health/ping, attempt # 0
+[26/02/2025 14:30:44.637] Http request to https://ap.clevendeav.net:443/health/ping, responsed with http code 200
+[26/02/2025 14:30:44.637] Sending http request to https://ap.clevendeav.net:443/health/ping, attempt # 0
+[26/02/2025 14:30:44.969] Http request to https://eu.clevendeav.net:443/health/ping, responsed with http code 200
+[26/02/2025 14:30:44.970] Sending http request to https://eu.clevendeav.net:443/health/ping, attempt # 0
+[26/02/2025 14:30:45.069] Http request to https://na.clevendeav.net:443/health/ping, responsed with http code 200
+[26/02/2025 14:30:45.070] Sending http request to https://na.clevendeav.net:443/health/ping, attempt # 0
+[26/02/2025 14:30:45.352] Http request to https://eu.clevendeav.net:443/health/ping, responsed with http code 200
+[26/02/2025 14:30:45.353] Sending http request to https://eu.clevendeav.net:443/health/ping, attempt # 0
+[26/02/2025 14:30:45.635] Http request to https://ap.clevendeav.net:443/health/ping, responsed with http code 200
+[26/02/2025 14:30:45.636] Sending http request to https://ap.clevendeav.net:443/health/ping, attempt # 0
+[26/02/2025 14:30:45.669] Http request to https://na.clevendeav.net:443/health/ping, responsed with http code 200
+[26/02/2025 14:30:45.670] Sending http request to https://na.clevendeav.net:443/health/ping, attempt # 0
+[26/02/2025 14:30:45.719] Http request to https://eu.clevendeav.net:443/health/ping, responsed with http code 200
+[26/02/2025 14:30:45.724] Region region_name_eu ping: 389
+[26/02/2025 14:30:46.352] Http request to https://na.clevendeav.net:443/health/ping, responsed with http code 200
+[26/02/2025 14:30:46.353] Sending http request to https://na.clevendeav.net:443/health/ping, attempt # 0
+[26/02/2025 14:30:46.675] Loading game from: /home/bartosh/.config/unity3d/Clever Endeavour Games/Ultimate Chicken Horse/saveData.uch
+[26/02/2025 14:30:46.680] Save file loading finished. Checking achievements...
+[26/02/2025 14:30:46.698] Event GameStart: 1
+[26/02/2025 14:30:46.741] Http request to https://ap.clevendeav.net:443/health/ping, responsed with http code 200
+[26/02/2025 14:30:46.741] Sending http request to https://ap.clevendeav.net:443/health/ping, attempt # 0
+[26/02/2025 14:30:46.985] Http request to https://na.clevendeav.net:443/health/ping, responsed with http code 200
+[26/02/2025 14:30:46.985] Region region_name_na ping: 654
+[26/02/2025 14:30:47.817] Http request to https://ap.clevendeav.net:443/health/ping, responsed with http code 200
+[26/02/2025 14:30:47.817] Sending http request to https://ap.clevendeav.net:443/health/ping, attempt # 0
+[26/02/2025 14:30:48.664] Default region set to region_name_eu with ping 389
+[26/02/2025 14:30:48.676] [Net] Attempting to find IP
+[26/02/2025 14:30:48.677] [Net] Requesting external IP
+[26/02/2025 14:30:48.681] UCHOnlineConnector.Instance != null True UCHOnlineConnector.Service != null True GameSettings.GetInstance().SelectedRegion != null True
+[26/02/2025 14:30:48.681] Getting external IP FOR REAL
+[26/02/2025 14:30:48.684] Sending http request to https://eu.clevendeav.net:443/health/get-ip, attempt # 0
+[26/02/2025 14:30:48.801] Http request to https://ap.clevendeav.net:443/health/ping, responsed with http code 200
+[26/02/2025 14:30:48.801] Region region_name_ap ping: 1027
+[26/02/2025 14:30:49.035] Http request to https://eu.clevendeav.net:443/health/get-ip, responsed with http code 200
+[26/02/2025 14:30:49.045] Received GetIpRequest 31.0.78.77
+[26/02/2025 14:30:49.071] <color=cyan>IP Addresses: Internal IP (192.168.240.1) External IP (31.0.78.77)</color>
+[26/02/2025 14:30:49.071] [Net] Finding IPs took: 0.3585119 s.
+[26/02/2025 14:30:50.040] Going for Online Play
+[26/02/2025 14:30:50.043] Is UGC restricted: False
+[26/02/2025 14:30:50.043] Online permissions valid
+[26/02/2025 14:30:50.046] Default region set to region_name_eu with ping 389
+[26/02/2025 14:30:50.399] Done Google Sync
+[26/02/2025 14:30:50.405] Destroying old loaded texture for main menu update image
+[26/02/2025 14:30:50.792] Done Google Sync: source was up-to-date
+[26/02/2025 14:31:01.052] ================================ StartHosting ================================
+[26/02/2025 14:31:01.055] Sending http request to https://eu.clevendeav.net:443/relay/get-next-available, attempt # 0
+[26/02/2025 14:31:01.408] Http request to https://eu.clevendeav.net:443/relay/get-next-available, responsed with http code 200
+[26/02/2025 14:31:01.465] Received GetNextAvailableServerResponse { "serverIp": "165.232.92.83", "serverPort": 8889 }
+[26/02/2025 14:31:01.466] Starting the backend lobby
+[26/02/2025 14:31:02.160] GameSparks.Api.Responses.LogEventResponse
+[26/02/2025 14:31:02.162] 
+IF	 TPTB
+[26/02/2025 14:31:02.162] GS MatchID: 5d3f2842-1aad-4183-be25-a23b229a2c74
+[26/02/2025 14:31:02.162] Created lobby: 5d3f2842-1aad-4183-be25-a23b229a2c74
+[26/02/2025 14:31:02.163] [Net] Using unity relay = True
+[26/02/2025 14:31:02.163] Setting player count to 0
+[26/02/2025 14:31:02.167] Non Xbox Player OnLobbyCreate
+
+[26/02/2025 14:31:02.167] NonXbox Player HandleSession 1	
+[26/02/2025 14:31:02.169] [02/26/2025 14:31:02] [RelayClient] [ID = AddPlayerToMPSD] Adding player to MPSD...
+[26/02/2025 14:31:02.187] <color=cyan>Creating Match: Network Address (177.143.183.6), Network Port (17778), Relay Region (region_name_eu)</color>
+[26/02/2025 14:31:02.189] [Net] Starting PRIVATE Steam lobby.
+[26/02/2025 14:31:02.198] [Net] Waiting for controller assignment
+[26/02/2025 14:31:02.212] [Net] Attempting to load Treehouse
+[26/02/2025 14:31:02.280] [02/26/2025 14:31:02] [RelayClient] [ID = AddPlayerToMPSD] Connected to Server
+[26/02/2025 14:31:02.294] [02/26/2025 14:31:02] [RelayClient] [ID = AddPlayerToMPSD] Sent: ClearText.Length (194), CipherText.Length (300), ArraySegment.Count (300), ClearText ({"ID":"AddPlayerToMPSD","RuntimePlatform":13,"PlayerID":"5d3f2842-1aad-4183-be25-a23b229a2c74","PlayerName":"xworuE","XToken":"","LobbyCode":"TPTB","GamesparksLobby":"","SecureDeviceAddress":""})
+[26/02/2025 14:31:02.398] [02/26/2025 14:31:02] [RelayClient] [ID = AddPlayerToMPSD] Received: MessageBytes.Count (108), CipherText.Length (108), ClearText.Length (55), ClearText ({"ID":"AddPlayerToMPSD","IsSuccess":true,"Response":""})
+[26/02/2025 14:31:02.398] NonXbox Player HandleSession	True
+[26/02/2025 14:31:02.411] [02/26/2025 14:31:02] [RelayClient] [ID = AddPlayerToMPSD] Disconnected from Server
+[26/02/2025 14:31:02.477] [Net] Created Steam Lobby: 109775243033592404
+[26/02/2025 14:31:02.753] Unloading the last loaded scene Assets/Scenes/MainMenu.unity(build index: 1), is not supported. Please use SceneManager.LoadScene()/EditorSceneManager.OpenScene() to switch to another scene.
+[26/02/2025 14:31:02.753] Unloading unused assets
+[26/02/2025 14:31:02.803] Collecting Garbage
+[26/02/2025 14:31:02.814] Actually loading TreeHouseLobby
+[26/02/2025 14:31:03.118] Scene change: TreeHouseLobby
+[26/02/2025 14:31:06.251] Starting Host
+[26/02/2025 14:31:06.252] Listening
+[26/02/2025 14:31:06.253] [Net] Starting hosting using P2P on port: 17778
+[26/02/2025 14:31:06.254] OnLobbyStartHost
+[26/02/2025 14:31:06.257] Before finding external IP
+[26/02/2025 14:31:06.352] Lobby server connect hostId: -1 connectionId: 0 isReady: False channel count: 0
+[26/02/2025 14:31:06.352] Server Connect
+[26/02/2025 14:31:06.354] Client started: :0 (localhost:17778) 
+[26/02/2025 14:31:06.354] Setting player count to 1
+[26/02/2025 14:31:06.362] Lobby client entered
+[26/02/2025 14:31:06.367] Client connected: hostId: -1 connectionId: 0 isReady: True channel count: 0
+[26/02/2025 14:31:06.444] [Net] Already have IP returning 31.0.78.77
+[26/02/2025 14:31:06.444] After finding external IP - Lobby is owner True
+[26/02/2025 14:31:06.444] Got ip adresses and set joinability to true.
+[26/02/2025 14:31:06.458] Waiting for netid for lobby player 1
+[26/02/2025 14:31:06.463] Server added player
+[26/02/2025 14:31:06.463] Lobby Player added for local player 1
+[26/02/2025 14:31:06.465] Spawned Twitch Chat ClientState...
+[26/02/2025 14:31:06.480] FindAndSetPlayerGSID: Finding GSID for xworuE...
+[26/02/2025 14:31:06.480] FindAndSetPlayerGSID: Using main user GSID for Player xworuE
+[26/02/2025 14:31:06.480] Player GSID was successfully found.
+[26/02/2025 14:31:06.503] Done waiting for lobby netid, trying to add again
+[26/02/2025 14:31:06.503] Net id added for lobby player
+[26/02/2025 14:31:06.509] Spawning lobby cursor
+[26/02/2025 14:31:06.518] Setting player count to 1
+[26/02/2025 14:31:06.593] [02/26/2025 14:31:06] [UnetRelayTransport] Connected to Relay Server with resolved endpoint ([::ffff:31.0.78.77]:41736)
+[26/02/2025 14:31:06.595] HandleData Unknown connectionId:1
+	
+[26/02/2025 14:31:07.472] Received message to switch to mode PARTY
+[26/02/2025 14:31:07.476] Received message to switch to mode PARTY
+[26/02/2025 14:31:07.801] Warning! Page PlayOnlinePage has no page number text element!
+[26/02/2025 14:31:07.801] Warning! Page PlayOnlinePage has no page number text element!
+[26/02/2025 14:31:07.801] Warning! Page TabletInterface has no page number text element!
+[26/02/2025 14:31:07.922] Game saved to /home/bartosh/.config/unity3d/Clever Endeavour Games/Ultimate Chicken Horse/saveData.uch
+[26/02/2025 14:31:07.935] WINDMILL ready to unlock
+[26/02/2025 14:31:07.939] There is an unlock at PYRAMID for player xworuE
+[26/02/2025 14:32:56.388] Received message to switch to mode CREATIVE
+[26/02/2025 14:32:56.390] Received message to switch to mode CREATIVE
+[26/02/2025 14:32:58.418] Received message to switch to mode CHALLENGE
+[26/02/2025 14:32:58.419] Received message to switch to mode CHALLENGE
+[26/02/2025 14:33:00.150] Received message to switch to mode FREEPLAY
+[26/02/2025 14:33:00.151] Received message to switch to mode FREEPLAY
+[26/02/2025 14:33:02.531] Received message to switch to mode PARTY
+[26/02/2025 14:33:02.532] Received message to switch to mode PARTY
+[26/02/2025 14:38:43.205] Game saved to /home/bartosh/.config/unity3d/Clever Endeavour Games/Ultimate Chicken Horse/saveData.uch
+[26/02/2025 14:38:48.697] Lobby server connect hostId: 0 connectionId: 43 isReady: False channel count: 4
+[26/02/2025 14:38:48.697] Server Connect
+[26/02/2025 14:38:48.794] Waiting for netid for lobby player 2
+[26/02/2025 14:38:48.794] Server added player
+[26/02/2025 14:38:48.809] Done waiting for lobby netid, trying to add again
+[26/02/2025 14:38:48.809] Net id added for lobby player
+[26/02/2025 14:38:48.824] Setting player count to 2
+[26/02/2025 14:38:49.684] [Net] Krokol joined the lobby
+[26/02/2025 14:38:49.700] Spawning lobby cursor
+[26/02/2025 14:38:50.577] Sending all rules to player 2
+[26/02/2025 14:38:50.578] There is an unlock at OLDMANSION for player Krokol
+[26/02/2025 14:39:34.496] Buttons all Pressed
+[26/02/2025 14:39:36.988] Starting Vote
+[26/02/2025 14:39:37.001] Generating new MatchGUID: 9f8b67ca-b6c0-4672-acf0-08102340aab9
+[26/02/2025 14:39:37.004] Event MatchStart_Host: 2
+[26/02/2025 14:39:37.007] Event MatchRules: 3
+[26/02/2025 14:39:37.008] Event MatchPoints: 4
+[26/02/2025 14:39:37.009] Event MatchBlocks: 5
+[26/02/2025 14:39:37.009] Event MatchModifiers: 6
+[26/02/2025 14:39:37.011] Placeable: Initial sequence ID set to 0
+[26/02/2025 14:39:37.016] Receiving signal to set game mode to PARTY
+[26/02/2025 14:39:37.504] Loading next level: RicketyHouse
+[26/02/2025 14:39:37.845] Server switching scenes
+[26/02/2025 14:39:37.849] Client not ready 0
+[26/02/2025 14:39:38.035] Scene change: RicketyHouse
+[26/02/2025 14:39:38.041] Scene loaded for player 1
+[26/02/2025 14:39:38.042] Waiting for netid for game player 1
+[26/02/2025 14:39:38.046] Game player associated with local player 1
+[26/02/2025 14:39:38.062] Lobby Server scene changed to RicketyHouse
+[26/02/2025 14:39:38.063] Client exit
+[26/02/2025 14:39:38.064] Lobby Client scene changed
+[26/02/2025 14:39:38.065] currenscene name = RicketyHouse networked scene name = RicketyHouse
+[26/02/2025 14:39:38.238] Done waiting for game netid, trying to add again
+[26/02/2025 14:39:38.239] Net id 54 added for game player 1
+[26/02/2025 14:39:38.532] Scene loaded for player 2
+[26/02/2025 14:39:38.532] Waiting for netid for game player 2
+[26/02/2025 14:39:38.561] Done waiting for game netid, trying to add again
+[26/02/2025 14:39:38.561] Net id 58 added for game player 2
+[26/02/2025 14:39:38.600] Marking scene init as done for local players...
+[26/02/2025 14:39:38.602] Scene Init done for net player 1
+[26/02/2025 14:39:38.603] Waiting for scene init
+[26/02/2025 14:39:39.315] Scene Init done for net player 2
+[26/02/2025 14:39:39.330] Done waiting for players
+[26/02/2025 14:39:39.350] Setup Start
+[26/02/2025 14:39:39.362] Event CharacterPicked: 7
+[26/02/2025 14:39:39.363] Event MatchStart_Client: 8
+[26/02/2025 14:39:39.363] Setting up player 1
+[26/02/2025 14:39:39.377] Setting up player 2
+[26/02/2025 14:39:39.389] Memorized 1 placeables that are part of the level.
+[26/02/2025 14:39:39.390] Sending signal to start phase
+[26/02/2025 14:39:39.394] Setting up VS Mode
+[26/02/2025 14:39:39.592] Game saved to /home/bartosh/.config/unity3d/Clever Endeavour Games/Ultimate Chicken Horse/saveData.uch
+[26/02/2025 14:39:39.613] [Net] SHEEP party cursor (PartyPickCursor) - LobbyManager (LobbyManager) - NetworkPlayer(Clone) (GamePlayer) - 1
+[26/02/2025 14:39:39.614] [Net] SQUIRREL party cursor (PartyPickCursor) - LobbyManager (LobbyManager) - NetworkPlayer(Clone) (GamePlayer) - 2
+[26/02/2025 14:39:39.621] SHEEP cursor Finding player 1
+[26/02/2025 14:39:39.646] SHEEP party cursor Finding controller 1
+[26/02/2025 14:39:39.648] SHEEP Finding player 1
+[26/02/2025 14:39:39.655] Warning! Page TabletInterface has no page number text element!
+[26/02/2025 14:39:39.764] Placing 
+[26/02/2025 14:39:40.567] Setup Start done for net player 2
+[26/02/2025 14:39:40.598] Marking SetupStart as done for local players...
+[26/02/2025 14:39:40.598] Setup Start done for net player 1
+[26/02/2025 14:39:41.116] Rules:
+No rules modified
+
+Mods:
+No modifiers set
+[26/02/2025 14:39:41.131] To Place phase
+[26/02/2025 14:39:51.563] Player 2 done placing
+[26/02/2025 14:39:51.569] Waiting to place 
+[26/02/2025 14:39:51.604] Placing 
+[26/02/2025 14:39:51.605] 2 placed 202b_SmoothRotate_Glue2(Clone) (RotateBlock)(0 left)
+[26/02/2025 14:39:51.605] Placing 
+[26/02/2025 14:39:51.611] Placing 
+[26/02/2025 14:39:53.327] Player 1 done placing
+[26/02/2025 14:39:53.328] Waiting to place 
+[26/02/2025 14:39:53.372] Placing 
+[26/02/2025 14:39:53.372] 1 placed 04_Plank4(Clone) (Placeable)(0 left)
+[26/02/2025 14:40:06.798] Player 1 done placing
+[26/02/2025 14:40:06.798] Waiting to place 
+[26/02/2025 14:40:06.847] Placing 
+[26/02/2025 14:40:06.847] 1 placed 40_Spring(Clone) (Spring)(0 left)
+[26/02/2025 14:40:06.849] Spawning network surrogate
+[26/02/2025 14:40:06.852] Found placeable 1002490 for netsurrogate with ID 74
+[26/02/2025 14:40:07.736] Player 2 done placing
+[26/02/2025 14:40:07.736] Waiting to place 
+[26/02/2025 14:40:07.780] Placing 
+[26/02/2025 14:40:07.781] 2 placed 91c_FanPlatform_Glue3(Clone) (MovingPlatform)(0 left)
+[26/02/2025 14:40:07.781] Placing 
+[26/02/2025 14:40:07.782] Placing 
+[26/02/2025 14:40:07.907] To Play phase
+[26/02/2025 14:40:07.942] Done waiting for characters
+[26/02/2025 14:40:29.941] 1 lose streak 0 / 2
+[26/02/2025 14:40:29.955] NetworkPlayer(Clone) (GamePlayer)
+[26/02/2025 14:40:29.956] NetworkPlayer(Clone) (GamePlayer)
+[26/02/2025 14:40:29.956] Player 2 lose streak: 1
+[26/02/2025 14:40:32.781] To Place phase
+[26/02/2025 14:40:45.498] Player 1 done placing
+[26/02/2025 14:40:45.498] Waiting to place 
+[26/02/2025 14:40:45.499] Player 2 done placing
+[26/02/2025 14:40:45.499] Waiting to place 
+[26/02/2025 14:40:45.545] Placing 
+[26/02/2025 14:40:45.546] 1 placed OneWayDoor(Clone) (AutoDoor)(0 left)
+[26/02/2025 14:40:45.546] Spawning network surrogate
+[26/02/2025 14:40:45.547] Placing 
+[26/02/2025 14:40:45.548] 2 placed 09_L Boards(Clone) (Placeable)(0 left)
+[26/02/2025 14:40:45.551] Found placeable 1002530 for netsurrogate with ID 81
+[26/02/2025 14:40:51.295] Player 1 done placing
+[26/02/2025 14:40:51.296] Waiting to place 
+[26/02/2025 14:40:51.342] Placing 
+[26/02/2025 14:40:51.343] 1 placed Coin(Clone) (Coin)(0 left)
+[26/02/2025 14:40:51.344] Spawning network surrogate
+[26/02/2025 14:40:51.347] Found placeable 1002570 for netsurrogate with ID 86
+[26/02/2025 14:40:54.793] Player 2 done placing
+[26/02/2025 14:40:54.794] Waiting to place 
+[26/02/2025 14:40:54.840] Placing 
+[26/02/2025 14:40:54.841] 2 placed 206_PressureTriggerSpikes(Clone) (PressureTriggerSpikes)(0 left)
+[26/02/2025 14:40:54.957] To Play phase
+[26/02/2025 14:40:55.023] Spawning network surrogate
+[26/02/2025 14:40:55.023] Found placeable 2002590 for netsurrogate with ID 87
+[26/02/2025 14:40:55.226] Done waiting for characters
+[26/02/2025 14:41:14.048] 2 lose streak 1 / 2
+[26/02/2025 14:41:14.053] NetworkPlayer(Clone) (GamePlayer)
+[26/02/2025 14:41:14.053] Player 1 lose streak: 1
+[26/02/2025 14:41:14.053] NetworkPlayer(Clone) (GamePlayer)
+[26/02/2025 14:41:17.394] To Place phase
+[26/02/2025 14:41:27.506] Player 1 done placing
+[26/02/2025 14:41:27.506] Waiting to place 
+[26/02/2025 14:41:27.555] Placing 
+[26/02/2025 14:41:27.556] 1 placed 23_PiecedBarbedWirex3(Clone) (MultipieceBlock)(0 left)
+[26/02/2025 14:41:27.557] Placing 
+[26/02/2025 14:41:27.557] Placing 
+[26/02/2025 14:41:27.558] Placing 
+[26/02/2025 14:41:29.405] Player 2 done placing
+[26/02/2025 14:41:29.405] Waiting to place 
+[26/02/2025 14:41:29.453] Placing 
+[26/02/2025 14:41:29.454] 2 placed 205a_DiagonalMover_Glue1(Clone) (HorizontalMovingPlatform)(0 left)
+[26/02/2025 14:41:29.454] Placing 
+[26/02/2025 14:41:35.982] Player 1 done placing
+[26/02/2025 14:41:35.982] Waiting to place 
+[26/02/2025 14:41:36.031] Placing 
+[26/02/2025 14:41:36.031] 1 placed 87_Tennis Ball Shooter(Clone) (ProjectileLauncher)(0 left)
+[26/02/2025 14:41:49.730] Player 2 done placing
+[26/02/2025 14:41:49.731] Waiting to place 
+[26/02/2025 14:41:49.777] Placing 
+[26/02/2025 14:41:49.778] Placing 
+[26/02/2025 14:41:49.778] Placing 
+[26/02/2025 14:41:49.779] Placing 
+[26/02/2025 14:41:49.779] Placing 
+[26/02/2025 14:41:49.780] 2 placed FerrisWheel(Clone) (FerrisWheel)(0 left)
+[26/02/2025 14:41:49.894] To Play phase
+[26/02/2025 14:41:50.173] Done waiting for characters
+[26/02/2025 14:42:16.631] 2 lose streak 0 / 2
+[26/02/2025 14:42:16.635] NetworkPlayer(Clone) (GamePlayer)
+[26/02/2025 14:42:16.635] Player 1 lose streak: 2
+[26/02/2025 14:42:16.635] NetworkPlayer(Clone) (GamePlayer)
+[26/02/2025 14:42:19.976] To Place phase
+[26/02/2025 14:42:31.789] Player 1 done placing
+[26/02/2025 14:42:31.790] Waiting to place 
+[26/02/2025 14:42:31.834] Placing 
+[26/02/2025 14:42:31.834] 1 placed 09_L Boards(Clone) (Placeable)(0 left)
+[26/02/2025 14:42:38.403] Player 2 done placing
+[26/02/2025 14:42:38.404] Waiting to place 
+[26/02/2025 14:42:38.450] Placing 
+[26/02/2025 14:42:38.451] 2 placed 41_AutoDoor1x4(Clone) (AutoDoor)(0 left)
+[26/02/2025 14:42:44.251] Player 1 done placing
+[26/02/2025 14:42:44.252] Waiting to place 
+[26/02/2025 14:42:44.298] Placing 
+[26/02/2025 14:42:44.299] 1 placed 93_SpinningDeath(Clone) (RotateBlock)(0 left)
+[26/02/2025 14:42:46.917] Player 2 done placing
+[26/02/2025 14:42:46.917] Waiting to place 
+[26/02/2025 14:42:46.961] Placing 
+[26/02/2025 14:42:46.962] 2 placed 21_PiecedBarbedWirex1(Clone) (MultipieceBlock)(0 left)
+[26/02/2025 14:42:46.962] Placing 
+[26/02/2025 14:42:47.080] To Play phase
+[26/02/2025 14:42:47.315] Done waiting for characters
+[26/02/2025 14:43:32.220] To Place phase
+[26/02/2025 14:43:42.316] Player 1 done placing
+[26/02/2025 14:43:42.317] Waiting to place 
+[26/02/2025 14:43:45.382] 1 placed 99b_Bombmega(Clone) (Bomb)(0 left)
+[26/02/2025 14:43:45.412] Destroying Glue 2002632 (required colliders conditions not satisfied)
+[26/02/2025 14:43:45.465] Player 2 done placing
+[26/02/2025 14:43:45.465] Waiting to place 
+[26/02/2025 14:43:45.513] Placing 
+[26/02/2025 14:43:45.513] 2 placed 93_SpinningDeath(Clone) (RotateBlock)(0 left)
+[26/02/2025 14:43:50.547] Player 2 done placing
+[26/02/2025 14:43:50.583] Waiting to place 
+[26/02/2025 14:43:50.597] Placing 
+[26/02/2025 14:43:50.598] 2 placed Blackhole(Clone) (Blackhole)(0 left)
+[26/02/2025 14:43:55.577] Player 1 done placing
+[26/02/2025 14:43:55.578] Waiting to place 
+[26/02/2025 14:43:55.634] Placing 
+[26/02/2025 14:43:55.634] 1 placed Blackhole(Clone) (Blackhole)(0 left)
+[26/02/2025 14:43:55.758] To Play phase
+[26/02/2025 14:43:56.022] Done waiting for characters
+[26/02/2025 14:44:21.858] To Place phase
+[26/02/2025 14:44:29.344] Player 1 done placing
+[26/02/2025 14:44:29.345] Waiting to place 
+[26/02/2025 14:44:32.606] 1 placed 99_Bomb(Clone) (Bomb)(0 left)
+[26/02/2025 14:44:35.305] Player 2 done placing
+[26/02/2025 14:44:35.305] Waiting to place 
+[26/02/2025 14:44:35.355] Placing 
+[26/02/2025 14:44:35.355] 2 placed 86_ArrowShooter(Clone) (ProjectileLauncher)(0 left)
+[26/02/2025 14:44:40.255] Player 1 done placing
+[26/02/2025 14:44:40.256] Waiting to place 
+[26/02/2025 14:44:40.302] Placing 
+[26/02/2025 14:44:40.303] 1 placed 02_Plank2(Clone) (Placeable)(0 left)
+[26/02/2025 14:44:44.803] Player 2 done placing
+[26/02/2025 14:44:44.803] Waiting to place 
+[26/02/2025 14:44:44.845] Placing 
+[26/02/2025 14:44:44.846] 2 placed BoxingGlove(Clone) (PunchingBlock)(0 left)
+[26/02/2025 14:44:44.967] To Play phase
+[26/02/2025 14:44:45.214] Done waiting for characters
+[26/02/2025 14:45:13.635] 2 lose streak 0 / 2
+[26/02/2025 14:45:13.640] NetworkPlayer(Clone) (GamePlayer)
+[26/02/2025 14:45:13.640] Player 1 lose streak: 3
+[26/02/2025 14:45:13.640] NetworkPlayer(Clone) (GamePlayer)
+[26/02/2025 14:45:16.963] To Place phase
+[26/02/2025 14:45:22.628] Player 2 done placing
+[26/02/2025 14:45:22.628] Waiting to place 
+[26/02/2025 14:45:22.676] Placing 
+[26/02/2025 14:45:22.676] 2 placed 204_SwingingAxe(Clone) (SwingingAxe)(0 left)
+[26/02/2025 14:45:30.212] Player 1 done placing
+[26/02/2025 14:45:30.213] Waiting to place 
+[26/02/2025 14:45:30.257] Placing 
+[26/02/2025 14:45:30.257] 1 placed 50_PunchingPlant(Clone) (PunchingPlant)(0 left)
+[26/02/2025 14:45:35.409] Player 1 done placing
+[26/02/2025 14:45:35.410] Waiting to place 
+[26/02/2025 14:45:35.456] Placing 
+[26/02/2025 14:45:35.457] 1 placed Glue(Clone) (MultipieceBlock)(0 left)
+[26/02/2025 14:45:35.458] Placing 
+[26/02/2025 14:45:37.109] Player 2 done placing
+[26/02/2025 14:45:37.109] Waiting to place 
+[26/02/2025 14:45:37.151] Placing 
+[26/02/2025 14:45:37.151] 2 placed Blackhole(Clone) (Blackhole)(0 left)
+[26/02/2025 14:45:37.269] To Play phase
+[26/02/2025 14:45:37.518] Done waiting for characters
+[26/02/2025 14:45:53.178] To Place phase
+[26/02/2025 14:46:01.759] Player 1 done placing
+[26/02/2025 14:46:01.759] Waiting to place 
+[26/02/2025 14:46:05.025] 1 placed 99_Bomb(Clone) (Bomb)(0 left)
+[26/02/2025 14:46:10.220] Player 2 done placing
+[26/02/2025 14:46:10.221] Waiting to place 
+[26/02/2025 14:46:10.284] Placing 
+[26/02/2025 14:46:10.284] 2 placed 06_Beam(Clone) (Placeable)(0 left)
+[26/02/2025 14:46:17.731] Player 1 done placing
+[26/02/2025 14:46:17.731] Waiting to place 
+[26/02/2025 14:46:17.781] Placing 
+[26/02/2025 14:46:17.781] 1 placed 04_Plank4(Clone) (Placeable)(0 left)
+[26/02/2025 14:46:32.674] Player 2 done placing
+[26/02/2025 14:46:32.674] Waiting to place 
+[26/02/2025 14:46:32.722] Placing 
+[26/02/2025 14:46:32.722] 2 placed 07_Barrel(Clone) (Placeable)(0 left)
+[26/02/2025 14:46:32.840] To Play phase
+[26/02/2025 14:46:33.108] Done waiting for characters
+[26/02/2025 14:47:12.201] To Place phase
+[26/02/2025 14:47:18.770] Player 2 done placing
+[26/02/2025 14:47:18.770] Waiting to place 
+[26/02/2025 14:47:21.116] Player 1 done placing
+[26/02/2025 14:47:21.116] Waiting to place 
+[26/02/2025 14:47:21.163] Placing 
+[26/02/2025 14:47:21.164] 1 placed 10_Stairs(Clone) (Placeable)(0 left)
+[26/02/2025 14:47:21.834] 2 placed 99b_Bombmega(Clone) (Bomb)(0 left)
+[26/02/2025 14:47:28.282] Player 2 done placing
+[26/02/2025 14:47:28.282] Waiting to place 
+[26/02/2025 14:47:28.328] Placing 
+[26/02/2025 14:47:28.329] 2 placed 89b_Rotating_Tire_2x2_Glue2(Clone) (RotateBlock)(0 left)
+[26/02/2025 14:47:28.330] Placing 
+[26/02/2025 14:47:28.330] Placing 
+[26/02/2025 14:47:30.543] Player 1 done placing
+[26/02/2025 14:47:30.544] Waiting to place 
+[26/02/2025 14:47:30.594] Placing 
+[26/02/2025 14:47:30.594] 1 placed 07_Barrel(Clone) (Placeable)(0 left)
+[26/02/2025 14:47:30.725] To Play phase
+[26/02/2025 14:47:30.990] Done waiting for characters
+[26/02/2025 14:48:04.957] To Place phase
+[26/02/2025 14:48:15.304] Player 1 done placing
+[26/02/2025 14:48:15.305] Waiting to place 
+[26/02/2025 14:48:17.203] Player 2 done placing
+[26/02/2025 14:48:17.204] Waiting to place 
+[26/02/2025 14:48:18.535] 1 placed 99a_Bombmini(Clone) (Bomb)(0 left)
+[26/02/2025 14:48:18.565] Destroying Glue 2002512 (required colliders conditions not satisfied)
+[26/02/2025 14:48:18.566] Destroying Glue 2002514 (required colliders conditions not satisfied)
+[26/02/2025 14:48:20.267] 2 placed 99b_Bombmega(Clone) (Bomb)(0 left)
+[26/02/2025 14:48:25.979] Player 1 done placing
+[26/02/2025 14:48:25.979] Waiting to place 
+[26/02/2025 14:48:29.248] 1 placed 99_Bomb(Clone) (Bomb)(0 left)
+[26/02/2025 14:48:32.861] Player 2 done placing
+[26/02/2025 14:48:32.861] Waiting to place 
+[26/02/2025 14:48:32.911] Placing 
+[26/02/2025 14:48:32.912] 2 placed 22_PiecedBarbedWirex2(Clone) (MultipieceBlock)(0 left)
+[26/02/2025 14:48:32.912] Placing 
+[26/02/2025 14:48:32.913] Placing 
+[26/02/2025 14:48:33.041] To Play phase
+[26/02/2025 14:48:33.312] Done waiting for characters
+[26/02/2025 14:48:54.349] To Place phase
+[26/02/2025 14:49:02.958] Player 1 done placing
+[26/02/2025 14:49:02.959] Waiting to place 
+[26/02/2025 14:49:06.227] 1 placed 99_Bomb(Clone) (Bomb)(0 left)
+[26/02/2025 14:49:06.258] Destroying Glue 2003152 (required colliders conditions not satisfied)
+[26/02/2025 14:49:06.258] Destroying Glue 2003154 (required colliders conditions not satisfied)
+[26/02/2025 14:49:07.039] Player 2 done placing
+[26/02/2025 14:49:07.039] Waiting to place 
+[26/02/2025 14:49:07.089] Placing 
+[26/02/2025 14:49:07.089] 2 placed 01_1x1 Box(Clone) (Placeable)(0 left)
+[26/02/2025 14:49:12.509] Player 1 done placing
+[26/02/2025 14:49:12.509] Waiting to place 
+[26/02/2025 14:49:12.552] Placing 
+[26/02/2025 14:49:12.553] 1 placed Coin(Clone) (Coin)(0 left)
+[26/02/2025 14:49:12.553] Spawning network surrogate
+[26/02/2025 14:49:12.555] Found placeable 1003290 for netsurrogate with ID 169
+[26/02/2025 14:49:23.752] Player 2 done placing
+[26/02/2025 14:49:23.752] Waiting to place 
+[26/02/2025 14:49:23.798] Placing 
+[26/02/2025 14:49:23.799] 2 placed 06_Beam(Clone) (Placeable)(0 left)
+[26/02/2025 14:49:23.916] To Play phase
+[26/02/2025 14:49:24.213] Done waiting for characters
+[26/02/2025 14:49:57.380] To Place phase
+[26/02/2025 14:50:03.911] Player 1 done placing
+[26/02/2025 14:50:03.912] Waiting to place 
+[26/02/2025 14:50:03.960] Placing 
+[26/02/2025 14:50:03.960] Placing 
+[26/02/2025 14:50:03.960] Placing 
+[26/02/2025 14:50:03.961] Placing 
+[26/02/2025 14:50:03.965] Placing 
+[26/02/2025 14:50:03.965] Placing 
+[26/02/2025 14:50:03.965] Placing 
+[26/02/2025 14:50:03.965] Placing 
+[26/02/2025 14:50:03.966] Link between  and  not added to group 7: Already exists
+	
+[26/02/2025 14:50:03.966] Link not added
+[26/02/2025 14:50:03.967] Placing 
+[26/02/2025 14:50:03.967] Link between  and  not added to group 8: Already exists
+	
+[26/02/2025 14:50:03.967] Link not added
+[26/02/2025 14:50:03.968] 1 placed FerrisWheelb_Glue2(Clone) (FerrisWheel)(0 left)
+[26/02/2025 14:50:16.157] Player 2 done placing
+[26/02/2025 14:50:16.158] Waiting to place 
+[26/02/2025 14:50:16.204] Placing 
+[26/02/2025 14:50:16.205] 2 placed 01_1x1 Box(Clone) (Placeable)(0 left)
+[26/02/2025 14:50:23.718] Player 1 done placing
+[26/02/2025 14:50:23.718] Waiting to place 
+[26/02/2025 14:50:23.767] Placing 
+[26/02/2025 14:50:23.768] 1 placed OneWayDoor(Clone) (AutoDoor)(0 left)
+[26/02/2025 14:50:23.769] Spawning network surrogate
+[26/02/2025 14:50:23.772] Found placeable 1003390 for netsurrogate with ID 178
+[26/02/2025 14:50:26.479] Player 2 done placing
+[26/02/2025 14:50:26.479] Waiting to place 
+[26/02/2025 14:50:26.528] Placing 
+[26/02/2025 14:50:26.528] 2 placed 207_PaperAirplaneShooter(Clone) (ProjectileLauncher)(0 left)
+[26/02/2025 14:50:26.662] To Play phase
+[26/02/2025 14:50:26.880] Done waiting for characters
+[26/02/2025 14:51:12.964] There's a winner
+[26/02/2025 14:51:12.964] Winner: 2
+[26/02/2025 14:51:15.793] Game ending
+[26/02/2025 14:51:15.856] Player LobbySkillTracker+DummyInt skill updated: [11.9578562459966, 3.7316583820387] => [14.3794025404498, 3.4582720173849
+[26/02/2025 14:51:15.856] Player LobbySkillTracker+DummyInt skill updated: [20.3415394752314, 5.5176617140782] => [15.0487857676569, 4.58563652590083
+[26/02/2025 14:51:15.858] Skill for player 1 updated to: [14.3794025404498, 3.4582720173849]
+[26/02/2025 14:51:15.864] SQUIRREL  WINS
+[26/02/2025 14:51:23.799] Event PlayerRanking: 9
+[26/02/2025 14:51:23.800] Event MatchEnd_Host: 10
+[26/02/2025 14:51:23.800] Event MatchEnd_Client: 11
+[26/02/2025 14:51:24.345] Cannot set the parent of the GameObject 'GluePiece' while it is being destroyed.
+	
+[26/02/2025 14:51:24.347] Cannot set the parent of the GameObject 'GluePiece (1)' while it is being destroyed.
+	
+[26/02/2025 14:51:24.347] Cannot set the parent of the GameObject 'BarbedwirePiece3' while it is being destroyed.
+	
+[26/02/2025 14:51:24.348] Cannot set the parent of the GameObject 'BarbedwirePiece' while it is being destroyed.
+	
+[26/02/2025 14:51:24.349] Cannot set the parent of the GameObject 'GluePiece' while it is being destroyed.
+	
+[26/02/2025 14:51:24.350] Cannot set the parent of the GameObject 'BarbedwirePiece2' while it is being destroyed.
+	
+[26/02/2025 14:51:24.350] Cannot set the parent of the GameObject 'GluePiece' while it is being destroyed.
+	
+[26/02/2025 14:51:24.351] Cannot set the parent of the GameObject 'GluePiece' while it is being destroyed.
+	
+[26/02/2025 14:51:24.619] Client not ready 0
+[26/02/2025 14:51:24.819] Scene change: TreeHouseLobby
+[26/02/2025 14:51:24.838] Destroyed duplicate LobbyManager instance
+[26/02/2025 14:51:24.898] Lobby Server scene changed to 
+[26/02/2025 14:51:24.898] Lobby client entered
+[26/02/2025 14:51:24.899] Lobby Client scene changed
+[26/02/2025 14:51:24.899] currenscene name = TreeHouseLobby networked scene name = 
+[26/02/2025 14:51:25.005] Setting up SHEEP
+[26/02/2025 14:51:25.010] Received message to switch to mode PARTY
+[26/02/2025 14:51:25.010] Received message to switch to mode PARTY
+[26/02/2025 14:51:25.378] Warning! Page PlayOnlinePage has no page number text element!
+[26/02/2025 14:51:25.378] Warning! Page PlayOnlinePage has no page number text element!
+[26/02/2025 14:51:25.378] Warning! Page TabletInterface has no page number text element!
+[26/02/2025 14:51:25.418] [02/26/2025 14:51:25] [UnetRelayTransport] Resizing 'buffer' array as buffer.Length (1212) < size (1215)
+[26/02/2025 14:51:25.428] Game saved to /home/bartosh/.config/unity3d/Clever Endeavour Games/Ultimate Chicken Horse/saveData.uch
+[26/02/2025 14:51:25.437] WINDMILL ready to unlock
+[26/02/2025 14:51:25.439] There is an unlock at PYRAMID for player xworuE
+[26/02/2025 14:51:26.554] Sending all rules to player 2
+[26/02/2025 14:51:26.555] There is an unlock at WATERFALL for player Krokol
+[26/02/2025 14:51:42.489] Buttons all Pressed
+[26/02/2025 14:51:44.987] Starting Vote
+[26/02/2025 14:51:44.988] Generating new MatchGUID: 26daaad4-b178-498e-989e-712ad85cec02
+[26/02/2025 14:51:44.988] Event MatchStart_Host: 12
+[26/02/2025 14:51:44.988] Event MatchRules: 13
+[26/02/2025 14:51:44.988] Event MatchPoints: 14
+[26/02/2025 14:51:44.988] Event MatchBlocks: 15
+[26/02/2025 14:51:44.988] Event MatchModifiers: 16
+[26/02/2025 14:51:44.988] Placeable: Initial sequence ID set to 0
+[26/02/2025 14:51:44.989] Receiving signal to set game mode to PARTY
+[26/02/2025 14:51:45.492] Loading next level: Pyramid
+[26/02/2025 14:51:45.828] Server switching scenes
+[26/02/2025 14:51:45.829] Client not ready 0
+[26/02/2025 14:51:46.003] Scene change: Pyramid
+[26/02/2025 14:51:46.008] Scene loaded for player 1
+[26/02/2025 14:51:46.008] Waiting for netid for game player 1
+[26/02/2025 14:51:46.008] Game player associated with local player 1
+[26/02/2025 14:51:46.023] Lobby Server scene changed to Pyramid
+[26/02/2025 14:51:46.023] Client exit
+[26/02/2025 14:51:46.023] Lobby Client scene changed
+[26/02/2025 14:51:46.023] currenscene name = Pyramid networked scene name = Pyramid
+[26/02/2025 14:51:46.185] Done waiting for game netid, trying to add again
+[26/02/2025 14:51:46.185] Net id 225 added for game player 1
+[26/02/2025 14:51:46.572] Scene loaded for player 2
+[26/02/2025 14:51:46.572] Waiting for netid for game player 2
+[26/02/2025 14:51:46.604] Done waiting for game netid, trying to add again
+[26/02/2025 14:51:46.605] Net id 228 added for game player 2
+[26/02/2025 14:51:46.639] Marking scene init as done for local players...
+[26/02/2025 14:51:46.639] Scene Init done for net player 1
+[26/02/2025 14:51:46.640] Waiting for scene init
+[26/02/2025 14:51:47.367] Scene Init done for net player 2
+[26/02/2025 14:51:47.383] Done waiting for players
+[26/02/2025 14:51:47.383] Setup Start
+[26/02/2025 14:51:47.384] Event CharacterPicked: 17
+[26/02/2025 14:51:47.384] Event MatchStart_Client: 18
+[26/02/2025 14:51:47.384] Setting up player 1
+[26/02/2025 14:51:47.389] Setting up player 2
+[26/02/2025 14:51:47.396] Memorized 4 placeables that are part of the level.
+[26/02/2025 14:51:47.396] Sending signal to start phase
+[26/02/2025 14:51:47.396] Setting up VS Mode
+[26/02/2025 14:51:47.591] Game saved to /home/bartosh/.config/unity3d/Clever Endeavour Games/Ultimate Chicken Horse/saveData.uch
+[26/02/2025 14:51:47.603] [Net] SHEEP party cursor (PartyPickCursor) - LobbyManager (LobbyManager) - NetworkPlayer(Clone) (GamePlayer) - 1
+[26/02/2025 14:51:47.604] [Net] SQUIRREL party cursor (PartyPickCursor) - LobbyManager (LobbyManager) - NetworkPlayer(Clone) (GamePlayer) - 2
+[26/02/2025 14:51:47.610] SHEEP cursor Finding player 1
+[26/02/2025 14:51:47.638] SHEEP party cursor Finding controller 1
+[26/02/2025 14:51:47.640] SHEEP Finding player 1
+[26/02/2025 14:51:47.646] Warning! Page TabletInterface has no page number text element!
+[26/02/2025 14:51:47.762] Placing 
+[26/02/2025 14:51:47.762] Placing 
+[26/02/2025 14:51:47.762] Placing 
+[26/02/2025 14:51:47.762] Placing 
+[26/02/2025 14:51:48.640] Setup Start done for net player 2
+[26/02/2025 14:51:48.667] Marking SetupStart as done for local players...
+[26/02/2025 14:51:48.667] Setup Start done for net player 1
+[26/02/2025 14:51:49.172] Rules:
+No rules modified
+
+Mods:
+No modifiers set
+[26/02/2025 14:51:49.184] To Place phase
+[26/02/2025 14:51:57.098] Player 1 done placing
+[26/02/2025 14:51:57.098] Waiting to place 
+[26/02/2025 14:51:57.146] Placing 
+[26/02/2025 14:51:57.146] 1 placed 06_Beam(Clone) (Placeable)(0 left)
+[26/02/2025 14:52:01.348] Player 2 done placing
+[26/02/2025 14:52:01.348] Waiting to place 
+[26/02/2025 14:52:01.395] Placing 
+[26/02/2025 14:52:01.395] 2 placed 10_Stairs(Clone) (Placeable)(0 left)
+[26/02/2025 14:52:09.711] Player 2 done placing
+[26/02/2025 14:52:09.712] Waiting to place 
+[26/02/2025 14:52:09.758] Placing 
+[26/02/2025 14:52:09.759] 2 placed Flamethrower(Clone) (Lighter)(0 left)
+[26/02/2025 14:52:10.091] Player 1 done placing
+[26/02/2025 14:52:10.091] Waiting to place 
+[26/02/2025 14:52:10.139] Placing 
+[26/02/2025 14:52:10.140] 1 placed Flamethrower(Clone) (Lighter)(0 left)
+[26/02/2025 14:52:10.258] To Play phase
+[26/02/2025 14:52:10.278] Done waiting for characters
+[26/02/2025 14:52:26.367] To Place phase
+[26/02/2025 14:52:33.050] Player 2 done placing
+[26/02/2025 14:52:33.050] Waiting to place 
+[26/02/2025 14:52:33.097] Placing 
+[26/02/2025 14:52:33.097] Placing 
+[26/02/2025 14:52:33.098] Placing 
+[26/02/2025 14:52:33.098] Placing 
+[26/02/2025 14:52:33.098] Placing 
+[26/02/2025 14:52:33.099] 2 placed FerrisWheel(Clone) (FerrisWheel)(0 left)
+[26/02/2025 14:52:37.177] Player 1 done placing
+[26/02/2025 14:52:37.178] Waiting to place 
+[26/02/2025 14:52:37.224] Placing 
+[26/02/2025 14:52:37.224] 1 placed 201_Scaffold(Clone) (Placeable)(0 left)
+[26/02/2025 14:52:44.726] Player 1 done placing
+[26/02/2025 14:52:44.727] Waiting to place 
+[26/02/2025 14:52:44.774] Placing 
+[26/02/2025 14:52:44.775] 1 placed 92_FlippingBlock(Clone) (FlippingBlock)(0 left)
+[26/02/2025 14:52:49.157] Player 2 done placing
+[26/02/2025 14:52:49.157] Waiting to place 
+[26/02/2025 14:52:49.204] Placing 
+[26/02/2025 14:52:49.205] 2 placed 10_Stairs(Clone) (Placeable)(0 left)
+[26/02/2025 14:52:49.322] To Play phase
+[26/02/2025 14:52:49.591] Done waiting for characters
+[26/02/2025 14:53:00.729] Event LevelUnlocked: 19
+[26/02/2025 14:53:00.731] Game saved to /home/bartosh/.config/unity3d/Clever Endeavour Games/Ultimate Chicken Horse/saveData.uch
+[26/02/2025 14:53:08.360] 2 lose streak 0 / 2
+[26/02/2025 14:53:08.363] NetworkPlayer(Clone) (GamePlayer)
+[26/02/2025 14:53:08.363] Player 1 lose streak: 1
+[26/02/2025 14:53:08.364] NetworkPlayer(Clone) (GamePlayer)
+[26/02/2025 14:53:11.176] To Place phase
+[26/02/2025 14:53:21.573] Player 1 done placing
+[26/02/2025 14:53:21.574] Waiting to place 
+[26/02/2025 14:53:21.620] Placing 
+[26/02/2025 14:53:21.621] 1 placed 21_PiecedBarbedWirex1(Clone) (MultipieceBlock)(0 left)
+[26/02/2025 14:53:21.621] Placing 
+[26/02/2025 14:53:22.852] Player 2 done placing
+[26/02/2025 14:53:22.852] Waiting to place 
+[26/02/2025 14:53:22.900] Placing 
+[26/02/2025 14:53:22.900] 2 placed HockeyShooter(Clone) (HockeyShooter)(0 left)
+[26/02/2025 14:53:31.801] Player 1 done placing
+[26/02/2025 14:53:31.802] Waiting to place 
+[26/02/2025 14:53:31.848] Placing 
+[26/02/2025 14:53:31.849] 1 placed 92_FlippingBlock(Clone) (FlippingBlock)(0 left)
+[26/02/2025 14:53:32.332] Player 2 done placing
+[26/02/2025 14:53:32.332] Waiting to place 
+[26/02/2025 14:53:32.363] Placing 
+[26/02/2025 14:53:32.364] 2 placed 23_PiecedBarbedWirex3(Clone) (MultipieceBlock)(0 left)
+[26/02/2025 14:53:32.364] Placing 
+[26/02/2025 14:53:32.365] Placing 
+[26/02/2025 14:53:32.365] Placing 
+[26/02/2025 14:53:32.495] To Play phase
+[26/02/2025 14:53:32.784] Done waiting for characters
+[26/02/2025 14:54:03.913] 1 lose streak 1 / 2
+[26/02/2025 14:54:03.915] NetworkPlayer(Clone) (GamePlayer)
+[26/02/2025 14:54:03.916] NetworkPlayer(Clone) (GamePlayer)
+[26/02/2025 14:54:03.916] Player 2 lose streak: 1
+[26/02/2025 14:54:07.260] To Place phase
+[26/02/2025 14:54:16.111] Player 1 done placing
+[26/02/2025 14:54:16.111] Waiting to place 
+[26/02/2025 14:54:16.158] Placing 
+[26/02/2025 14:54:16.158] 1 placed 10_Stairs(Clone) (Placeable)(0 left)
+[26/02/2025 14:54:16.428] Player 2 done placing
+[26/02/2025 14:54:16.429] Waiting to place 
+[26/02/2025 14:54:16.474] Placing 
+[26/02/2025 14:54:16.475] 2 placed Blackhole(Clone) (Blackhole)(0 left)
+[26/02/2025 14:54:24.840] Player 1 done placing
+[26/02/2025 14:54:24.840] Waiting to place 
+[26/02/2025 14:54:24.887] Placing 
+[26/02/2025 14:54:24.888] 1 placed AnimalCannon(Clone) (AnimalCannon)(0 left)
+[26/02/2025 14:54:24.889] Spawning network surrogate
+[26/02/2025 14:54:24.892] Found placeable 1002720 for netsurrogate with ID 272
+[26/02/2025 14:54:36.995] Player 2 done placing
+[26/02/2025 14:54:36.996] Waiting to place 
+[26/02/2025 14:54:37.046] Placing 
+[26/02/2025 14:54:37.047] 2 placed 86_ArrowShooter(Clone) (ProjectileLauncher)(0 left)
+[26/02/2025 14:54:37.184] To Play phase
+[26/02/2025 14:54:37.446] Done waiting for characters
+[26/02/2025 14:55:03.647] To Place phase
+[26/02/2025 14:55:11.332] Player 1 done placing
+[26/02/2025 14:55:11.332] Waiting to place 
+[26/02/2025 14:55:11.378] Placing 
+[26/02/2025 14:55:11.379] 1 placed PiecedIcex3(Clone) (MultipieceBlock)(0 left)
+[26/02/2025 14:55:11.379] Placing 
+[26/02/2025 14:55:11.380] Placing 
+[26/02/2025 14:55:11.381] Part IcePiece3 can't be placed
+[26/02/2025 14:55:13.830] Player 2 done placing
+[26/02/2025 14:55:13.830] Waiting to place 
+[26/02/2025 14:55:13.877] Placing 
+[26/02/2025 14:55:13.877] 2 placed 202c_SmoothRotate_Glue3(Clone) (RotateBlock)(0 left)
+[26/02/2025 14:55:13.878] Placing 
+[26/02/2025 14:55:13.879] Placing 
+[26/02/2025 14:55:13.879] Placing 
+[26/02/2025 14:55:21.723] Player 1 done placing
+[26/02/2025 14:55:21.723] Waiting to place 
+[26/02/2025 14:55:21.773] Placing 
+[26/02/2025 14:55:21.774] 1 placed 93_SpinningDeath(Clone) (RotateBlock)(0 left)
+[26/02/2025 14:55:24.474] Player 2 done placing
+[26/02/2025 14:55:24.475] Waiting to place 
+[26/02/2025 14:55:24.519] Placing 
+[26/02/2025 14:55:24.519] 2 placed Glue(Clone) (MultipieceBlock)(0 left)
+[26/02/2025 14:55:24.520] Placing 
+[26/02/2025 14:55:24.639] To Play phase
+[26/02/2025 14:55:24.890] Done waiting for characters
+[26/02/2025 14:55:47.559] To Place phase
+[26/02/2025 14:56:01.255] Player 1 done placing
+[26/02/2025 14:56:01.255] Waiting to place 
+[26/02/2025 14:56:01.302] Placing 
+[26/02/2025 14:56:01.302] 1 placed 23_PiecedBarbedWirex3(Clone) (MultipieceBlock)(0 left)
+[26/02/2025 14:56:01.303] Part BarbedwirePiece1 can't be placed
+[26/02/2025 14:56:01.303] Part BarbedwirePiece2 can't be placed
+[26/02/2025 14:56:01.304] Placing 
+[26/02/2025 14:56:01.502] Player 2 done placing
+[26/02/2025 14:56:01.503] Waiting to place 
+[26/02/2025 14:56:01.550] Placing 
+[26/02/2025 14:56:01.551] 2 placed 10_Stairs(Clone) (Placeable)(0 left)
+[26/02/2025 14:56:16.364] Player 1 done placing
+[26/02/2025 14:56:16.365] Waiting to place 
+[26/02/2025 14:56:16.407] Placing 
+[26/02/2025 14:56:16.408] 1 placed 86_ArrowShooter(Clone) (ProjectileLauncher)(0 left)
+[26/02/2025 14:56:17.392] Player 2 done placing
+[26/02/2025 14:56:17.392] Waiting to place 
+[26/02/2025 14:56:17.440] Placing 
+[26/02/2025 14:56:17.440] 2 placed AnimalCannon(Clone) (AnimalCannon)(0 left)
+[26/02/2025 14:56:17.558] To Play phase
+[26/02/2025 14:56:17.674] Spawning network surrogate
+[26/02/2025 14:56:17.674] Found placeable 2003850 for netsurrogate with ID 293
+[26/02/2025 14:56:17.776] Done waiting for characters
+[26/02/2025 14:56:34.735] To Place phase
+[26/02/2025 14:56:42.732] Player 1 done placing
+[26/02/2025 14:56:42.732] Waiting to place 
+[26/02/2025 14:56:45.991] 1 placed 99_Bomb(Clone) (Bomb)(0 left)
+[26/02/2025 14:56:55.305] Player 2 done placing
+[26/02/2025 14:56:55.305] Waiting to place 
+[26/02/2025 14:56:58.557] 2 placed 99_Bomb(Clone) (Bomb)(0 left)
+[26/02/2025 14:57:15.148] Player 1 done placing
+[26/02/2025 14:57:15.148] Waiting to place 
+[26/02/2025 14:57:15.194] Placing 
+[26/02/2025 14:57:15.195] 1 placed Coin(Clone) (Coin)(0 left)
+[26/02/2025 14:57:15.195] Spawning network surrogate
+[26/02/2025 14:57:15.199] Found placeable 1002960 for netsurrogate with ID 302
+[26/02/2025 14:57:23.285] Event GameQuit: 20
+[26/02/2025 14:57:23.289] LocalPlayerRemovedEvent called in LobbyManager
+[26/02/2025 14:57:23.293] [Net] St:Leaving Steam Lobby
+[26/02/2025 14:57:23.303] <color=cyan>Leaving Match: Network Address (177.143.183.6), Network Port (17778), Relay Region (region_name_eu)</color>
+[26/02/2025 14:57:23.309] <color=cyan>Leaving Match: Network Address (177.143.183.6), Network Port (17778), Relay Region (region_name_eu)</color>
+[26/02/2025 14:57:23.340] [Net] Shutting down Backend Manager
+[26/02/2025 14:57:23.340] LobbyManager being destroyed
+[26/02/2025 14:57:23.387] Cannot set the parent of the GameObject 'IcePiece2' while it is being destroyed.
+	
+[26/02/2025 14:57:23.387] Cannot set the parent of the GameObject 'GluePiece' while it is being destroyed.
+	
+[26/02/2025 14:57:23.388] SaveSystemProtector shutting down...
+[26/02/2025 14:57:23.388] LobbyManagerManager shutting down...
+[26/02/2025 14:57:23.392] Cannot set the parent of the GameObject 'GluePiece' while it is being destroyed.
+	
+[26/02/2025 14:57:23.393] Cannot set the parent of the GameObject 'GluePiece (1)' while it is being destroyed.
+	
+[26/02/2025 14:57:23.393] Cannot set the parent of the GameObject 'GluePiece (2)' while it is being destroyed.
+	

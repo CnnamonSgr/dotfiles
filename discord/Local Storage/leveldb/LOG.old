@@ -1,0 +1,6 @@
+2025/03/17-07:41:33.390 141d Reusing MANIFEST /home/bartosh/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2025/03/17-07:41:33.399 141d Recovering log #99
+2025/03/17-07:41:33.402 141d Reusing old log /home/bartosh/.config/discord/Local Storage/leveldb/000099.log 
+2025/03/17-07:42:38.709 13ff Level-0 table #103: started
+2025/03/17-07:42:38.712 13ff Level-0 table #103: 129100 bytes OK
+2025/03/17-07:42:38.715 13ff Delete type=0 #99

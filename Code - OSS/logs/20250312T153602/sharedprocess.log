@@ -1,0 +1,4 @@
+2025-03-12 15:36:04.746 [info] Marked extension as removed ms-python.debugpy-2025.0.1
+2025-03-12 15:36:04.747 [info] Marked extension as removed ms-python.python-2025.0.0
+2025-03-12 15:36:04.831 [info] Deleted marked for removal extension from disk ms-python.debugpy /home/bartosh/.vscode-oss/extensions/ms-python.debugpy-2025.0.1-linux-x64
+2025-03-12 15:36:04.835 [info] Deleted marked for removal extension from disk ms-python.python /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal

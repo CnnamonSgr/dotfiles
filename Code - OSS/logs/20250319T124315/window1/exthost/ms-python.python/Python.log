@@ -1,0 +1,145 @@
+2025-03-19 12:43:21.090 [warning] Dir "/home/bartosh/programowanie/pythonowa_nauka/.pixi/envs" is not watchable (directory does not exist)
+2025-03-19 12:43:21.090 [error] Unable to check if shell integration is active [Error: Extension 'ms-python.python' CANNOT use API proposal: terminalDataWriteEvent.
+Its package.json#enabledApiProposals-property declares:  but NOT terminalDataWriteEvent.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at N (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:106:19035)
+	at a.onDidWriteTerminalData (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:172:46304)
+	at new v (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:877941)
+	at ge (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1684578)
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1687942
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1687970
+	at Se (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1688037)
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1688517
+	at we (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1688458)
+	at Pe (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1688492)
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1685731
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1687336
+	at Array.reduce (<anonymous>)
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1687308
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1687590
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1687970
+	at Se (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1688037)
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1688517
+	at we (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1688458)
+	at Pe (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1688492)
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1685731
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1715401
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1715422
+	at e._get (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1714435)
+	at e._getButThrowIfAsync (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1714495)
+	at e.get (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1710204)
+	at e.dynamicValue (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1699937)
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1686114
+	at Ee (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1686370)
+	at Se (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1688086)
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1688517
+	at we (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1688458)
+	at Pe (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1688492)
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1685731
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1685665
+	at Array.map (<anonymous>)
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1685636
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1687336
+	at Array.reduce (<anonymous>)
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1687308
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1687590
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1687970
+	at Se (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1688037)
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1688517
+	at we (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1688458)
+	at Pe (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1688492)
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1685731
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1715401
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1715422
+	at e._get (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1714435)
+	at e._getButThrowIfAsync (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1714495)
+	at e.get (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1710204)
+	at a.get (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:536568)
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:451405
+	at async t.activateComponents (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:449685)
+	at async /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:2639568
+	at async e (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:2639100)
+	at async pw.n (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:13415)
+	at async pw.m (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:13378)
+	at async pw.l (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:12834)]
+2025-03-19 12:43:21.090 [info] > conda info --json
+2025-03-19 12:43:21.090 [info] Python interpreter path: /bin/python
+2025-03-19 12:43:21.090 [info] > pyenv which python
+2025-03-19 12:43:21.090 [info] cwd: .
+2025-03-19 12:43:21.188 [error] [
+  'Failed to activate a workspace, Class name = v, completed in 584ms, has a falsy return value, Arg 1: <Uri:/home/bartosh/programowanie/pythonowa_nauka/projekt_kolos/szkielet.py>, Arg 2: {"started":1742384599784}, Return Value: undefined',
+  [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+  Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+   The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+  	at N (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:106:19035)
+  	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:172:39547)
+  	at C.activate (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:908493)
+  	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:2457
+  	at Array.map (<anonymous>)
+  	at v.activateWorkspace (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:2447)]
+]
+2025-03-19 12:43:21.188 [error] Failure during activation. [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at N (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:106:19035)
+	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:172:39547)
+	at C.activate (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:908493)
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:2457
+	at Array.map (<anonymous>)
+	at v.activateWorkspace (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:2447)]
+2025-03-19 12:43:21.188 [error] sendStartupTelemetry() failed. [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at N (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:106:19035)
+	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:172:39547)
+	at C.activate (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:908493)
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:2457
+	at Array.map (<anonymous>)
+	at v.activateWorkspace (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:2447)]
+2025-03-19 12:43:22.224 [info] Starting Jedi language server for pythonowa_nauka.
+2025-03-19 12:44:13.838 [info] Discover tests for workspace name: pythonowa_nauka - uri: /home/bartosh/programowanie/pythonowa_nauka/projekt_kolos/szkielet.py
+2025-03-19 12:44:39.919 [info] CreateEnv Trigger - Skipping for /home/bartosh/programowanie/pythonowa_nauka/projekt_kolos/szkielet.py
+2025-03-19 12:44:40.121 [info] Discover tests for workspace name: pythonowa_nauka - uri: /home/bartosh/programowanie/pythonowa_nauka/projekt_kolos/szkielet.py
+2025-03-19 12:44:40.559 [info] Send text to terminal: /bin/python /home/bartosh/programowanie/pythonowa_nauka/projekt_kolos/szkielet.py
+2025-03-19 12:45:12.702 [info] Send text to terminal: /bin/python /home/bartosh/programowanie/pythonowa_nauka/projekt_kolos/szkielet.py
+2025-03-19 12:45:13.021 [info] Discover tests for workspace name: pythonowa_nauka - uri: /home/bartosh/programowanie/pythonowa_nauka/projekt_kolos/szkielet.py
+2025-03-19 12:47:46.941 [info] Send text to terminal: /bin/python /home/bartosh/programowanie/pythonowa_nauka/projekt_kolos/szkielet.py
+2025-03-19 12:47:47.190 [info] Discover tests for workspace name: pythonowa_nauka - uri: /home/bartosh/programowanie/pythonowa_nauka/projekt_kolos/szkielet.py
+2025-03-19 12:50:34.535 [info] Send text to terminal: /bin/python /home/bartosh/programowanie/pythonowa_nauka/projekt_kolos/szkielet.py
+2025-03-19 12:50:34.784 [info] Discover tests for workspace name: pythonowa_nauka - uri: /home/bartosh/programowanie/pythonowa_nauka/projekt_kolos/szkielet.py
+2025-03-19 12:51:28.882 [info] Send text to terminal: /bin/python /home/bartosh/programowanie/pythonowa_nauka/projekt_kolos/szkielet.py
+2025-03-19 12:51:29.132 [info] Discover tests for workspace name: pythonowa_nauka - uri: /home/bartosh/programowanie/pythonowa_nauka/projekt_kolos/szkielet.py
+2025-03-19 12:51:59.714 [info] Send text to terminal: /bin/python /home/bartosh/programowanie/pythonowa_nauka/projekt_kolos/szkielet.py
+2025-03-19 12:51:59.963 [info] Discover tests for workspace name: pythonowa_nauka - uri: /home/bartosh/programowanie/pythonowa_nauka/projekt_kolos/szkielet.py
+2025-03-19 12:52:12.069 [info] Discover tests for workspace name: pythonowa_nauka - uri: /home/bartosh/programowanie/pythonowa_nauka/projekt_kolos/szkielet.py
+2025-03-19 12:59:46.255 [info] Send text to terminal: /bin/python /home/bartosh/programowanie/pythonowa_nauka/projekt_kolos/szkielet.py
+2025-03-19 12:59:46.505 [info] Discover tests for workspace name: pythonowa_nauka - uri: /home/bartosh/programowanie/pythonowa_nauka/projekt_kolos/szkielet.py
+2025-03-19 13:02:57.944 [info] Send text to terminal: /bin/python /home/bartosh/programowanie/pythonowa_nauka/projekt_kolos/szkielet.py
+2025-03-19 13:02:58.194 [info] Discover tests for workspace name: pythonowa_nauka - uri: /home/bartosh/programowanie/pythonowa_nauka/projekt_kolos/szkielet.py
+2025-03-19 13:13:55.257 [info] Send text to terminal: /bin/python /home/bartosh/programowanie/pythonowa_nauka/projekt_kolos/szkielet.py
+2025-03-19 13:13:55.501 [info] Discover tests for workspace name: pythonowa_nauka - uri: /home/bartosh/programowanie/pythonowa_nauka/projekt_kolos/szkielet.py
+2025-03-19 13:14:32.980 [info] Discover tests for workspace name: pythonowa_nauka - uri: /home/bartosh/programowanie/pythonowa_nauka/projekt_kolos/szkielet.py
+2025-03-19 13:14:35.823 [info] Send text to terminal: /bin/python /home/bartosh/programowanie/pythonowa_nauka/projekt_kolos/szkielet.py
+2025-03-19 13:14:43.067 [info] Send text to terminal: /bin/python /home/bartosh/programowanie/pythonowa_nauka/projekt_kolos/szkielet.py
+2025-03-19 13:20:24.648 [info] Send text to terminal: /bin/python /home/bartosh/programowanie/pythonowa_nauka/projekt_kolos/szkielet.py
+2025-03-19 13:20:24.888 [info] Discover tests for workspace name: pythonowa_nauka - uri: /home/bartosh/programowanie/pythonowa_nauka/projekt_kolos/szkielet.py
+2025-03-19 13:20:39.563 [info] Discover tests for workspace name: pythonowa_nauka - uri: /home/bartosh/programowanie/pythonowa_nauka/projekt_kolos/szkielet.py
+2025-03-19 13:23:20.807 [info] Discover tests for workspace name: pythonowa_nauka - uri: /home/bartosh/programowanie/pythonowa_nauka/projekt_kolos/szkielet.py
+2025-03-19 13:23:22.400 [info] Send text to terminal: /bin/python /home/bartosh/programowanie/pythonowa_nauka/projekt_kolos/szkielet.py
+2025-03-19 13:23:48.100 [info] Discover tests for workspace name: pythonowa_nauka - uri: /home/bartosh/programowanie/pythonowa_nauka/projekt_kolos/szkielet.py
+2025-03-19 13:24:00.591 [info] Send text to terminal: /bin/python /home/bartosh/programowanie/pythonowa_nauka/projekt_kolos/szkielet.py
+2025-03-19 13:28:15.846 [info] Send text to terminal: /bin/python /home/bartosh/programowanie/pythonowa_nauka/projekt_kolos/szkielet.py
+2025-03-19 13:28:16.094 [info] Discover tests for workspace name: pythonowa_nauka - uri: /home/bartosh/programowanie/pythonowa_nauka/projekt_kolos/szkielet.py
+2025-03-19 13:28:30.512 [info] Discover tests for workspace name: pythonowa_nauka - uri: /home/bartosh/programowanie/pythonowa_nauka/projekt_kolos/szkielet.py
+2025-03-19 13:28:33.252 [info] Send text to terminal: /bin/python /home/bartosh/programowanie/pythonowa_nauka/projekt_kolos/szkielet.py
+2025-03-19 13:29:11.825 [info] Send text to terminal: /bin/python /home/bartosh/programowanie/pythonowa_nauka/projekt_kolos/szkielet.py
+2025-03-19 13:29:27.551 [info] Discover tests for workspace name: pythonowa_nauka - uri: /home/bartosh/programowanie/pythonowa_nauka/projekt_kolos/szkielet.py
+2025-03-19 13:30:16.689 [info] Send text to terminal: /bin/python /home/bartosh/programowanie/pythonowa_nauka/projekt_kolos/szkielet.py
+2025-03-19 13:31:32.717 [info] Discover tests for workspace name: pythonowa_nauka - uri: /home/bartosh/programowanie/pythonowa_nauka/projekt_kolos/szkielet.py
+2025-03-19 13:31:42.687 [info] Send text to terminal: /bin/python /home/bartosh/programowanie/pythonowa_nauka/projekt_kolos/szkielet.py
+2025-03-19 13:32:21.572 [info] Discover tests for workspace name: pythonowa_nauka - uri: /home/bartosh/programowanie/pythonowa_nauka/projekt_kolos/szkielet.py
+2025-03-19 13:33:51.395 [info] Send text to terminal: /bin/python /home/bartosh/programowanie/pythonowa_nauka/projekt_kolos/szkielet.py
+2025-03-19 13:34:05.030 [info] Send text to terminal: /bin/python /home/bartosh/programowanie/pythonowa_nauka/projekt_kolos/szkielet.py
+2025-03-19 13:34:12.709 [info] Send text to terminal: /bin/python /home/bartosh/programowanie/pythonowa_nauka/projekt_kolos/szkielet.py
+2025-03-19 13:34:22.515 [info] Send text to terminal: /bin/python /home/bartosh/programowanie/pythonowa_nauka/projekt_kolos/szkielet.py
+2025-03-19 13:35:37.229 [info] Discover tests for workspace name: pythonowa_nauka - uri: /home/bartosh/programowanie/pythonowa_nauka/projekt_kolos/szkielet.py

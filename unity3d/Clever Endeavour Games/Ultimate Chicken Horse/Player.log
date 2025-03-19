@@ -1,0 +1,906 @@
+Mono path[0] = '/home/bartosh/.local/share/Steam/steamapps/common/Ultimate Chicken Horse/UltimateChickenHorse_Data/Managed'
+Mono config path = '/home/bartosh/.local/share/Steam/steamapps/common/Ultimate Chicken Horse/UltimateChickenHorse_Data/MonoBleedingEdge/etc'
+Preloaded 'libAkSoundEngine.so'
+Preloaded 'libsteam_api.so'
+Preloaded 'libsteam_api64.so'
+Display 0 'eDP-1 13"': 1920x1080 (primary device).
+Unable to load player prefs
+Desktop is 1920 x 1080 @ 60 Hz
+Initialize engine version: 2020.3.28f1 (f5400f52e03f)
+[Subsystems] Discovering subsystems at path /home/bartosh/.local/share/Steam/steamapps/common/Ultimate Chicken Horse/UltimateChickenHorse_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1
+Renderer: Mesa Intel(R) UHD Graphics 620 (WHL GT2)
+Vendor:   Intel
+Version:  4.6 (Core Profile) Mesa 24.3.4-arch1.1
+GLES:     0
+ GL_3DFX_texture_compression_FXT1 GL_AMD_conservative_depth GL_AMD_depth_clamp_separate GL_AMD_draw_buffers_blend GL_AMD_gpu_shader_int64 GL_AMD_multi_draw_indirect GL_AMD_performance_monitor GL_AMD_pinned_memory GL_AMD_query_buffer_object GL_AMD_seamless_cubemap_per_texture GL_AMD_shader_stencil_export GL_AMD_shader_trinary_minmax GL_AMD_texture_texture4 GL_AMD_vertex_shader_layer GL_AMD_vertex_shader_viewport_index GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ARB_ES2_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_compressed_texture_pixel_storage GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB
+_depth_clamp GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_indirect GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_shader GL_ARB_fragment_shader_interlock GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_po
+int_sprite GL_ARB_polygon_offset_clamp GL_ARB_post_depth_coverage GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_stencil_export GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_barrier G
+L_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2
+_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_texture_float GL_EXT_EGL_image_storage GL_EXT_EGL_image_storage_compression GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_debug_label GL_EXT_demote_to_helper_invocation GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_framebuffer_fetch GL_EXT_shader_framebuffer_fetch_non_coherent GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_t
+exture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_INTEL_conservative_rasterization GL_INTEL_performance_query GL_INTEL_shader_atomic_float_minmax GL_INTEL_shader_integer_functions2 GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_const_bandwidth GL_MESA_texture_signed_rgba GL_NV_alpha_to_coverage_dither_control GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_fragment_shader_interlo
+ck GL_NV_packed_depth_stencil GL_NV_texture_barrier GL_OES_EGL_image GL_S3_s3tc
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle 26602592
+Begin MonoManager ReloadAssembly
+- Completed reload, in  0.061 seconds
+Default vsync count 1
+requesting resize 1920 x 1080
+Using native desktop resolution 1920 x 1080
+requesting fullscreen 1920 x 1080 at 0 Hz
+Desktop is 1920 x 1080 @ 60 Hz
+UnloadTime: 0.523082 ms
+Log catcher folder = /home/bartosh/.config/unity3d/Clever Endeavour Games/Ultimate Chicken Horse/Logs/uch-log-file-{0}.log
+Loading GameWideSettings HERE
+[S_API] SteamAPI_Init(): Loaded '/home/bartosh/.local/share/Steam/linux64/steamclient.so' OK.
+Setting breakpad minidump AppID = 386940
+SteamInternal_SetMinidumpSteamID:  Caching Steam ID:  76561198314436490 [API loaded no]
+[Net] St:Callbacks setup
+[Net] Steam MatchMaker Instantiated -82
+Error: Could not build item filter because Placeable Metadata List has not been instantiated yet.
+WwiseUnity: Wwise(R) SDK Version 2021.1.7 Build 7796.
+WwiseUnity: Setting Plugin DLL path to: /home/bartosh/.local/share/Steam/steamapps/common/Ultimate Chicken Horse/UltimateChickenHorse_Data/Plugins/
+WwiseUnity: Sound engine initialized successfully.
+Waiting to initialize: 0 then loading main menu
+Worker Thread Manager initialized.
+Creating Local Saves folder at /home/bartosh/.config/unity3d/Clever Endeavour Games/Ultimate Chicken Horse/snapshots
+Creating Local Thumbnails folder at /home/bartosh/.config/unity3d/Clever Endeavour Games/Ultimate Chicken Horse/snapshots/thumbnails
+Creating Rule Preset folder at /home/bartosh/.config/unity3d/Clever Endeavour Games/Ultimate Chicken Horse/rules
+[02/26/2025 14:30:38] [UnetRelayTransport] Transport initialized
+Scene change: Init
+CheckOnStart: 0. Args being used: /home/bartosh/.local/share/Steam/steamapps/common/Ultimate Chicken Horse/UltimateChickenHorse.x86_64
+Done waiting for initialization, loading main menu.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.985354 ms
+GSManager Awake. Instance: 
+Creating Braincloud Wrapper instance
+Creating main menu image folder at /home/bartosh/.config/unity3d/Clever Endeavour Games/Ultimate Chicken Horse/mainmenu
+Scene change: MainMenu, destroying lobby manager
+
+Unloading 215 unused Assets to reduce memory usage. Loaded Objects now: 69020.
+Total: 45.886050 ms (FindLiveObjects: 2.311465 ms CreateObjectMapping: 2.833795 ms MarkObjects: 40.508914 ms  DeleteObjects: 0.231150 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 69020.
+Total: 46.426965 ms (FindLiveObjects: 2.463282 ms CreateObjectMapping: 2.532935 ms MarkObjects: 41.337538 ms  DeleteObjects: 0.092399 ms)
+
+Ip set to:177.143.183.6
+Loading game from: /home/bartosh/.config/unity3d/Clever Endeavour Games/Ultimate Chicken Horse/saveData.uch
+Save file loading finished. Checking achievements...
+Ultimate Chicken Horse - version 1.11.01
+Date UTC: 02/26/2025 13:30:40
+Warning! Page PlayOnlinePage has no page number text element!
+Warning! Page TabletInterface has no page number text element!
+Handling language stuff : 1
+Desktop is 1920 x 1080 @ 60 Hz
+Backend: attempting to connect with Steam
+Found region file ap_region.json
+Found region file eu_region.json
+Successfully connected backend to Steam (xworuE)
+[Net] Backend Auth: Could not read permission level for main user.
+Found region file na_region.json
+[Net] Backend Auth: Could not read permission level for main user.
+Testing main DNS availability ap.clevendeav.net
+Frozen Lobby Code : 
+Main DNS available.
+Sending http request to https://ap.clevendeav.net:443/health/ping, attempt # 0
+Sending http request to https://eu.clevendeav.net:443/health/ping, attempt # 0
+Sending http request to https://na.clevendeav.net:443/health/ping, attempt # 0
+Http request to https://eu.clevendeav.net:443/health/ping, responsed with http code 200
+Sending http request to https://eu.clevendeav.net:443/health/ping, attempt # 0
+Http request to https://na.clevendeav.net:443/health/ping, responsed with http code 200
+Sending http request to https://na.clevendeav.net:443/health/ping, attempt # 0
+Http request to https://eu.clevendeav.net:443/health/ping, responsed with http code 200
+Sending http request to https://eu.clevendeav.net:443/health/ping, attempt # 0
+Http request to https://ap.clevendeav.net:443/health/ping, responsed with http code 200
+Sending http request to https://ap.clevendeav.net:443/health/ping, attempt # 0
+Http request to https://eu.clevendeav.net:443/health/ping, responsed with http code 200
+Sending http request to https://eu.clevendeav.net:443/health/ping, attempt # 0
+Http request to https://na.clevendeav.net:443/health/ping, responsed with http code 200
+Sending http request to https://na.clevendeav.net:443/health/ping, attempt # 0
+Http request to https://eu.clevendeav.net:443/health/ping, responsed with http code 200
+Sending http request to https://eu.clevendeav.net:443/health/ping, attempt # 0
+Http request to https://ap.clevendeav.net:443/health/ping, responsed with http code 200
+Sending http request to https://ap.clevendeav.net:443/health/ping, attempt # 0
+Http request to https://na.clevendeav.net:443/health/ping, responsed with http code 200
+Sending http request to https://na.clevendeav.net:443/health/ping, attempt # 0
+Http request to https://eu.clevendeav.net:443/health/ping, responsed with http code 200
+Region region_name_eu ping: 389
+Http request to https://na.clevendeav.net:443/health/ping, responsed with http code 200
+Sending http request to https://na.clevendeav.net:443/health/ping, attempt # 0
+Loading game from: /home/bartosh/.config/unity3d/Clever Endeavour Games/Ultimate Chicken Horse/saveData.uch
+Save file loading finished. Checking achievements...
+Event GameStart: 1
+Http request to https://ap.clevendeav.net:443/health/ping, responsed with http code 200
+Sending http request to https://ap.clevendeav.net:443/health/ping, attempt # 0
+Http request to https://na.clevendeav.net:443/health/ping, responsed with http code 200
+Region region_name_na ping: 654
+Http request to https://ap.clevendeav.net:443/health/ping, responsed with http code 200
+Sending http request to https://ap.clevendeav.net:443/health/ping, attempt # 0
+Default region set to region_name_eu with ping 389
+[Net] Attempting to find IP
+[Net] Requesting external IP
+UCHOnlineConnector.Instance != null True UCHOnlineConnector.Service != null True GameSettings.GetInstance().SelectedRegion != null True
+Getting external IP FOR REAL
+Sending http request to https://eu.clevendeav.net:443/health/get-ip, attempt # 0
+Http request to https://ap.clevendeav.net:443/health/ping, responsed with http code 200
+Region region_name_ap ping: 1027
+Http request to https://eu.clevendeav.net:443/health/get-ip, responsed with http code 200
+Received GetIpRequest 31.0.78.77
+<color=cyan>IP Addresses: Internal IP (192.168.240.1) External IP (31.0.78.77)</color>
+[Net] Finding IPs took: 0.3585119 s.
+Going for Online Play
+Is UGC restricted: False
+Online permissions valid
+Default region set to region_name_eu with ping 389
+Done Google Sync
+Destroying old loaded texture for main menu update image
+Done Google Sync: source was up-to-date
+================================ StartHosting ================================
+Sending http request to https://eu.clevendeav.net:443/relay/get-next-available, attempt # 0
+Http request to https://eu.clevendeav.net:443/relay/get-next-available, responsed with http code 200
+Received GetNextAvailableServerResponse { "serverIp": "165.232.92.83", "serverPort": 8889 }
+Starting the backend lobby
+GameSparks.Api.Responses.LogEventResponse
+
+IF	 TPTB
+GS MatchID: 5d3f2842-1aad-4183-be25-a23b229a2c74
+Created lobby: 5d3f2842-1aad-4183-be25-a23b229a2c74
+[Net] Using unity relay = True
+Setting player count to 0
+Non Xbox Player OnLobbyCreate
+NonXbox Player HandleSession 1	
+[02/26/2025 14:31:02] [RelayClient] [ID = AddPlayerToMPSD] Adding player to MPSD...
+<color=cyan>Creating Match: Network Address (177.143.183.6), Network Port (17778), Relay Region (region_name_eu)</color>
+[Net] Starting PRIVATE Steam lobby.
+[Net] Waiting for controller assignment
+[Net] Attempting to load Treehouse
+[02/26/2025 14:31:02] [RelayClient] [ID = AddPlayerToMPSD] Connected to Server
+[02/26/2025 14:31:02] [RelayClient] [ID = AddPlayerToMPSD] Sent: ClearText.Length (194), CipherText.Length (300), ArraySegment.Count (300), ClearText ({"ID":"AddPlayerToMPSD","RuntimePlatform":13,"PlayerID":"5d3f2842-1aad-4183-be25-a23b229a2c74","PlayerName":"xworuE","XToken":"","LobbyCode":"TPTB","GamesparksLobby":"","SecureDeviceAddress":""})
+[02/26/2025 14:31:02] [RelayClient] [ID = AddPlayerToMPSD] Received: MessageBytes.Count (108), CipherText.Length (108), ClearText.Length (55), ClearText ({"ID":"AddPlayerToMPSD","IsSuccess":true,"Response":""})
+NonXbox Player HandleSession	True
+[02/26/2025 14:31:02] [RelayClient] [ID = AddPlayerToMPSD] Disconnected from Server
+[Net] Created Steam Lobby: 109775243033592404
+Unloading the last loaded scene Assets/Scenes/MainMenu.unity(build index: 1), is not supported. Please use SceneManager.LoadScene()/EditorSceneManager.OpenScene() to switch to another scene.
+Unloading unused assets
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 689 unused Assets to reduce memory usage. Loaded Objects now: 53387.
+Total: 46.633245 ms (FindLiveObjects: 2.234887 ms CreateObjectMapping: 3.184973 ms MarkObjects: 40.467882 ms  DeleteObjects: 0.744780 ms)
+
+Collecting Garbage
+Actually loading TreeHouseLobby
+Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.733505 ms
+Scene change: TreeHouseLobby
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 82267.
+Total: 57.084711 ms (FindLiveObjects: 3.920998 ms CreateObjectMapping: 3.543870 ms MarkObjects: 49.504378 ms  DeleteObjects: 0.114752 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 82267.
+Total: 62.659378 ms (FindLiveObjects: 4.057426 ms CreateObjectMapping: 3.910096 ms MarkObjects: 54.579662 ms  DeleteObjects: 0.111578 ms)
+
+Starting Host
+Listening
+[Net] Starting hosting using P2P on port: 17778
+OnLobbyStartHost
+Before finding external IP
+Lobby server connect hostId: -1 connectionId: 0 isReady: False channel count: 0
+Server Connect
+Client started: :0 (localhost:17778) 
+Setting player count to 1
+Lobby client entered
+Client connected: hostId: -1 connectionId: 0 isReady: True channel count: 0
+[Net] Already have IP returning 31.0.78.77
+After finding external IP - Lobby is owner True
+Got ip adresses and set joinability to true.
+Waiting for netid for lobby player 1
+Server added player
+Lobby Player added for local player 1
+Spawned Twitch Chat ClientState...
+FindAndSetPlayerGSID: Finding GSID for xworuE...
+FindAndSetPlayerGSID: Using main user GSID for Player xworuE
+Player GSID was successfully found.
+Done waiting for lobby netid, trying to add again
+Net id added for lobby player
+Spawning lobby cursor
+Setting player count to 1
+[02/26/2025 14:31:06] [UnetRelayTransport] Connected to Relay Server with resolved endpoint ([::ffff:31.0.78.77]:41736)
+HandleData Unknown connectionId:1
+Received message to switch to mode PARTY
+Received message to switch to mode PARTY
+Warning! Page PlayOnlinePage has no page number text element!
+Warning! Page PlayOnlinePage has no page number text element!
+Warning! Page TabletInterface has no page number text element!
+Game saved to /home/bartosh/.config/unity3d/Clever Endeavour Games/Ultimate Chicken Horse/saveData.uch
+WINDMILL ready to unlock
+There is an unlock at PYRAMID for player xworuE
+Received message to switch to mode CREATIVE
+Received message to switch to mode CREATIVE
+Received message to switch to mode CHALLENGE
+Received message to switch to mode CHALLENGE
+Received message to switch to mode FREEPLAY
+Received message to switch to mode FREEPLAY
+Received message to switch to mode PARTY
+Received message to switch to mode PARTY
+Game saved to /home/bartosh/.config/unity3d/Clever Endeavour Games/Ultimate Chicken Horse/saveData.uch
+Lobby server connect hostId: 0 connectionId: 43 isReady: False channel count: 4
+Server Connect
+Waiting for netid for lobby player 2
+Server added player
+Done waiting for lobby netid, trying to add again
+Net id added for lobby player
+Setting player count to 2
+[Net] Krokol joined the lobby
+Spawning lobby cursor
+Sending all rules to player 2
+There is an unlock at OLDMANSION for player Krokol
+Buttons all Pressed
+Starting Vote
+Generating new MatchGUID: 9f8b67ca-b6c0-4672-acf0-08102340aab9
+Event MatchStart_Host: 2
+Event MatchRules: 3
+Event MatchPoints: 4
+Event MatchBlocks: 5
+Event MatchModifiers: 6
+Placeable: Initial sequence ID set to 0
+Receiving signal to set game mode to PARTY
+Loading next level: RicketyHouse
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 665 unused Assets to reduce memory usage. Loaded Objects now: 61827.
+Total: 81.374070 ms (FindLiveObjects: 6.658436 ms CreateObjectMapping: 10.035564 ms MarkObjects: 62.334072 ms  DeleteObjects: 2.344782 ms)
+
+Server switching scenes
+Client not ready 0
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.635783 ms
+Scene change: RicketyHouse
+Scene loaded for player 1
+Waiting for netid for game player 1
+Game player associated with local player 1
+Lobby Server scene changed to RicketyHouse
+Client exit
+Lobby Client scene changed
+currenscene name = RicketyHouse networked scene name = RicketyHouse
+
+Unloading 149 unused Assets to reduce memory usage. Loaded Objects now: 62790.
+Total: 58.851186 ms (FindLiveObjects: 2.398279 ms CreateObjectMapping: 3.335839 ms MarkObjects: 52.184420 ms  DeleteObjects: 0.931961 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 62790.
+Total: 62.509508 ms (FindLiveObjects: 3.028755 ms CreateObjectMapping: 3.628318 ms MarkObjects: 55.756653 ms  DeleteObjects: 0.095111 ms)
+
+Done waiting for game netid, trying to add again
+Net id 54 added for game player 1
+Scene loaded for player 2
+Waiting for netid for game player 2
+Done waiting for game netid, trying to add again
+Net id 58 added for game player 2
+Marking scene init as done for local players...
+Scene Init done for net player 1
+Waiting for scene init
+Scene Init done for net player 2
+Done waiting for players
+Setup Start
+Event CharacterPicked: 7
+Event MatchStart_Client: 8
+Setting up player 1
+Setting up player 2
+Memorized 1 placeables that are part of the level.
+Sending signal to start phase
+Setting up VS Mode
+Game saved to /home/bartosh/.config/unity3d/Clever Endeavour Games/Ultimate Chicken Horse/saveData.uch
+[Net] SHEEP party cursor (PartyPickCursor) - LobbyManager (LobbyManager) - NetworkPlayer(Clone) (GamePlayer) - 1
+[Net] SQUIRREL party cursor (PartyPickCursor) - LobbyManager (LobbyManager) - NetworkPlayer(Clone) (GamePlayer) - 2
+SHEEP cursor Finding player 1
+SHEEP party cursor Finding controller 1
+SHEEP Finding player 1
+Warning! Page TabletInterface has no page number text element!
+Placing 
+Setup Start done for net player 2
+Marking SetupStart as done for local players...
+Setup Start done for net player 1
+Rules:
+No rules modified
+
+Mods:
+No modifiers set
+To Place phase
+Player 2 done placing
+Waiting to place 
+Placing 
+2 placed 202b_SmoothRotate_Glue2(Clone) (RotateBlock)(0 left)
+Placing 
+Placing 
+Player 1 done placing
+Waiting to place 
+Placing 
+1 placed 04_Plank4(Clone) (Placeable)(0 left)
+Player 1 done placing
+Waiting to place 
+Placing 
+1 placed 40_Spring(Clone) (Spring)(0 left)
+Spawning network surrogate
+Found placeable 1002490 for netsurrogate with ID 74
+Player 2 done placing
+Waiting to place 
+Placing 
+2 placed 91c_FanPlatform_Glue3(Clone) (MovingPlatform)(0 left)
+Placing 
+Placing 
+To Play phase
+Done waiting for characters
+1 lose streak 0 / 2
+NetworkPlayer(Clone) (GamePlayer)
+NetworkPlayer(Clone) (GamePlayer)
+Player 2 lose streak: 1
+To Place phase
+Player 1 done placing
+Waiting to place 
+Player 2 done placing
+Waiting to place 
+Placing 
+1 placed OneWayDoor(Clone) (AutoDoor)(0 left)
+Spawning network surrogate
+Placing 
+2 placed 09_L Boards(Clone) (Placeable)(0 left)
+Found placeable 1002530 for netsurrogate with ID 81
+Player 1 done placing
+Waiting to place 
+Placing 
+1 placed Coin(Clone) (Coin)(0 left)
+Spawning network surrogate
+Found placeable 1002570 for netsurrogate with ID 86
+Player 2 done placing
+Waiting to place 
+Placing 
+2 placed 206_PressureTriggerSpikes(Clone) (PressureTriggerSpikes)(0 left)
+To Play phase
+Spawning network surrogate
+Found placeable 2002590 for netsurrogate with ID 87
+Done waiting for characters
+2 lose streak 1 / 2
+NetworkPlayer(Clone) (GamePlayer)
+Player 1 lose streak: 1
+NetworkPlayer(Clone) (GamePlayer)
+To Place phase
+Player 1 done placing
+Waiting to place 
+Placing 
+1 placed 23_PiecedBarbedWirex3(Clone) (MultipieceBlock)(0 left)
+Placing 
+Placing 
+Placing 
+Player 2 done placing
+Waiting to place 
+Placing 
+2 placed 205a_DiagonalMover_Glue1(Clone) (HorizontalMovingPlatform)(0 left)
+Placing 
+Player 1 done placing
+Waiting to place 
+Placing 
+1 placed 87_Tennis Ball Shooter(Clone) (ProjectileLauncher)(0 left)
+Player 2 done placing
+Waiting to place 
+Placing 
+Placing 
+Placing 
+Placing 
+Placing 
+2 placed FerrisWheel(Clone) (FerrisWheel)(0 left)
+To Play phase
+Done waiting for characters
+2 lose streak 0 / 2
+NetworkPlayer(Clone) (GamePlayer)
+Player 1 lose streak: 2
+NetworkPlayer(Clone) (GamePlayer)
+To Place phase
+Player 1 done placing
+Waiting to place 
+Placing 
+1 placed 09_L Boards(Clone) (Placeable)(0 left)
+Player 2 done placing
+Waiting to place 
+Placing 
+2 placed 41_AutoDoor1x4(Clone) (AutoDoor)(0 left)
+Player 1 done placing
+Waiting to place 
+Placing 
+1 placed 93_SpinningDeath(Clone) (RotateBlock)(0 left)
+Player 2 done placing
+Waiting to place 
+Placing 
+2 placed 21_PiecedBarbedWirex1(Clone) (MultipieceBlock)(0 left)
+Placing 
+To Play phase
+Done waiting for characters
+To Place phase
+Player 1 done placing
+Waiting to place 
+1 placed 99b_Bombmega(Clone) (Bomb)(0 left)
+Destroying Glue 2002632 (required colliders conditions not satisfied)
+Player 2 done placing
+Waiting to place 
+Placing 
+2 placed 93_SpinningDeath(Clone) (RotateBlock)(0 left)
+Player 2 done placing
+Waiting to place 
+Placing 
+2 placed Blackhole(Clone) (Blackhole)(0 left)
+Player 1 done placing
+Waiting to place 
+Placing 
+1 placed Blackhole(Clone) (Blackhole)(0 left)
+To Play phase
+Done waiting for characters
+To Place phase
+Player 1 done placing
+Waiting to place 
+1 placed 99_Bomb(Clone) (Bomb)(0 left)
+Player 2 done placing
+Waiting to place 
+Placing 
+2 placed 86_ArrowShooter(Clone) (ProjectileLauncher)(0 left)
+Player 1 done placing
+Waiting to place 
+Placing 
+1 placed 02_Plank2(Clone) (Placeable)(0 left)
+Player 2 done placing
+Waiting to place 
+Placing 
+2 placed BoxingGlove(Clone) (PunchingBlock)(0 left)
+To Play phase
+Done waiting for characters
+2 lose streak 0 / 2
+NetworkPlayer(Clone) (GamePlayer)
+Player 1 lose streak: 3
+NetworkPlayer(Clone) (GamePlayer)
+To Place phase
+Player 2 done placing
+Waiting to place 
+Placing 
+2 placed 204_SwingingAxe(Clone) (SwingingAxe)(0 left)
+Player 1 done placing
+Waiting to place 
+Placing 
+1 placed 50_PunchingPlant(Clone) (PunchingPlant)(0 left)
+Player 1 done placing
+Waiting to place 
+Placing 
+1 placed Glue(Clone) (MultipieceBlock)(0 left)
+Placing 
+Player 2 done placing
+Waiting to place 
+Placing 
+2 placed Blackhole(Clone) (Blackhole)(0 left)
+To Play phase
+Done waiting for characters
+To Place phase
+Player 1 done placing
+Waiting to place 
+1 placed 99_Bomb(Clone) (Bomb)(0 left)
+Player 2 done placing
+Waiting to place 
+Placing 
+2 placed 06_Beam(Clone) (Placeable)(0 left)
+Player 1 done placing
+Waiting to place 
+Placing 
+1 placed 04_Plank4(Clone) (Placeable)(0 left)
+Player 2 done placing
+Waiting to place 
+Placing 
+2 placed 07_Barrel(Clone) (Placeable)(0 left)
+To Play phase
+Done waiting for characters
+To Place phase
+Player 2 done placing
+Waiting to place 
+Player 1 done placing
+Waiting to place 
+Placing 
+1 placed 10_Stairs(Clone) (Placeable)(0 left)
+2 placed 99b_Bombmega(Clone) (Bomb)(0 left)
+Player 2 done placing
+Waiting to place 
+Placing 
+2 placed 89b_Rotating_Tire_2x2_Glue2(Clone) (RotateBlock)(0 left)
+Placing 
+Placing 
+Player 1 done placing
+Waiting to place 
+Placing 
+1 placed 07_Barrel(Clone) (Placeable)(0 left)
+To Play phase
+Done waiting for characters
+To Place phase
+Player 1 done placing
+Waiting to place 
+Player 2 done placing
+Waiting to place 
+1 placed 99a_Bombmini(Clone) (Bomb)(0 left)
+Destroying Glue 2002512 (required colliders conditions not satisfied)
+Destroying Glue 2002514 (required colliders conditions not satisfied)
+2 placed 99b_Bombmega(Clone) (Bomb)(0 left)
+Player 1 done placing
+Waiting to place 
+1 placed 99_Bomb(Clone) (Bomb)(0 left)
+Player 2 done placing
+Waiting to place 
+Placing 
+2 placed 22_PiecedBarbedWirex2(Clone) (MultipieceBlock)(0 left)
+Placing 
+Placing 
+To Play phase
+Done waiting for characters
+To Place phase
+Player 1 done placing
+Waiting to place 
+1 placed 99_Bomb(Clone) (Bomb)(0 left)
+Destroying Glue 2003152 (required colliders conditions not satisfied)
+Destroying Glue 2003154 (required colliders conditions not satisfied)
+Player 2 done placing
+Waiting to place 
+Placing 
+2 placed 01_1x1 Box(Clone) (Placeable)(0 left)
+Player 1 done placing
+Waiting to place 
+Placing 
+1 placed Coin(Clone) (Coin)(0 left)
+Spawning network surrogate
+Found placeable 1003290 for netsurrogate with ID 169
+Player 2 done placing
+Waiting to place 
+Placing 
+2 placed 06_Beam(Clone) (Placeable)(0 left)
+To Play phase
+Done waiting for characters
+To Place phase
+Player 1 done placing
+Waiting to place 
+Placing 
+Placing 
+Placing 
+Placing 
+Placing 
+Placing 
+Placing 
+Placing 
+Link between  and  not added to group 7: Already exists
+Link not added
+Placing 
+Link between  and  not added to group 8: Already exists
+Link not added
+1 placed FerrisWheelb_Glue2(Clone) (FerrisWheel)(0 left)
+Player 2 done placing
+Waiting to place 
+Placing 
+2 placed 01_1x1 Box(Clone) (Placeable)(0 left)
+Player 1 done placing
+Waiting to place 
+Placing 
+1 placed OneWayDoor(Clone) (AutoDoor)(0 left)
+Spawning network surrogate
+Found placeable 1003390 for netsurrogate with ID 178
+Player 2 done placing
+Waiting to place 
+Placing 
+2 placed 207_PaperAirplaneShooter(Clone) (ProjectileLauncher)(0 left)
+To Play phase
+Done waiting for characters
+There's a winner
+Winner: 2
+Game ending
+Player LobbySkillTracker+DummyInt skill updated: [11.9578562459966, 3.7316583820387] => [14.3794025404498, 3.4582720173849
+Player LobbySkillTracker+DummyInt skill updated: [20.3415394752314, 5.5176617140782] => [15.0487857676569, 4.58563652590083
+Skill for player 1 updated to: [14.3794025404498, 3.4582720173849]
+SQUIRREL  WINS
+Event PlayerRanking: 9
+Event MatchEnd_Host: 10
+Event MatchEnd_Client: 11
+Cannot set the parent of the GameObject 'GluePiece' while it is being destroyed.
+Cannot set the parent of the GameObject 'GluePiece (1)' while it is being destroyed.
+Cannot set the parent of the GameObject 'BarbedwirePiece3' while it is being destroyed.
+Cannot set the parent of the GameObject 'BarbedwirePiece' while it is being destroyed.
+Cannot set the parent of the GameObject 'GluePiece' while it is being destroyed.
+Cannot set the parent of the GameObject 'BarbedwirePiece2' while it is being destroyed.
+Cannot set the parent of the GameObject 'GluePiece' while it is being destroyed.
+Cannot set the parent of the GameObject 'GluePiece' while it is being destroyed.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 59 unused Assets to reduce memory usage. Loaded Objects now: 63381.
+Total: 87.339556 ms (FindLiveObjects: 7.081300 ms CreateObjectMapping: 8.172047 ms MarkObjects: 71.523148 ms  DeleteObjects: 0.562124 ms)
+
+Client not ready 0
+Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 7.483267 ms
+Scene change: TreeHouseLobby
+Destroyed duplicate LobbyManager instance
+Lobby Server scene changed to 
+Lobby client entered
+Lobby Client scene changed
+currenscene name = TreeHouseLobby networked scene name = 
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 84349.
+Total: 72.156591 ms (FindLiveObjects: 3.634377 ms CreateObjectMapping: 3.296889 ms MarkObjects: 65.111195 ms  DeleteObjects: 0.113506 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Setting up SHEEP
+Received message to switch to mode PARTY
+Received message to switch to mode PARTY
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 84031.
+Total: 75.406358 ms (FindLiveObjects: 4.127868 ms CreateObjectMapping: 4.264985 ms MarkObjects: 66.887812 ms  DeleteObjects: 0.124761 ms)
+
+Warning! Page PlayOnlinePage has no page number text element!
+Warning! Page PlayOnlinePage has no page number text element!
+Warning! Page TabletInterface has no page number text element!
+[02/26/2025 14:51:25] [UnetRelayTransport] Resizing 'buffer' array as buffer.Length (1212) < size (1215)
+Game saved to /home/bartosh/.config/unity3d/Clever Endeavour Games/Ultimate Chicken Horse/saveData.uch
+WINDMILL ready to unlock
+There is an unlock at PYRAMID for player xworuE
+Sending all rules to player 2
+There is an unlock at WATERFALL for player Krokol
+Buttons all Pressed
+Starting Vote
+Generating new MatchGUID: 26daaad4-b178-498e-989e-712ad85cec02
+Event MatchStart_Host: 12
+Event MatchRules: 13
+Event MatchPoints: 14
+Event MatchBlocks: 15
+Event MatchModifiers: 16
+Placeable: Initial sequence ID set to 0
+Receiving signal to set game mode to PARTY
+Loading next level: Pyramid
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 538 unused Assets to reduce memory usage. Loaded Objects now: 61790.
+Total: 91.387483 ms (FindLiveObjects: 6.543541 ms CreateObjectMapping: 8.302609 ms MarkObjects: 74.455957 ms  DeleteObjects: 2.084233 ms)
+
+Server switching scenes
+Client not ready 0
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.538939 ms
+Scene change: Pyramid
+Scene loaded for player 1
+Waiting for netid for game player 1
+Game player associated with local player 1
+Lobby Server scene changed to Pyramid
+Client exit
+Lobby Client scene changed
+currenscene name = Pyramid networked scene name = Pyramid
+
+Unloading 149 unused Assets to reduce memory usage. Loaded Objects now: 63589.
+Total: 67.106225 ms (FindLiveObjects: 4.013235 ms CreateObjectMapping: 3.981323 ms MarkObjects: 58.407335 ms  DeleteObjects: 0.703513 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 63589.
+Total: 70.399987 ms (FindLiveObjects: 3.280773 ms CreateObjectMapping: 4.541531 ms MarkObjects: 62.468793 ms  DeleteObjects: 0.107594 ms)
+
+Done waiting for game netid, trying to add again
+Net id 225 added for game player 1
+Scene loaded for player 2
+Waiting for netid for game player 2
+Done waiting for game netid, trying to add again
+Net id 228 added for game player 2
+Marking scene init as done for local players...
+Scene Init done for net player 1
+Waiting for scene init
+Scene Init done for net player 2
+Done waiting for players
+Setup Start
+Event CharacterPicked: 17
+Event MatchStart_Client: 18
+Setting up player 1
+Setting up player 2
+Memorized 4 placeables that are part of the level.
+Sending signal to start phase
+Setting up VS Mode
+Game saved to /home/bartosh/.config/unity3d/Clever Endeavour Games/Ultimate Chicken Horse/saveData.uch
+[Net] SHEEP party cursor (PartyPickCursor) - LobbyManager (LobbyManager) - NetworkPlayer(Clone) (GamePlayer) - 1
+[Net] SQUIRREL party cursor (PartyPickCursor) - LobbyManager (LobbyManager) - NetworkPlayer(Clone) (GamePlayer) - 2
+SHEEP cursor Finding player 1
+SHEEP party cursor Finding controller 1
+SHEEP Finding player 1
+Warning! Page TabletInterface has no page number text element!
+Placing 
+Placing 
+Placing 
+Placing 
+Setup Start done for net player 2
+Marking SetupStart as done for local players...
+Setup Start done for net player 1
+Rules:
+No rules modified
+
+Mods:
+No modifiers set
+To Place phase
+Player 1 done placing
+Waiting to place 
+Placing 
+1 placed 06_Beam(Clone) (Placeable)(0 left)
+Player 2 done placing
+Waiting to place 
+Placing 
+2 placed 10_Stairs(Clone) (Placeable)(0 left)
+Player 2 done placing
+Waiting to place 
+Placing 
+2 placed Flamethrower(Clone) (Lighter)(0 left)
+Player 1 done placing
+Waiting to place 
+Placing 
+1 placed Flamethrower(Clone) (Lighter)(0 left)
+To Play phase
+Done waiting for characters
+To Place phase
+Player 2 done placing
+Waiting to place 
+Placing 
+Placing 
+Placing 
+Placing 
+Placing 
+2 placed FerrisWheel(Clone) (FerrisWheel)(0 left)
+Player 1 done placing
+Waiting to place 
+Placing 
+1 placed 201_Scaffold(Clone) (Placeable)(0 left)
+Player 1 done placing
+Waiting to place 
+Placing 
+1 placed 92_FlippingBlock(Clone) (FlippingBlock)(0 left)
+Player 2 done placing
+Waiting to place 
+Placing 
+2 placed 10_Stairs(Clone) (Placeable)(0 left)
+To Play phase
+Done waiting for characters
+Event LevelUnlocked: 19
+Game saved to /home/bartosh/.config/unity3d/Clever Endeavour Games/Ultimate Chicken Horse/saveData.uch
+2 lose streak 0 / 2
+NetworkPlayer(Clone) (GamePlayer)
+Player 1 lose streak: 1
+NetworkPlayer(Clone) (GamePlayer)
+To Place phase
+Player 1 done placing
+Waiting to place 
+Placing 
+1 placed 21_PiecedBarbedWirex1(Clone) (MultipieceBlock)(0 left)
+Placing 
+Player 2 done placing
+Waiting to place 
+Placing 
+2 placed HockeyShooter(Clone) (HockeyShooter)(0 left)
+Player 1 done placing
+Waiting to place 
+Placing 
+1 placed 92_FlippingBlock(Clone) (FlippingBlock)(0 left)
+Player 2 done placing
+Waiting to place 
+Placing 
+2 placed 23_PiecedBarbedWirex3(Clone) (MultipieceBlock)(0 left)
+Placing 
+Placing 
+Placing 
+To Play phase
+Done waiting for characters
+The key you just pressed is not recognized by SDL. To help get this fixed, please report this to the SDL forums/mailing list <https://discourse.libsdl.org/> X11 KeyCode 151 (143), X11 KeySym 0x1008FF2B (XF86WakeUp).
+1 lose streak 1 / 2
+NetworkPlayer(Clone) (GamePlayer)
+NetworkPlayer(Clone) (GamePlayer)
+Player 2 lose streak: 1
+To Place phase
+Player 1 done placing
+Waiting to place 
+Placing 
+1 placed 10_Stairs(Clone) (Placeable)(0 left)
+Player 2 done placing
+Waiting to place 
+Placing 
+2 placed Blackhole(Clone) (Blackhole)(0 left)
+Player 1 done placing
+Waiting to place 
+Placing 
+1 placed AnimalCannon(Clone) (AnimalCannon)(0 left)
+Spawning network surrogate
+Found placeable 1002720 for netsurrogate with ID 272
+Player 2 done placing
+Waiting to place 
+Placing 
+2 placed 86_ArrowShooter(Clone) (ProjectileLauncher)(0 left)
+To Play phase
+Done waiting for characters
+To Place phase
+Player 1 done placing
+Waiting to place 
+Placing 
+1 placed PiecedIcex3(Clone) (MultipieceBlock)(0 left)
+Placing 
+Placing 
+Part IcePiece3 can't be placed
+Player 2 done placing
+Waiting to place 
+Placing 
+2 placed 202c_SmoothRotate_Glue3(Clone) (RotateBlock)(0 left)
+Placing 
+Placing 
+Placing 
+Player 1 done placing
+Waiting to place 
+Placing 
+1 placed 93_SpinningDeath(Clone) (RotateBlock)(0 left)
+Player 2 done placing
+Waiting to place 
+Placing 
+2 placed Glue(Clone) (MultipieceBlock)(0 left)
+Placing 
+To Play phase
+Done waiting for characters
+To Place phase
+Player 1 done placing
+Waiting to place 
+Placing 
+1 placed 23_PiecedBarbedWirex3(Clone) (MultipieceBlock)(0 left)
+Part BarbedwirePiece1 can't be placed
+Part BarbedwirePiece2 can't be placed
+Placing 
+Player 2 done placing
+Waiting to place 
+Placing 
+2 placed 10_Stairs(Clone) (Placeable)(0 left)
+Player 1 done placing
+Waiting to place 
+Placing 
+1 placed 86_ArrowShooter(Clone) (ProjectileLauncher)(0 left)
+Player 2 done placing
+Waiting to place 
+Placing 
+2 placed AnimalCannon(Clone) (AnimalCannon)(0 left)
+To Play phase
+Spawning network surrogate
+Found placeable 2003850 for netsurrogate with ID 293
+Done waiting for characters
+To Place phase
+Player 1 done placing
+Waiting to place 
+1 placed 99_Bomb(Clone) (Bomb)(0 left)
+Player 2 done placing
+Waiting to place 
+2 placed 99_Bomb(Clone) (Bomb)(0 left)
+Player 1 done placing
+Waiting to place 
+Placing 
+1 placed Coin(Clone) (Coin)(0 left)
+Spawning network surrogate
+Found placeable 1002960 for netsurrogate with ID 302
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 7a33e67ff6c0 -> priority: 1 
+  Thread -> id: 7a341efff6c0 -> priority: 1 
+Event GameQuit: 20
+LocalPlayerRemovedEvent called in LobbyManager
+[Net] St:Leaving Steam Lobby
+<color=cyan>Leaving Match: Network Address (177.143.183.6), Network Port (17778), Relay Region (region_name_eu)</color>
+<color=cyan>Leaving Match: Network Address (177.143.183.6), Network Port (17778), Relay Region (region_name_eu)</color>
+[Net] Shutting down Backend Manager
+LobbyManager being destroyed
+Cannot set the parent of the GameObject 'IcePiece2' while it is being destroyed.
+Cannot set the parent of the GameObject 'GluePiece' while it is being destroyed.
+SaveSystemProtector shutting down...
+LobbyManagerManager shutting down...
+Cannot set the parent of the GameObject 'GluePiece' while it is being destroyed.
+Cannot set the parent of the GameObject 'GluePiece (1)' while it is being destroyed.
+Cannot set the parent of the GameObject 'GluePiece (2)' while it is being destroyed.
+LobbyPlayer.OnDestroy for player 1
+[Net] xworuE left the lobby
+UCHOnlineConnector OnDestroy
+LobbyPlayer.OnDestroy for player 2
+[Net] Krokol left the lobby
+LobbyManagerManager shutting down...
+Curl error 42: Callback aborted

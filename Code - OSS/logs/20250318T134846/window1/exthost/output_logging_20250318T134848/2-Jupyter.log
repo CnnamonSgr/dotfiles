@@ -1,0 +1,698 @@
+Code - OSS (1.98.1, undefined, desktop)
+Jupyter Extension Version: 2025.1.0.
+Python Extension Version: 2025.2.0.
+Pylance Extension not installed.
+Platform: linux (x64).
+Temp Storage folder ~/.config/Code - OSS/User/globalStorage/ms-toolsai.jupyter/version-2025.1.0
+Workspace folder ~/programowanie/pythonowa_nauka, Home = /home/bartosh
+13:49:24.712 [info] Starting Kernel (SageMath 10.5) for '~/programowanie/pythonowa_nauka/matma_sage.ipynb' (disableUI=true)
+13:49:24.735 [info] Launching Raw Kernel SageMath 10.5 # /usr/bin/sage
+13:49:24.743 [info] Process Execution: /usr/bin/sage --python -m sage.repl.ipython_kernel -f /home/~/.local/share/jupyter/runtime/kernel-v39ac456cd8a9af86394282e20579f80a9bd595680.json
+    > cwd: ~/programowanie/pythonowa_nauka
+13:49:27.416 [warn] Kernel completions not enabled for 'SageMath 10.5'. 
+To enable Kernel completion for this language please add the following setting 
+jupyter.completionTriggerCharacters = {sage: [<List of characters that will trigger completions>]}. 
+For more information please see https://aka.ms/vscodeJupyterCompletion
+13:49:27.419 [info] Kernel successfully started
+13:49:27.419 [warn] No nbextensions folder found for kernel .sagemath./usr/bin/sage././usr/bin/sage#--python#-m#sage.repl.ipython_kernel#-f#{connection_file}
+13:49:46.750 [info] Starting Kernel (SageMath 10.5) for '~/programowanie/pythonowa_nauka/matma_dalejsage.ipynb' (disableUI=true)
+13:49:46.758 [info] Launching Raw Kernel SageMath 10.5 # /usr/bin/sage
+13:49:46.805 [info] Process Execution: /usr/bin/sage --python -m sage.repl.ipython_kernel -f /home/~/.local/share/jupyter/runtime/kernel-v3f8728d480d1a14ab25622363f7e7d3982a613631.json
+    > cwd: ~/programowanie/pythonowa_nauka
+13:49:48.523 [warn] Kernel completions not enabled for 'SageMath 10.5'. 
+To enable Kernel completion for this language please add the following setting 
+jupyter.completionTriggerCharacters = {sage: [<List of characters that will trigger completions>]}. 
+For more information please see https://aka.ms/vscodeJupyterCompletion
+13:49:48.524 [info] Kernel successfully started
+13:49:48.524 [warn] No nbextensions folder found for kernel .sagemath./usr/bin/sage././usr/bin/sage#--python#-m#sage.repl.ipython_kernel#-f#{connection_file}
+14:10:27.145 [warn] Cell completed with errors [su [Error]: cannot access local variable 'G' where it is not associated with a value
+	at n.execute (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.1.0-universal/dist/extension.node.js:297:4958)] {
+  ename: 'UnboundLocalError',
+  evalue: "cannot access local variable 'G' where it is not associated with a value",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mUnboundLocalError\x1B[39m                         Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[18]\x1B[39m\x1B[32m, line 56\x1B[39m\n' +
+      `\x1B[32m     49\x1B[39m pl = plot(l, t, Integer(\x1B[32m0\x1B[39m), Integer(\x1B[32m7\x1B[39m), axes_labels=[\x1B[33m'\x1B[39m\x1B[33m$t[s]$\x1B[39m\x1B[33m'\x1B[39m, \x1B[33m'\x1B[39m\x1B[33m$S[m]$\x1B[39m\x1B[33m'\x1B[39m], figsize = Integer(\x1B[32m10\x1B[39m), legend_label=\x1B[33m"\x1B[39m\x1B[33mSARNA\x1B[39m\x1B[33m"\x1B[39m, color=\x1B[33m"\x1B[39m\x1B[33mred\x1B[39m\x1B[33m"\x1B[39m) \n` +
+      '\x1B[32m     51\x1B[39m show(pr + ph + pl)\n' +
+      `\x1B[32m---> \x1B[39m\x1B[32m56\x1B[39m prdk = \x1B[43mplot\x1B[49m\x1B[43m(\x1B[49m\x1B[43mv0s\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mt\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mv0\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mtreak\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mInteger\x1B[49m\x1B[43m(\x1B[49m\x1B[32;43m1\x1B[39;49m\x1B[43m)\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mInteger\x1B[49m\x1B[43m(\x1B[49m\x1B[32;43m7\x1B[39;49m\x1B[43m)\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43maxes_labels\x1B[49m\x1B[43m=\x1B[49m\x1B[43m[\x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43m$t[s]$\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43m$S[m]$\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m]\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mfigsize\x1B[49m\x1B[43m \x1B[49m\x1B[43m=\x1B[49m\x1B[43m \x1B[49m\x1B[43mInteger\x1B[49m\x1B[43m(\x1B[49m\x1B[32;43m10\x1B[39;49m\x1B[43m)\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mlegend_label\x1B[49m\x1B[43m=\x1B[49m\x1B[33;43m"\x1B[39;49m\x1B[33;43mSamochód\x1B[39;49m\x1B[33;43m"\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mcolor\x1B[49m\x1B[43m=\x1B[49m\x1B[33;43m"\x1B[39;49m\x1B[33;43mpurple\x1B[39;49m\x1B[33;43m"\x1B[39;49m\x1B[43m)\x1B[49m \n` +
+      `\x1B[32m     57\x1B[39m reak = plot(Integer(\x1B[32m1\x1B[39m), Integer(\x1B[32m7\x1B[39m), axes_labels=[\x1B[33m'\x1B[39m\x1B[33m$t[s]$\x1B[39m\x1B[33m'\x1B[39m, \x1B[33m'\x1B[39m\x1B[33m$S[m]$\x1B[39m\x1B[33m'\x1B[39m], figsize = Integer(\x1B[32m10\x1B[39m), legend_label=\x1B[33m"\x1B[39m\x1B[33mSamochód\x1B[39m\x1B[33m"\x1B[39m, color=\x1B[33m"\x1B[39m\x1B[33mpurple\x1B[39m\x1B[33m"\x1B[39m) \n` +
+      '\x1B[32m     58\x1B[39m show(prdk)\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/sage/misc/decorators.py:495\x1B[39m, in \x1B[36moptions.__call__.<locals>.wrapper\x1B[39m\x1B[34m(*args, **kwds)\x1B[39m\n' +
+      "\x1B[32m    493\x1B[39m     options[\x1B[33m'\x1B[39m\x1B[33m__original_opts\x1B[39m\x1B[33m'\x1B[39m] = kwds\n" +
+      '\x1B[32m    494\x1B[39m options.update(kwds)\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m495\x1B[39m \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[43mfunc\x1B[49m\x1B[43m(\x1B[49m\x1B[43m*\x1B[49m\x1B[43margs\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43m*\x1B[49m\x1B[43m*\x1B[49m\x1B[43moptions\x1B[49m\x1B[43m)\x1B[49m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/sage/plot/plot.py:2073\x1B[39m, in \x1B[36mplot\x1B[39m\x1B[34m(funcs, *args, **kwds)\x1B[39m\n' +
+      '\x1B[32m   2070\x1B[39m     \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[32m   2071\x1B[39m         sage.misc.verbose.verbose(\x1B[33mf\x1B[39m\x1B[33m"\x1B[39m\x1B[33mthere were \x1B[39m\x1B[38;5;132;01m{\x1B[39;00mn\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m extra arguments (besides \x1B[39m\x1B[38;5;132;01m{\x1B[39;00mfuncs\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m)\x1B[39m\x1B[33m"\x1B[39m, level=\x1B[32m0\x1B[39m)\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m2073\x1B[39m \x1B[43mG\x1B[49m._set_extra_kwds(G_kwds)\n' +
+      '\x1B[32m   2074\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m do_show:\n' +
+      '\x1B[32m   2075\x1B[39m     G.show()\n',
+    "\x1B[31mUnboundLocalError\x1B[39m: cannot access local variable 'G' where it is not associated with a value"
+  ]
+}
+14:11:02.595 [warn] Cell completed with errors [su [Error]: object of type 'sage.rings.integer.Integer' has no len()
+	at n.execute (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.1.0-universal/dist/extension.node.js:297:4958)] {
+  ename: 'TypeError',
+  evalue: "object of type 'sage.rings.integer.Integer' has no len()",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mTypeError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[19]\x1B[39m\x1B[32m, line 57\x1B[39m\n' +
+      '\x1B[32m     51\x1B[39m show(pr + ph + pl)\n' +
+      `\x1B[32m     56\x1B[39m prdk = plot(v0s, Integer(\x1B[32m1\x1B[39m), Integer(\x1B[32m7\x1B[39m), axes_labels=[\x1B[33m'\x1B[39m\x1B[33m$t[s]$\x1B[39m\x1B[33m'\x1B[39m, \x1B[33m'\x1B[39m\x1B[33m$S[m]$\x1B[39m\x1B[33m'\x1B[39m], figsize = Integer(\x1B[32m10\x1B[39m), legend_label=\x1B[33m"\x1B[39m\x1B[33mSamochód\x1B[39m\x1B[33m"\x1B[39m, color=\x1B[33m"\x1B[39m\x1B[33mpurple\x1B[39m\x1B[33m"\x1B[39m) \n` +
+      `\x1B[32m---> \x1B[39m\x1B[32m57\x1B[39m reak = \x1B[43mplot\x1B[49m\x1B[43m(\x1B[49m\x1B[43mInteger\x1B[49m\x1B[43m(\x1B[49m\x1B[32;43m1\x1B[39;49m\x1B[43m)\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mInteger\x1B[49m\x1B[43m(\x1B[49m\x1B[32;43m7\x1B[39;49m\x1B[43m)\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43maxes_labels\x1B[49m\x1B[43m=\x1B[49m\x1B[43m[\x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43m$t[s]$\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43m$S[m]$\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m]\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mfigsize\x1B[49m\x1B[43m \x1B[49m\x1B[43m=\x1B[49m\x1B[43m \x1B[49m\x1B[43mInteger\x1B[49m\x1B[43m(\x1B[49m\x1B[32;43m10\x1B[39;49m\x1B[43m)\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mlegend_label\x1B[49m\x1B[43m=\x1B[49m\x1B[33;43m"\x1B[39;49m\x1B[33;43mSamochód\x1B[39;49m\x1B[33;43m"\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mcolor\x1B[49m\x1B[43m=\x1B[49m\x1B[33;43m"\x1B[39;49m\x1B[33;43mpurple\x1B[39;49m\x1B[33;43m"\x1B[39;49m\x1B[43m)\x1B[49m \n` +
+      '\x1B[32m     58\x1B[39m show(prdk)\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/sage/misc/decorators.py:495\x1B[39m, in \x1B[36moptions.__call__.<locals>.wrapper\x1B[39m\x1B[34m(*args, **kwds)\x1B[39m\n' +
+      "\x1B[32m    493\x1B[39m     options[\x1B[33m'\x1B[39m\x1B[33m__original_opts\x1B[39m\x1B[33m'\x1B[39m] = kwds\n" +
+      '\x1B[32m    494\x1B[39m options.update(kwds)\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m495\x1B[39m \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[43mfunc\x1B[49m\x1B[43m(\x1B[49m\x1B[43m*\x1B[49m\x1B[43margs\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43m*\x1B[49m\x1B[43m*\x1B[49m\x1B[43moptions\x1B[49m\x1B[43m)\x1B[49m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/sage/plot/plot.py:2052\x1B[39m, in \x1B[36mplot\x1B[39m\x1B[34m(funcs, *args, **kwds)\x1B[39m\n' +
+      '\x1B[32m   2050\x1B[39m \x1B[38;5;66;03m# if there is one extra arg, then it had better be a tuple\x1B[39;00m\n' +
+      '\x1B[32m   2051\x1B[39m \x1B[38;5;28;01melif\x1B[39;00m n == \x1B[32m1\x1B[39m:\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m2052\x1B[39m     G = \x1B[43m_plot\x1B[49m\x1B[43m(\x1B[49m\x1B[43mfuncs\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43m*\x1B[49m\x1B[43margs\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43m*\x1B[49m\x1B[43m*\x1B[49m\x1B[43mkwds\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   2053\x1B[39m \x1B[38;5;28;01melif\x1B[39;00m n == \x1B[32m2\x1B[39m:\n' +
+      '\x1B[32m   2054\x1B[39m \x1B[38;5;66;03m# if there are two extra args, then pull them out and pass them as a tuple\x1B[39;00m\n' +
+      '\x1B[32m   2055\x1B[39m     xmin = args[\x1B[32m0\x1B[39m]\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/sage/plot/plot.py:2175\x1B[39m, in \x1B[36m_plot\x1B[39m\x1B[34m(funcs, xrange, parametric, polar, fill, label, randomize, **options)\x1B[39m\n' +
+      '\x1B[32m   2173\x1B[39m excluded_points = []\n' +
+      '\x1B[32m   2174\x1B[39m imag_tol = options[\x1B[33m"\x1B[39m\x1B[33mimaginary_tolerance\x1B[39m\x1B[33m"\x1B[39m]\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m2175\x1B[39m funcs, ranges = \x1B[43msetup_for_eval_on_grid\x1B[49m\x1B[43m(\x1B[49m\x1B[43mfuncs\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   2176\x1B[39m \x1B[43m                                       \x1B[49m\x1B[43m[\x1B[49m\x1B[43mxrange\x1B[49m\x1B[43m]\x1B[49m\x1B[43m,\x1B[49m\n' +
+      "\x1B[32m   2177\x1B[39m \x1B[43m                                       \x1B[49m\x1B[43moptions\x1B[49m\x1B[43m[\x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mplot_points\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m]\x1B[49m\x1B[43m,\x1B[49m\n" +
+      '\x1B[32m   2178\x1B[39m \x1B[43m                                       \x1B[49m\x1B[43mimaginary_tolerance\x1B[49m\x1B[43m=\x1B[49m\x1B[43mimag_tol\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   2179\x1B[39m xmin, xmax, delta = ranges[\x1B[32m0\x1B[39m]\n' +
+      '\x1B[32m   2180\x1B[39m xrange = ranges[\x1B[32m0\x1B[39m][:\x1B[32m2\x1B[39m]\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/sage/plot/misc.py:128\x1B[39m, in \x1B[36msetup_for_eval_on_grid\x1B[39m\x1B[34m(funcs, ranges, plot_points, return_vars, imaginary_tolerance)\x1B[39m\n' +
+      '\x1B[32m     22\x1B[39m \x1B[38;5;28;01mdef\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34msetup_for_eval_on_grid\x1B[39m(funcs,\n' +
+      '\x1B[32m     23\x1B[39m                            ranges,\n' +
+      '\x1B[32m     24\x1B[39m                            plot_points=\x1B[38;5;28;01mNone\x1B[39;00m,\n' +
+      '\x1B[32m     25\x1B[39m                            return_vars=\x1B[38;5;28;01mFalse\x1B[39;00m,\n' +
+      '\x1B[32m     26\x1B[39m                            imaginary_tolerance=\x1B[32m1e-8\x1B[39m):\n' +
+      '\x1B[32m     27\x1B[39m \x1B[38;5;250m    \x1B[39m\x1B[33mr\x1B[39m\x1B[33;03m"""\x1B[39;00m\n' +
+      '\x1B[32m     28\x1B[39m \x1B[33;03m    Calculate the necessary parameters to construct a list of points,\x1B[39;00m\n' +
+      '\x1B[32m     29\x1B[39m \x1B[33;03m    and make the functions fast_callable.\x1B[39;00m\n' +
+      '\x1B[32m   (...)\x1B[39m\x1B[32m    126\x1B[39m \x1B[33;03m        Graphics object consisting of 1 graphics primitive\x1B[39;00m\n' +
+      '\x1B[32m    127\x1B[39m \x1B[33;03m    """\x1B[39;00m\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m128\x1B[39m     \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28;43mmax\x1B[39;49m\x1B[43m(\x1B[49m\x1B[38;5;28;43mmap\x1B[39;49m\x1B[43m(\x1B[49m\x1B[38;5;28;43mlen\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mranges\x1B[49m\x1B[43m)\x1B[49m\x1B[43m)\x1B[49m > \x1B[32m3\x1B[39m:\n' +
+      '\x1B[32m    129\x1B[39m         \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mValueError\x1B[39;00m(\x1B[33m"\x1B[39m\x1B[33mAt least one variable range has more than 3 entries: each should either have 2 or 3 entries, with one of the forms (xmin, xmax) or (x, xmin, xmax)\x1B[39m\x1B[33m"\x1B[39m)\n' +
+      '\x1B[32m    130\x1B[39m     \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28mmax\x1B[39m(\x1B[38;5;28mmap\x1B[39m(\x1B[38;5;28mlen\x1B[39m, ranges)) != \x1B[38;5;28mmin\x1B[39m(\x1B[38;5;28mmap\x1B[39m(\x1B[38;5;28mlen\x1B[39m, ranges)):\n',
+    "\x1B[31mTypeError\x1B[39m: object of type 'sage.rings.integer.Integer' has no len()"
+  ]
+}
+14:25:36.104 [warn] Cell completed with errors [su [Error]: name 'V' is not defined
+	at n.execute (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.1.0-universal/dist/extension.node.js:297:4958)] {
+  ename: 'NameError',
+  evalue: "name 'V' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[30]\x1B[39m\x1B[32m, line 58\x1B[39m\n' +
+      `\x1B[32m     54\x1B[39m zatrz = plot(v0s - a * (t - treak), Integer(\x1B[32m1\x1B[39m), Integer(\x1B[32m7\x1B[39m), axes_labels=[\x1B[33m'\x1B[39m\x1B[33m$t[s]$\x1B[39m\x1B[33m'\x1B[39m, \x1B[33m'\x1B[39m\x1B[33m$V[m/s]$\x1B[39m\x1B[33m'\x1B[39m], figsize = Integer(\x1B[32m10\x1B[39m), legend_label=\x1B[33m"\x1B[39m\x1B[33mSamochód hamuje\x1B[39m\x1B[33m"\x1B[39m, color=\x1B[33m"\x1B[39m\x1B[33mpurple\x1B[39m\x1B[33m"\x1B[39m) \n` +
+      '\x1B[32m     55\x1B[39m show(prdk + zatrz)\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m58\x1B[39m bezpieczne = solve(v0s * treak + (Integer(\x1B[32m1\x1B[39m)/Integer(\x1B[32m2\x1B[39m))*(v0s**Integer(\x1B[32m2\x1B[39m)/a) == Integer(\x1B[32m45\x1B[39m), \x1B[43mV\x1B[49m)\n' +
+      '\x1B[32m     60\x1B[39m \x1B[38;5;28mprint\x1B[39m(bezpieczne)\n',
+    "\x1B[31mNameError\x1B[39m: name 'V' is not defined"
+  ]
+}
+14:25:48.302 [warn] Cell completed with errors [su [Error]: name 'V0s' is not defined
+	at n.execute (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.1.0-universal/dist/extension.node.js:297:4958)] {
+  ename: 'NameError',
+  evalue: "name 'V0s' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[31]\x1B[39m\x1B[32m, line 58\x1B[39m\n' +
+      `\x1B[32m     54\x1B[39m zatrz = plot(v0s - a * (t - treak), Integer(\x1B[32m1\x1B[39m), Integer(\x1B[32m7\x1B[39m), axes_labels=[\x1B[33m'\x1B[39m\x1B[33m$t[s]$\x1B[39m\x1B[33m'\x1B[39m, \x1B[33m'\x1B[39m\x1B[33m$V[m/s]$\x1B[39m\x1B[33m'\x1B[39m], figsize = Integer(\x1B[32m10\x1B[39m), legend_label=\x1B[33m"\x1B[39m\x1B[33mSamochód hamuje\x1B[39m\x1B[33m"\x1B[39m, color=\x1B[33m"\x1B[39m\x1B[33mpurple\x1B[39m\x1B[33m"\x1B[39m) \n` +
+      '\x1B[32m     55\x1B[39m show(prdk + zatrz)\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m58\x1B[39m bezpieczne = solve(v0s * treak + (Integer(\x1B[32m1\x1B[39m)/Integer(\x1B[32m2\x1B[39m))*(v0s**Integer(\x1B[32m2\x1B[39m)/a) == Integer(\x1B[32m45\x1B[39m), \x1B[43mV0s\x1B[49m)\n' +
+      '\x1B[32m     60\x1B[39m \x1B[38;5;28mprint\x1B[39m(bezpieczne)\n',
+    "\x1B[31mNameError\x1B[39m: name 'V0s' is not defined"
+  ]
+}
+14:25:56.705 [warn] Cell completed with errors [su [Error]: 250/9 is not a valid variable.
+	at n.execute (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.1.0-universal/dist/extension.node.js:297:4958)] {
+  ename: 'TypeError',
+  evalue: '250/9 is not a valid variable.',
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mTypeError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[32]\x1B[39m\x1B[32m, line 58\x1B[39m\n' +
+      `\x1B[32m     54\x1B[39m zatrz = plot(v0s - a * (t - treak), Integer(\x1B[32m1\x1B[39m), Integer(\x1B[32m7\x1B[39m), axes_labels=[\x1B[33m'\x1B[39m\x1B[33m$t[s]$\x1B[39m\x1B[33m'\x1B[39m, \x1B[33m'\x1B[39m\x1B[33m$V[m/s]$\x1B[39m\x1B[33m'\x1B[39m], figsize = Integer(\x1B[32m10\x1B[39m), legend_label=\x1B[33m"\x1B[39m\x1B[33mSamochód hamuje\x1B[39m\x1B[33m"\x1B[39m, color=\x1B[33m"\x1B[39m\x1B[33mpurple\x1B[39m\x1B[33m"\x1B[39m) \n` +
+      '\x1B[32m     55\x1B[39m show(prdk + zatrz)\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m58\x1B[39m bezpieczne = \x1B[43msolve\x1B[49m\x1B[43m(\x1B[49m\x1B[43mv0s\x1B[49m\x1B[43m \x1B[49m\x1B[43m*\x1B[49m\x1B[43m \x1B[49m\x1B[43mtreak\x1B[49m\x1B[43m \x1B[49m\x1B[43m+\x1B[49m\x1B[43m \x1B[49m\x1B[43m(\x1B[49m\x1B[43mInteger\x1B[49m\x1B[43m(\x1B[49m\x1B[32;43m1\x1B[39;49m\x1B[43m)\x1B[49m\x1B[43m/\x1B[49m\x1B[43mInteger\x1B[49m\x1B[43m(\x1B[49m\x1B[32;43m2\x1B[39;49m\x1B[43m)\x1B[49m\x1B[43m)\x1B[49m\x1B[43m*\x1B[49m\x1B[43m(\x1B[49m\x1B[43mv0s\x1B[49m\x1B[43m*\x1B[49m\x1B[43m*\x1B[49m\x1B[43mInteger\x1B[49m\x1B[43m(\x1B[49m\x1B[32;43m2\x1B[39;49m\x1B[43m)\x1B[49m\x1B[43m/\x1B[49m\x1B[43ma\x1B[49m\x1B[43m)\x1B[49m\x1B[43m \x1B[49m\x1B[43m==\x1B[49m\x1B[43m \x1B[49m\x1B[43mInteger\x1B[49m\x1B[43m(\x1B[49m\x1B[32;43m45\x1B[39;49m\x1B[43m)\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mv0s\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m     60\x1B[39m \x1B[38;5;28mprint\x1B[39m(bezpieczne)\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/sage/symbolic/relation.py:1057\x1B[39m, in \x1B[36msolve\x1B[39m\x1B[34m(f, *args, **kwds)\x1B[39m\n' +
+      '\x1B[32m   1055\x1B[39m     x = \x1B[38;5;28mvars\x1B[39m[\x1B[32m0\x1B[39m]\n' +
+      '\x1B[32m   1056\x1B[39m \x1B[38;5;28;01melif\x1B[39;00m \x1B[38;5;129;01mnot\x1B[39;00m \x1B[38;5;28misinstance\x1B[39m(x, Expression):\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m1057\x1B[39m     \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mTypeError\x1B[39;00m(\x1B[33m"\x1B[39m\x1B[38;5;132;01m%s\x1B[39;00m\x1B[33m is not a valid variable.\x1B[39m\x1B[33m"\x1B[39m % \x1B[38;5;28mrepr\x1B[39m(x))\n' +
+      '\x1B[32m   1059\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28misinstance\x1B[39m(f, (\x1B[38;5;28mlist\x1B[39m, \x1B[38;5;28mtuple\x1B[39m)) \x1B[38;5;129;01mand\x1B[39;00m \x1B[38;5;28mlen\x1B[39m(f) == \x1B[32m1\x1B[39m:\n' +
+      '\x1B[32m   1060\x1B[39m     \x1B[38;5;66;03m# f is a list with a single element\x1B[39;00m\n' +
+      '\x1B[32m   1061\x1B[39m     \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28misinstance\x1B[39m(f[\x1B[32m0\x1B[39m], Expression):\n',
+    '\x1B[31mTypeError\x1B[39m: 250/9 is not a valid variable.'
+  ]
+}
+14:28:13.803 [warn] Cell completed with errors [su [Error]: 'Sequence_generic' object has no attribute 'rhs'
+	at n.execute (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.1.0-universal/dist/extension.node.js:297:4958)] {
+  ename: 'AttributeError',
+  evalue: "'Sequence_generic' object has no attribute 'rhs'",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mAttributeError\x1B[39m                            Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[34]\x1B[39m\x1B[32m, line 60\x1B[39m\n' +
+      '\x1B[32m     57\x1B[39m var(\x1B[33m"\x1B[39m\x1B[33mv0s\x1B[39m\x1B[33m"\x1B[39m)\n' +
+      '\x1B[32m     58\x1B[39m bezpieczne = solve(v0s * treak + (Integer(\x1B[32m1\x1B[39m)/Integer(\x1B[32m2\x1B[39m))*(v0s**Integer(\x1B[32m2\x1B[39m)/a) == Integer(\x1B[32m45\x1B[39m), v0s)\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m60\x1B[39m \x1B[38;5;28mprint\x1B[39m(\x1B[43mbezpieczne\x1B[49m\x1B[43m.\x1B[49m\x1B[43mrhs\x1B[49m)\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/sage/structure/sequence.py:882\x1B[39m, in \x1B[36mSequence_generic.__getattr__\x1B[39m\x1B[34m(self, name)\x1B[39m\n' +
+      '\x1B[32m    880\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28mself\x1B[39m.__hash\n' +
+      '\x1B[32m    881\x1B[39m \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      `\x1B[32m--> \x1B[39m\x1B[32m882\x1B[39m     \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mAttributeError\x1B[39;00m(\x1B[33m"\x1B[39m\x1B[33m'\x1B[39m\x1B[33mSequence_generic\x1B[39m\x1B[33m'\x1B[39m\x1B[33m object has no attribute \x1B[39m\x1B[33m'\x1B[39m\x1B[38;5;132;01m%s\x1B[39;00m\x1B[33m'\x1B[39m\x1B[33m"\x1B[39m % name)\n`,
+    "\x1B[31mAttributeError\x1B[39m: 'Sequence_generic' object has no attribute 'rhs'"
+  ]
+}
+14:28:23.346 [warn] Cell completed with errors [su [Error]: 'Sequence_generic' object has no attribute 'rhs'
+	at n.execute (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.1.0-universal/dist/extension.node.js:297:4958)] {
+  ename: 'AttributeError',
+  evalue: "'Sequence_generic' object has no attribute 'rhs'",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mAttributeError\x1B[39m                            Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[35]\x1B[39m\x1B[32m, line 60\x1B[39m\n' +
+      '\x1B[32m     57\x1B[39m var(\x1B[33m"\x1B[39m\x1B[33mv0s\x1B[39m\x1B[33m"\x1B[39m)\n' +
+      '\x1B[32m     58\x1B[39m bezpieczne = solve(v0s * treak + (Integer(\x1B[32m1\x1B[39m)/Integer(\x1B[32m2\x1B[39m))*(v0s**Integer(\x1B[32m2\x1B[39m)/a) == Integer(\x1B[32m45\x1B[39m), v0s)\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m60\x1B[39m \x1B[38;5;28mprint\x1B[39m(\x1B[43mbezpieczne\x1B[49m\x1B[43m.\x1B[49m\x1B[43mrhs\x1B[49m())\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/sage/structure/sequence.py:882\x1B[39m, in \x1B[36mSequence_generic.__getattr__\x1B[39m\x1B[34m(self, name)\x1B[39m\n' +
+      '\x1B[32m    880\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28mself\x1B[39m.__hash\n' +
+      '\x1B[32m    881\x1B[39m \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      `\x1B[32m--> \x1B[39m\x1B[32m882\x1B[39m     \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mAttributeError\x1B[39;00m(\x1B[33m"\x1B[39m\x1B[33m'\x1B[39m\x1B[33mSequence_generic\x1B[39m\x1B[33m'\x1B[39m\x1B[33m object has no attribute \x1B[39m\x1B[33m'\x1B[39m\x1B[38;5;132;01m%s\x1B[39;00m\x1B[33m'\x1B[39m\x1B[33m"\x1B[39m % name)\n`,
+    "\x1B[31mAttributeError\x1B[39m: 'Sequence_generic' object has no attribute 'rhs'"
+  ]
+}
+14:31:17.425 [warn] Cell completed with errors [su [Error]: name 'bezpieczna' is not defined
+	at n.execute (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.1.0-universal/dist/extension.node.js:297:4958)] {
+  ename: 'NameError',
+  evalue: "name 'bezpieczna' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[38]\x1B[39m\x1B[32m, line 63\x1B[39m\n' +
+      '\x1B[32m     60\x1B[39m \x1B[38;5;28mprint\x1B[39m(bezpieczne[Integer(\x1B[32m0\x1B[39m)].rhs().n())\n' +
+      '\x1B[32m     61\x1B[39m \x1B[38;5;28mprint\x1B[39m(\x1B[33mf\x1B[39m\x1B[33m"\x1B[39m\x1B[33mPrędkość bezpieczna: \x1B[39m\x1B[38;5;132;01m{\x1B[39;00mbezpieczne[Integer(\x1B[32m1\x1B[39m)].rhs().n()\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m m/s\x1B[39m\x1B[33m"\x1B[39m) \x1B[38;5;66;03m#ten jest git \x1B[39;00m\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m63\x1B[39m \x1B[43mbezpieczna\x1B[49m * Integer(\x1B[32m1000\x1B[39m)\n',
+    "\x1B[31mNameError\x1B[39m: name 'bezpieczna' is not defined"
+  ]
+}
+14:32:26.543 [warn] Cell completed with errors [su [Error]: name 'bezpieczna' is not defined
+	at n.execute (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.1.0-universal/dist/extension.node.js:297:4958)] {
+  ename: 'NameError',
+  evalue: "name 'bezpieczna' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[39]\x1B[39m\x1B[32m, line 64\x1B[39m\n' +
+      '\x1B[32m     61\x1B[39m bezpieczne_git_1 = bezpieczne[Integer(\x1B[32m1\x1B[39m)].rhs().n()\n' +
+      '\x1B[32m     62\x1B[39m \x1B[38;5;28mprint\x1B[39m(\x1B[33mf\x1B[39m\x1B[33m"\x1B[39m\x1B[33mPrędkość bezpieczna: \x1B[39m\x1B[38;5;132;01m{\x1B[39;00mbezpieczne_git_1\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m m/s\x1B[39m\x1B[33m"\x1B[39m) \x1B[38;5;66;03m#ten jest git \x1B[39;00m\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m64\x1B[39m \x1B[38;5;28mprint\x1B[39m(\x1B[43mbezpieczna\x1B[49m * Integer(\x1B[32m1000\x1B[39m))\n',
+    "\x1B[31mNameError\x1B[39m: name 'bezpieczna' is not defined"
+  ]
+}
+14:44:36.838 [warn] Cell completed with errors [su [Error]: unsupported operand type(s) for /: 'sage.rings.real_mpfr.RealLiteral' and 'tuple'
+	at n.execute (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.1.0-universal/dist/extension.node.js:297:4958)] {
+  ename: 'TypeError',
+  evalue: "unsupported operand type(s) for /: 'sage.rings.real_mpfr.RealLiteral' and 'tuple'",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mTypeError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[44]\x1B[39m\x1B[32m, line 5\x1B[39m\n' +
+      '\x1B[32m      2\x1B[39m t = Integer(\x1B[32m60\x1B[39m) \x1B[38;5;66;03m# czas 1 minuty w sekundach\x1B[39;00m\n' +
+      '\x1B[32m      3\x1B[39m g = Integer(\x1B[32m9\x1B[39m),Integer(\x1B[32m81\x1B[39m) \x1B[38;5;66;03m# przyciąganie ziemskie w m/s^2\x1B[39;00m\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m5\x1B[39m th = \x1B[43mv0s\x1B[49m\x1B[43m/\x1B[49m\x1B[43mg\x1B[49m\n' +
+      '\x1B[32m      7\x1B[39m \x1B[38;5;28mprint\x1B[39m(th)\n' +
+      '\x1B[32m      9\x1B[39m \x1B[38;5;66;03m# ruch jednostajnie przyspieszony, po minucie jednostajnie opóźniony  \x1B[39;00m\n',
+    "\x1B[31mTypeError\x1B[39m: unsupported operand type(s) for /: 'sage.rings.real_mpfr.RealLiteral' and 'tuple'"
+  ]
+}
+15:25:55.804 [warn] Cell completed with errors [su [Error]: The name "60" is not a valid Python identifier.
+	at n.execute (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.1.0-universal/dist/extension.node.js:297:4958)] {
+  ename: 'ValueError',
+  evalue: 'The name "60" is not a valid Python identifier.',
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mValueError\x1B[39m                                Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[57]\x1B[39m\x1B[32m, line 41\x1B[39m\n' +
+      '\x1B[32m     32\x1B[39m tc = t1 + t2 + t3 \x1B[38;5;66;03m# suma wszystkich sekund\x1B[39;00m\n' +
+      '\x1B[32m     34\x1B[39m \x1B[38;5;28mprint\x1B[39m(\x1B[33mf\x1B[39m\x1B[33m"\x1B[39m\x1B[33mRakiety byłą w powietrzu \x1B[39m\x1B[38;5;132;01m{\x1B[39;00mtc\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m sekund (\x1B[39m\x1B[38;5;132;01m{\x1B[39;00mtc/Integer(\x1B[32m60\x1B[39m)\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m minut)\x1B[39m\x1B[33m"\x1B[39m)\n' +
+      `\x1B[32m---> \x1B[39m\x1B[32m41\x1B[39m war1 = \x1B[43mplot\x1B[49m\x1B[43m(\x1B[49m\x1B[43mx1\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mt1\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mInteger\x1B[49m\x1B[43m(\x1B[49m\x1B[32;43m0\x1B[39;49m\x1B[43m)\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mInteger\x1B[49m\x1B[43m(\x1B[49m\x1B[32;43m7\x1B[39;49m\x1B[43m)\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43maxes_labels\x1B[49m\x1B[43m=\x1B[49m\x1B[43m[\x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43m$t[s]$\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43m$X[m]$\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m]\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mfigsize\x1B[49m\x1B[43m \x1B[49m\x1B[43m=\x1B[49m\x1B[43m \x1B[49m\x1B[43mInteger\x1B[49m\x1B[43m(\x1B[49m\x1B[32;43m10\x1B[39;49m\x1B[43m)\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mlegend_label\x1B[49m\x1B[43m=\x1B[49m\x1B[33;43m"\x1B[39;49m\x1B[33;43mRakieta leci z paliwem\x1B[39;49m\x1B[33;43m"\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mcolor\x1B[49m\x1B[43m=\x1B[49m\x1B[33;43m"\x1B[39;49m\x1B[33;43mpurple\x1B[39;49m\x1B[33;43m"\x1B[39;49m\x1B[43m)\x1B[49m \n` +
+      `\x1B[32m     42\x1B[39m war2 = plot(t2, Integer(\x1B[32m0\x1B[39m), Integer(\x1B[32m1\x1B[39m), axes_labels=[\x1B[33m'\x1B[39m\x1B[33m$t[s]$\x1B[39m\x1B[33m'\x1B[39m, \x1B[33m'\x1B[39m\x1B[33m$X[m]$\x1B[39m\x1B[33m'\x1B[39m], figsize = Integer(\x1B[32m10\x1B[39m), legend_label=\x1B[33m"\x1B[39m\x1B[33mRakieta leci sama z siebie\x1B[39m\x1B[33m"\x1B[39m, color=\x1B[33m"\x1B[39m\x1B[33mgreen\x1B[39m\x1B[33m"\x1B[39m) \n` +
+      `\x1B[32m     43\x1B[39m war3 = plot(t3, Integer(\x1B[32m0\x1B[39m), Integer(\x1B[32m7\x1B[39m), axes_labels=[\x1B[33m'\x1B[39m\x1B[33m$t[s]$\x1B[39m\x1B[33m'\x1B[39m, \x1B[33m'\x1B[39m\x1B[33m$X[m]$\x1B[39m\x1B[33m'\x1B[39m], figsize = Integer(\x1B[32m10\x1B[39m), legend_label=\x1B[33m"\x1B[39m\x1B[33mRakieta ląduje\x1B[39m\x1B[33m"\x1B[39m, color=\x1B[33m"\x1B[39m\x1B[33mred\x1B[39m\x1B[33m"\x1B[39m) \n`,
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/sage/misc/decorators.py:495\x1B[39m, in \x1B[36moptions.__call__.<locals>.wrapper\x1B[39m\x1B[34m(*args, **kwds)\x1B[39m\n' +
+      "\x1B[32m    493\x1B[39m     options[\x1B[33m'\x1B[39m\x1B[33m__original_opts\x1B[39m\x1B[33m'\x1B[39m] = kwds\n" +
+      '\x1B[32m    494\x1B[39m options.update(kwds)\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m495\x1B[39m \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[43mfunc\x1B[49m\x1B[43m(\x1B[49m\x1B[43m*\x1B[49m\x1B[43margs\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43m*\x1B[49m\x1B[43m*\x1B[49m\x1B[43moptions\x1B[49m\x1B[43m)\x1B[49m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/sage/plot/plot.py:2065\x1B[39m, in \x1B[36mplot\x1B[39m\x1B[34m(funcs, *args, **kwds)\x1B[39m\n' +
+      '\x1B[32m   2063\x1B[39m     xmax = args[\x1B[32m2\x1B[39m]\n' +
+      '\x1B[32m   2064\x1B[39m     args = args[\x1B[32m3\x1B[39m:]\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m2065\x1B[39m     G = \x1B[43m_plot\x1B[49m\x1B[43m(\x1B[49m\x1B[43mfuncs\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43m(\x1B[49m\x1B[43mvar\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mxmin\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mxmax\x1B[49m\x1B[43m)\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43m*\x1B[49m\x1B[43margs\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43m*\x1B[49m\x1B[43m*\x1B[49m\x1B[43mkwds\x1B[49m\x1B[43m)\x1B[49m\n' +
+      "\x1B[32m   2066\x1B[39m \x1B[38;5;28;01melif\x1B[39;00m (\x1B[33m'\x1B[39m\x1B[33mxmin\x1B[39m\x1B[33m'\x1B[39m \x1B[38;5;129;01min\x1B[39;00m kwds) \x1B[38;5;129;01mor\x1B[39;00m (\x1B[33m'\x1B[39m\x1B[33mxmax\x1B[39m\x1B[33m'\x1B[39m \x1B[38;5;129;01min\x1B[39;00m kwds):\n" +
+      "\x1B[32m   2067\x1B[39m     xmin = kwds.pop(\x1B[33m'\x1B[39m\x1B[33mxmin\x1B[39m\x1B[33m'\x1B[39m, -\x1B[32m1\x1B[39m)\n",
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/sage/plot/plot.py:2175\x1B[39m, in \x1B[36m_plot\x1B[39m\x1B[34m(funcs, xrange, parametric, polar, fill, label, randomize, **options)\x1B[39m\n' +
+      '\x1B[32m   2173\x1B[39m excluded_points = []\n' +
+      '\x1B[32m   2174\x1B[39m imag_tol = options[\x1B[33m"\x1B[39m\x1B[33mimaginary_tolerance\x1B[39m\x1B[33m"\x1B[39m]\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m2175\x1B[39m funcs, ranges = \x1B[43msetup_for_eval_on_grid\x1B[49m\x1B[43m(\x1B[49m\x1B[43mfuncs\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   2176\x1B[39m \x1B[43m                                       \x1B[49m\x1B[43m[\x1B[49m\x1B[43mxrange\x1B[49m\x1B[43m]\x1B[49m\x1B[43m,\x1B[49m\n' +
+      "\x1B[32m   2177\x1B[39m \x1B[43m                                       \x1B[49m\x1B[43moptions\x1B[49m\x1B[43m[\x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mplot_points\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m]\x1B[49m\x1B[43m,\x1B[49m\n" +
+      '\x1B[32m   2178\x1B[39m \x1B[43m                                       \x1B[49m\x1B[43mimaginary_tolerance\x1B[49m\x1B[43m=\x1B[49m\x1B[43mimag_tol\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   2179\x1B[39m xmin, xmax, delta = ranges[\x1B[32m0\x1B[39m]\n' +
+      '\x1B[32m   2180\x1B[39m xrange = ranges[\x1B[32m0\x1B[39m][:\x1B[32m2\x1B[39m]\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/sage/plot/misc.py:211\x1B[39m, in \x1B[36msetup_for_eval_on_grid\x1B[39m\x1B[34m(funcs, ranges, plot_points, return_vars, imaginary_tolerance)\x1B[39m\n' +
+      '\x1B[32m    209\x1B[39m     funcs = \x1B[38;5;28mtuple\x1B[39m( try_make_fast(f) \x1B[38;5;28;01mfor\x1B[39;00m f \x1B[38;5;129;01min\x1B[39;00m funcs )\n' +
+      '\x1B[32m    210\x1B[39m \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m211\x1B[39m     funcs = \x1B[43mtry_make_fast\x1B[49m\x1B[43m(\x1B[49m\x1B[43mfuncs\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m    213\x1B[39m \x1B[38;5;66;03m#TODO: raise an error if there is a function/method in funcs that takes more values than we have ranges\x1B[39;00m\n' +
+      '\x1B[32m    215\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m return_vars:\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/sage/plot/misc.py:201\x1B[39m, in \x1B[36msetup_for_eval_on_grid.<locals>.try_make_fast\x1B[39m\x1B[34m(f)\x1B[39m\n' +
+      '\x1B[32m    198\x1B[39m \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[32m    199\x1B[39m     \x1B[38;5;66;03m# Convert things like ZZ(0) into constant functions.\x1B[39;00m\n' +
+      '\x1B[32m    200\x1B[39m     \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01msage\x1B[39;00m\x1B[34;01m.\x1B[39;00m\x1B[34;01msymbolic\x1B[39;00m\x1B[34;01m.\x1B[39;00m\x1B[34;01mring\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m SR\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m201\x1B[39m     ff = \x1B[43mfast_callable\x1B[49m\x1B[43m(\x1B[49m\x1B[43mSR\x1B[49m\x1B[43m(\x1B[49m\x1B[43mf\x1B[49m\x1B[43m)\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m    202\x1B[39m \x1B[43m                       \x1B[49m\x1B[38;5;28;43mvars\x1B[39;49m\x1B[43m=\x1B[49m\x1B[38;5;28;43mvars\x1B[39;49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m    203\x1B[39m \x1B[43m                       \x1B[49m\x1B[43mexpect_one_var\x1B[49m\x1B[43m=\x1B[49m\x1B[43meov\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m    204\x1B[39m \x1B[43m                       \x1B[49m\x1B[43mdomain\x1B[49m\x1B[43m=\x1B[49m\x1B[43mCDF\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m    205\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m FastCallablePlotWrapper(ff, imag_tol=imaginary_tolerance)\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/sage/ext/fast_callable.pyx:473\x1B[39m, in \x1B[36msage.ext.fast_callable.fast_callable (build/cythonized/sage/ext/fast_callable.c:7467)\x1B[39m\x1B[34m()\x1B[39m\n' +
+      '\x1B[32m    471\x1B[39m     from sage.symbolic.ring import SR\n' +
+      '\x1B[32m    472\x1B[39m     return SR.var(var)\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m473\x1B[39m vars = [to_var(var) for var in vars]\n' +
+      '\x1B[32m    474\x1B[39m # Convert to a callable symbolic expression\n' +
+      '\x1B[32m    475\x1B[39m x = x.function(*vars)\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/sage/ext/fast_callable.pyx:472\x1B[39m, in \x1B[36msage.ext.fast_callable.fast_callable.to_var (build/cythonized/sage/ext/fast_callable.c:6934)\x1B[39m\x1B[34m()\x1B[39m\n' +
+      '\x1B[32m    470\x1B[39m         return var\n' +
+      '\x1B[32m    471\x1B[39m     from sage.symbolic.ring import SR\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m472\x1B[39m     return SR.var(var)\n' +
+      '\x1B[32m    473\x1B[39m vars = [to_var(var) for var in vars]\n' +
+      '\x1B[32m    474\x1B[39m # Convert to a callable symbolic expression\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/sage/symbolic/ring.pyx:884\x1B[39m, in \x1B[36msage.symbolic.ring.SymbolicRing.var (build/cythonized/sage/symbolic/ring.c:11950)\x1B[39m\x1B[34m()\x1B[39m\n' +
+      '\x1B[32m    882\x1B[39m for s in names_list:\n' +
+      '\x1B[32m    883\x1B[39m     if not isidentifier(s):\n' +
+      `\x1B[32m--> \x1B[39m\x1B[32m884\x1B[39m         raise ValueError(f'The name "{s}" is not a valid Python identifier.')\n` +
+      '\x1B[32m    885\x1B[39m     # warn on bad symbol names, but only once\n' +
+      '\x1B[32m    886\x1B[39m     # symbol... names are temporary variables created with\n',
+    '\x1B[31mValueError\x1B[39m: The name "60" is not a valid Python identifier.'
+  ]
+}
+15:30:27.559 [warn] Cell completed with errors [su [Error]: The name "60" is not a valid Python identifier.
+	at n.execute (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.1.0-universal/dist/extension.node.js:297:4958)] {
+  ename: 'ValueError',
+  evalue: 'The name "60" is not a valid Python identifier.',
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mValueError\x1B[39m                                Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[64]\x1B[39m\x1B[32m, line 43\x1B[39m\n' +
+      '\x1B[32m     36\x1B[39m var(\x1B[33m"\x1B[39m\x1B[33mt\x1B[39m\x1B[33m"\x1B[39m)\n' +
+      '\x1B[32m     38\x1B[39m x = Integer(\x1B[32m1\x1B[39m)/Integer(\x1B[32m2\x1B[39m) * a * t1**Integer(\x1B[32m2\x1B[39m)\n' +
+      `\x1B[32m---> \x1B[39m\x1B[32m43\x1B[39m war1 = \x1B[43mplot\x1B[49m\x1B[43m(\x1B[49m\x1B[43mx\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mt1\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mInteger\x1B[49m\x1B[43m(\x1B[49m\x1B[32;43m0\x1B[39;49m\x1B[43m)\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mInteger\x1B[49m\x1B[43m(\x1B[49m\x1B[32;43m7\x1B[39;49m\x1B[43m)\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43maxes_labels\x1B[49m\x1B[43m=\x1B[49m\x1B[43m[\x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43m$t[s]$\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43m$X[m]$\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m]\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mfigsize\x1B[49m\x1B[43m \x1B[49m\x1B[43m=\x1B[49m\x1B[43m \x1B[49m\x1B[43mInteger\x1B[49m\x1B[43m(\x1B[49m\x1B[32;43m10\x1B[39;49m\x1B[43m)\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mlegend_label\x1B[49m\x1B[43m=\x1B[49m\x1B[33;43m"\x1B[39;49m\x1B[33;43mRakieta leci z paliwem\x1B[39;49m\x1B[33;43m"\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mcolor\x1B[49m\x1B[43m=\x1B[49m\x1B[33;43m"\x1B[39;49m\x1B[33;43mpurple\x1B[39;49m\x1B[33;43m"\x1B[39;49m\x1B[43m)\x1B[49m \n` +
+      `\x1B[32m     44\x1B[39m war2 = plot(t2, Integer(\x1B[32m0\x1B[39m), Integer(\x1B[32m1\x1B[39m), axes_labels=[\x1B[33m'\x1B[39m\x1B[33m$t[s]$\x1B[39m\x1B[33m'\x1B[39m, \x1B[33m'\x1B[39m\x1B[33m$X[m]$\x1B[39m\x1B[33m'\x1B[39m], figsize = Integer(\x1B[32m10\x1B[39m), legend_label=\x1B[33m"\x1B[39m\x1B[33mRakieta leci sama z siebie\x1B[39m\x1B[33m"\x1B[39m, color=\x1B[33m"\x1B[39m\x1B[33mgreen\x1B[39m\x1B[33m"\x1B[39m) \n` +
+      `\x1B[32m     45\x1B[39m war3 = plot(t3, Integer(\x1B[32m0\x1B[39m), Integer(\x1B[32m7\x1B[39m), axes_labels=[\x1B[33m'\x1B[39m\x1B[33m$t[s]$\x1B[39m\x1B[33m'\x1B[39m, \x1B[33m'\x1B[39m\x1B[33m$X[m]$\x1B[39m\x1B[33m'\x1B[39m], figsize = Integer(\x1B[32m10\x1B[39m), legend_label=\x1B[33m"\x1B[39m\x1B[33mRakieta ląduje\x1B[39m\x1B[33m"\x1B[39m, color=\x1B[33m"\x1B[39m\x1B[33mred\x1B[39m\x1B[33m"\x1B[39m) \n`,
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/sage/misc/decorators.py:495\x1B[39m, in \x1B[36moptions.__call__.<locals>.wrapper\x1B[39m\x1B[34m(*args, **kwds)\x1B[39m\n' +
+      "\x1B[32m    493\x1B[39m     options[\x1B[33m'\x1B[39m\x1B[33m__original_opts\x1B[39m\x1B[33m'\x1B[39m] = kwds\n" +
+      '\x1B[32m    494\x1B[39m options.update(kwds)\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m495\x1B[39m \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[43mfunc\x1B[49m\x1B[43m(\x1B[49m\x1B[43m*\x1B[49m\x1B[43margs\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43m*\x1B[49m\x1B[43m*\x1B[49m\x1B[43moptions\x1B[49m\x1B[43m)\x1B[49m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/sage/plot/plot.py:2065\x1B[39m, in \x1B[36mplot\x1B[39m\x1B[34m(funcs, *args, **kwds)\x1B[39m\n' +
+      '\x1B[32m   2063\x1B[39m     xmax = args[\x1B[32m2\x1B[39m]\n' +
+      '\x1B[32m   2064\x1B[39m     args = args[\x1B[32m3\x1B[39m:]\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m2065\x1B[39m     G = \x1B[43m_plot\x1B[49m\x1B[43m(\x1B[49m\x1B[43mfuncs\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43m(\x1B[49m\x1B[43mvar\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mxmin\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mxmax\x1B[49m\x1B[43m)\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43m*\x1B[49m\x1B[43margs\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43m*\x1B[49m\x1B[43m*\x1B[49m\x1B[43mkwds\x1B[49m\x1B[43m)\x1B[49m\n' +
+      "\x1B[32m   2066\x1B[39m \x1B[38;5;28;01melif\x1B[39;00m (\x1B[33m'\x1B[39m\x1B[33mxmin\x1B[39m\x1B[33m'\x1B[39m \x1B[38;5;129;01min\x1B[39;00m kwds) \x1B[38;5;129;01mor\x1B[39;00m (\x1B[33m'\x1B[39m\x1B[33mxmax\x1B[39m\x1B[33m'\x1B[39m \x1B[38;5;129;01min\x1B[39;00m kwds):\n" +
+      "\x1B[32m   2067\x1B[39m     xmin = kwds.pop(\x1B[33m'\x1B[39m\x1B[33mxmin\x1B[39m\x1B[33m'\x1B[39m, -\x1B[32m1\x1B[39m)\n",
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/sage/plot/plot.py:2175\x1B[39m, in \x1B[36m_plot\x1B[39m\x1B[34m(funcs, xrange, parametric, polar, fill, label, randomize, **options)\x1B[39m\n' +
+      '\x1B[32m   2173\x1B[39m excluded_points = []\n' +
+      '\x1B[32m   2174\x1B[39m imag_tol = options[\x1B[33m"\x1B[39m\x1B[33mimaginary_tolerance\x1B[39m\x1B[33m"\x1B[39m]\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m2175\x1B[39m funcs, ranges = \x1B[43msetup_for_eval_on_grid\x1B[49m\x1B[43m(\x1B[49m\x1B[43mfuncs\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   2176\x1B[39m \x1B[43m                                       \x1B[49m\x1B[43m[\x1B[49m\x1B[43mxrange\x1B[49m\x1B[43m]\x1B[49m\x1B[43m,\x1B[49m\n' +
+      "\x1B[32m   2177\x1B[39m \x1B[43m                                       \x1B[49m\x1B[43moptions\x1B[49m\x1B[43m[\x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mplot_points\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m]\x1B[49m\x1B[43m,\x1B[49m\n" +
+      '\x1B[32m   2178\x1B[39m \x1B[43m                                       \x1B[49m\x1B[43mimaginary_tolerance\x1B[49m\x1B[43m=\x1B[49m\x1B[43mimag_tol\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   2179\x1B[39m xmin, xmax, delta = ranges[\x1B[32m0\x1B[39m]\n' +
+      '\x1B[32m   2180\x1B[39m xrange = ranges[\x1B[32m0\x1B[39m][:\x1B[32m2\x1B[39m]\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/sage/plot/misc.py:211\x1B[39m, in \x1B[36msetup_for_eval_on_grid\x1B[39m\x1B[34m(funcs, ranges, plot_points, return_vars, imaginary_tolerance)\x1B[39m\n' +
+      '\x1B[32m    209\x1B[39m     funcs = \x1B[38;5;28mtuple\x1B[39m( try_make_fast(f) \x1B[38;5;28;01mfor\x1B[39;00m f \x1B[38;5;129;01min\x1B[39;00m funcs )\n' +
+      '\x1B[32m    210\x1B[39m \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m211\x1B[39m     funcs = \x1B[43mtry_make_fast\x1B[49m\x1B[43m(\x1B[49m\x1B[43mfuncs\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m    213\x1B[39m \x1B[38;5;66;03m#TODO: raise an error if there is a function/method in funcs that takes more values than we have ranges\x1B[39;00m\n' +
+      '\x1B[32m    215\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m return_vars:\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/sage/plot/misc.py:201\x1B[39m, in \x1B[36msetup_for_eval_on_grid.<locals>.try_make_fast\x1B[39m\x1B[34m(f)\x1B[39m\n' +
+      '\x1B[32m    198\x1B[39m \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[32m    199\x1B[39m     \x1B[38;5;66;03m# Convert things like ZZ(0) into constant functions.\x1B[39;00m\n' +
+      '\x1B[32m    200\x1B[39m     \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01msage\x1B[39;00m\x1B[34;01m.\x1B[39;00m\x1B[34;01msymbolic\x1B[39;00m\x1B[34;01m.\x1B[39;00m\x1B[34;01mring\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m SR\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m201\x1B[39m     ff = \x1B[43mfast_callable\x1B[49m\x1B[43m(\x1B[49m\x1B[43mSR\x1B[49m\x1B[43m(\x1B[49m\x1B[43mf\x1B[49m\x1B[43m)\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m    202\x1B[39m \x1B[43m                       \x1B[49m\x1B[38;5;28;43mvars\x1B[39;49m\x1B[43m=\x1B[49m\x1B[38;5;28;43mvars\x1B[39;49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m    203\x1B[39m \x1B[43m                       \x1B[49m\x1B[43mexpect_one_var\x1B[49m\x1B[43m=\x1B[49m\x1B[43meov\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m    204\x1B[39m \x1B[43m                       \x1B[49m\x1B[43mdomain\x1B[49m\x1B[43m=\x1B[49m\x1B[43mCDF\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m    205\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m FastCallablePlotWrapper(ff, imag_tol=imaginary_tolerance)\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/sage/ext/fast_callable.pyx:473\x1B[39m, in \x1B[36msage.ext.fast_callable.fast_callable (build/cythonized/sage/ext/fast_callable.c:7467)\x1B[39m\x1B[34m()\x1B[39m\n' +
+      '\x1B[32m    471\x1B[39m     from sage.symbolic.ring import SR\n' +
+      '\x1B[32m    472\x1B[39m     return SR.var(var)\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m473\x1B[39m vars = [to_var(var) for var in vars]\n' +
+      '\x1B[32m    474\x1B[39m # Convert to a callable symbolic expression\n' +
+      '\x1B[32m    475\x1B[39m x = x.function(*vars)\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/sage/ext/fast_callable.pyx:472\x1B[39m, in \x1B[36msage.ext.fast_callable.fast_callable.to_var (build/cythonized/sage/ext/fast_callable.c:6934)\x1B[39m\x1B[34m()\x1B[39m\n' +
+      '\x1B[32m    470\x1B[39m         return var\n' +
+      '\x1B[32m    471\x1B[39m     from sage.symbolic.ring import SR\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m472\x1B[39m     return SR.var(var)\n' +
+      '\x1B[32m    473\x1B[39m vars = [to_var(var) for var in vars]\n' +
+      '\x1B[32m    474\x1B[39m # Convert to a callable symbolic expression\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/sage/symbolic/ring.pyx:884\x1B[39m, in \x1B[36msage.symbolic.ring.SymbolicRing.var (build/cythonized/sage/symbolic/ring.c:11950)\x1B[39m\x1B[34m()\x1B[39m\n' +
+      '\x1B[32m    882\x1B[39m for s in names_list:\n' +
+      '\x1B[32m    883\x1B[39m     if not isidentifier(s):\n' +
+      `\x1B[32m--> \x1B[39m\x1B[32m884\x1B[39m         raise ValueError(f'The name "{s}" is not a valid Python identifier.')\n` +
+      '\x1B[32m    885\x1B[39m     # warn on bad symbol names, but only once\n' +
+      '\x1B[32m    886\x1B[39m     # symbol... names are temporary variables created with\n',
+    '\x1B[31mValueError\x1B[39m: The name "60" is not a valid Python identifier.'
+  ]
+}
+15:31:49.067 [warn] Cell completed with errors [su [Error]: unable to simplify to float approximation
+	at n.execute (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.1.0-universal/dist/extension.node.js:297:4958)] {
+  ename: 'TypeError',
+  evalue: 'unable to simplify to float approximation',
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mTypeError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/sage/symbolic/expression.pyx:1943\x1B[39m, in \x1B[36msage.symbolic.expression.Expression.__float__ (build/cythonized/sage/symbolic/expression.cpp:52672)\x1B[39m\x1B[34m()\x1B[39m\n' +
+      '\x1B[32m   1942\x1B[39m try:\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m1943\x1B[39m     ret = float(self._eval_self(float))\n' +
+      '\x1B[32m   1944\x1B[39m except TypeError:\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/sage/symbolic/expression.pyx:1627\x1B[39m, in \x1B[36msage.symbolic.expression.Expression._eval_self (build/cythonized/sage/symbolic/expression.cpp:49724)\x1B[39m\x1B[34m()\x1B[39m\n' +
+      '\x1B[32m   1626\x1B[39m else:\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m1627\x1B[39m     raise TypeError("cannot evaluate symbolic expression to a numeric value")\n' +
+      '\x1B[32m   1628\x1B[39m \n',
+    '\x1B[31mTypeError\x1B[39m: cannot evaluate symbolic expression to a numeric value',
+    '\nDuring handling of the above exception, another exception occurred:\n',
+    '\x1B[31mTypeError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/sage/symbolic/expression.pyx:1946\x1B[39m, in \x1B[36msage.symbolic.expression.Expression.__float__ (build/cythonized/sage/symbolic/expression.cpp:52734)\x1B[39m\x1B[34m()\x1B[39m\n' +
+      '\x1B[32m   1945\x1B[39m try:\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m1946\x1B[39m     c = (self._eval_self(complex))\n' +
+      '\x1B[32m   1947\x1B[39m     if imag(c) == 0:\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/sage/symbolic/expression.pyx:1627\x1B[39m, in \x1B[36msage.symbolic.expression.Expression._eval_self (build/cythonized/sage/symbolic/expression.cpp:49724)\x1B[39m\x1B[34m()\x1B[39m\n' +
+      '\x1B[32m   1626\x1B[39m else:\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m1627\x1B[39m     raise TypeError("cannot evaluate symbolic expression to a numeric value")\n' +
+      '\x1B[32m   1628\x1B[39m \n',
+    '\x1B[31mTypeError\x1B[39m: cannot evaluate symbolic expression to a numeric value',
+    '\nDuring handling of the above exception, another exception occurred:\n',
+    '\x1B[31mTypeError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[65]\x1B[39m\x1B[32m, line 43\x1B[39m\n' +
+      '\x1B[32m     36\x1B[39m var(\x1B[33m"\x1B[39m\x1B[33mt\x1B[39m\x1B[33m"\x1B[39m)\n' +
+      '\x1B[32m     38\x1B[39m x = Integer(\x1B[32m1\x1B[39m)/Integer(\x1B[32m2\x1B[39m) * a * t1**Integer(\x1B[32m2\x1B[39m) \x1B[38;5;66;03m# funckja opisująca pierwszą fazę lotu\x1B[39;00m\n' +
+      `\x1B[32m---> \x1B[39m\x1B[32m43\x1B[39m war1 = \x1B[43mplot\x1B[49m\x1B[43m(\x1B[49m\x1B[43mx\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mt1\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mInteger\x1B[49m\x1B[43m(\x1B[49m\x1B[32;43m0\x1B[39;49m\x1B[43m)\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mt\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43maxes_labels\x1B[49m\x1B[43m=\x1B[49m\x1B[43m[\x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43m$t[s]$\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43m$X[m]$\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m]\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mfigsize\x1B[49m\x1B[43m \x1B[49m\x1B[43m=\x1B[49m\x1B[43m \x1B[49m\x1B[43mInteger\x1B[49m\x1B[43m(\x1B[49m\x1B[32;43m10\x1B[39;49m\x1B[43m)\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mlegend_label\x1B[49m\x1B[43m=\x1B[49m\x1B[33;43m"\x1B[39;49m\x1B[33;43mRakieta leci z paliwem\x1B[39;49m\x1B[33;43m"\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mcolor\x1B[49m\x1B[43m=\x1B[49m\x1B[33;43m"\x1B[39;49m\x1B[33;43mpurple\x1B[39;49m\x1B[33;43m"\x1B[39;49m\x1B[43m)\x1B[49m \n` +
+      `\x1B[32m     44\x1B[39m war2 = plot(t2, Integer(\x1B[32m0\x1B[39m), Integer(\x1B[32m1\x1B[39m), axes_labels=[\x1B[33m'\x1B[39m\x1B[33m$t[s]$\x1B[39m\x1B[33m'\x1B[39m, \x1B[33m'\x1B[39m\x1B[33m$X[m]$\x1B[39m\x1B[33m'\x1B[39m], figsize = Integer(\x1B[32m10\x1B[39m), legend_label=\x1B[33m"\x1B[39m\x1B[33mRakieta leci sama z siebie\x1B[39m\x1B[33m"\x1B[39m, color=\x1B[33m"\x1B[39m\x1B[33mgreen\x1B[39m\x1B[33m"\x1B[39m) \n` +
+      `\x1B[32m     45\x1B[39m war3 = plot(t3, Integer(\x1B[32m0\x1B[39m), Integer(\x1B[32m7\x1B[39m), axes_labels=[\x1B[33m'\x1B[39m\x1B[33m$t[s]$\x1B[39m\x1B[33m'\x1B[39m, \x1B[33m'\x1B[39m\x1B[33m$X[m]$\x1B[39m\x1B[33m'\x1B[39m], figsize = Integer(\x1B[32m10\x1B[39m), legend_label=\x1B[33m"\x1B[39m\x1B[33mRakieta ląduje\x1B[39m\x1B[33m"\x1B[39m, color=\x1B[33m"\x1B[39m\x1B[33mred\x1B[39m\x1B[33m"\x1B[39m) \n`,
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/sage/misc/decorators.py:495\x1B[39m, in \x1B[36moptions.__call__.<locals>.wrapper\x1B[39m\x1B[34m(*args, **kwds)\x1B[39m\n' +
+      "\x1B[32m    493\x1B[39m     options[\x1B[33m'\x1B[39m\x1B[33m__original_opts\x1B[39m\x1B[33m'\x1B[39m] = kwds\n" +
+      '\x1B[32m    494\x1B[39m options.update(kwds)\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m495\x1B[39m \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[43mfunc\x1B[49m\x1B[43m(\x1B[49m\x1B[43m*\x1B[49m\x1B[43margs\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43m*\x1B[49m\x1B[43m*\x1B[49m\x1B[43moptions\x1B[49m\x1B[43m)\x1B[49m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/sage/plot/plot.py:2065\x1B[39m, in \x1B[36mplot\x1B[39m\x1B[34m(funcs, *args, **kwds)\x1B[39m\n' +
+      '\x1B[32m   2063\x1B[39m     xmax = args[\x1B[32m2\x1B[39m]\n' +
+      '\x1B[32m   2064\x1B[39m     args = args[\x1B[32m3\x1B[39m:]\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m2065\x1B[39m     G = \x1B[43m_plot\x1B[49m\x1B[43m(\x1B[49m\x1B[43mfuncs\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43m(\x1B[49m\x1B[43mvar\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mxmin\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mxmax\x1B[49m\x1B[43m)\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43m*\x1B[49m\x1B[43margs\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43m*\x1B[49m\x1B[43m*\x1B[49m\x1B[43mkwds\x1B[49m\x1B[43m)\x1B[49m\n' +
+      "\x1B[32m   2066\x1B[39m \x1B[38;5;28;01melif\x1B[39;00m (\x1B[33m'\x1B[39m\x1B[33mxmin\x1B[39m\x1B[33m'\x1B[39m \x1B[38;5;129;01min\x1B[39;00m kwds) \x1B[38;5;129;01mor\x1B[39;00m (\x1B[33m'\x1B[39m\x1B[33mxmax\x1B[39m\x1B[33m'\x1B[39m \x1B[38;5;129;01min\x1B[39;00m kwds):\n" +
+      "\x1B[32m   2067\x1B[39m     xmin = kwds.pop(\x1B[33m'\x1B[39m\x1B[33mxmin\x1B[39m\x1B[33m'\x1B[39m, -\x1B[32m1\x1B[39m)\n",
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/sage/plot/plot.py:2175\x1B[39m, in \x1B[36m_plot\x1B[39m\x1B[34m(funcs, xrange, parametric, polar, fill, label, randomize, **options)\x1B[39m\n' +
+      '\x1B[32m   2173\x1B[39m excluded_points = []\n' +
+      '\x1B[32m   2174\x1B[39m imag_tol = options[\x1B[33m"\x1B[39m\x1B[33mimaginary_tolerance\x1B[39m\x1B[33m"\x1B[39m]\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m2175\x1B[39m funcs, ranges = \x1B[43msetup_for_eval_on_grid\x1B[49m\x1B[43m(\x1B[49m\x1B[43mfuncs\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   2176\x1B[39m \x1B[43m                                       \x1B[49m\x1B[43m[\x1B[49m\x1B[43mxrange\x1B[49m\x1B[43m]\x1B[49m\x1B[43m,\x1B[49m\n' +
+      "\x1B[32m   2177\x1B[39m \x1B[43m                                       \x1B[49m\x1B[43moptions\x1B[49m\x1B[43m[\x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mplot_points\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m]\x1B[49m\x1B[43m,\x1B[49m\n" +
+      '\x1B[32m   2178\x1B[39m \x1B[43m                                       \x1B[49m\x1B[43mimaginary_tolerance\x1B[49m\x1B[43m=\x1B[49m\x1B[43mimag_tol\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   2179\x1B[39m xmin, xmax, delta = ranges[\x1B[32m0\x1B[39m]\n' +
+      '\x1B[32m   2180\x1B[39m xrange = ranges[\x1B[32m0\x1B[39m][:\x1B[32m2\x1B[39m]\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/sage/plot/misc.py:154\x1B[39m, in \x1B[36msetup_for_eval_on_grid\x1B[39m\x1B[34m(funcs, ranges, plot_points, return_vars, imaginary_tolerance)\x1B[39m\n' +
+      '\x1B[32m    151\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28mlen\x1B[39m(\x1B[38;5;28mvars\x1B[39m) < nargs:\n' +
+      "\x1B[32m    152\x1B[39m     \x1B[38;5;28mvars\x1B[39m += (\x1B[33m'\x1B[39m\x1B[33m_\x1B[39m\x1B[33m'\x1B[39m,)*(nargs-\x1B[38;5;28mlen\x1B[39m(\x1B[38;5;28mvars\x1B[39m))\n" +
+      '\x1B[32m--> \x1B[39m\x1B[32m154\x1B[39m ranges = [[\x1B[38;5;28;43mfloat\x1B[39;49m\x1B[43m(\x1B[49m\x1B[43mz\x1B[49m\x1B[43m)\x1B[49m \x1B[38;5;28;01mfor\x1B[39;00m z \x1B[38;5;129;01min\x1B[39;00m r] \x1B[38;5;28;01mfor\x1B[39;00m r \x1B[38;5;129;01min\x1B[39;00m ranges]\n' +
+      '\x1B[32m    156\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m plot_points \x1B[38;5;129;01mis\x1B[39;00m \x1B[38;5;28;01mNone\x1B[39;00m:\n' +
+      '\x1B[32m    157\x1B[39m     plot_points = \x1B[32m2\x1B[39m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/sage/symbolic/expression.pyx:1952\x1B[39m, in \x1B[36msage.symbolic.expression.Expression.__float__ (build/cythonized/sage/symbolic/expression.cpp:52876)\x1B[39m\x1B[34m()\x1B[39m\n' +
+      '\x1B[32m   1950\x1B[39m             raise\n' +
+      '\x1B[32m   1951\x1B[39m     except TypeError:\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m1952\x1B[39m         raise TypeError("unable to simplify to float approximation")\n' +
+      '\x1B[32m   1953\x1B[39m return ret\n' +
+      '\x1B[32m   1954\x1B[39m \n',
+    '\x1B[31mTypeError\x1B[39m: unable to simplify to float approximation'
+  ]
+}
+15:37:04.162 [warn] Cell completed with errors [su [Error]: unable to simplify to float approximation
+	at n.execute (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.1.0-universal/dist/extension.node.js:297:4958)] {
+  ename: 'TypeError',
+  evalue: 'unable to simplify to float approximation',
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mTypeError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/sage/symbolic/expression.pyx:1943\x1B[39m, in \x1B[36msage.symbolic.expression.Expression.__float__ (build/cythonized/sage/symbolic/expression.cpp:52672)\x1B[39m\x1B[34m()\x1B[39m\n' +
+      '\x1B[32m   1942\x1B[39m try:\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m1943\x1B[39m     ret = float(self._eval_self(float))\n' +
+      '\x1B[32m   1944\x1B[39m except TypeError:\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/sage/symbolic/expression.pyx:1627\x1B[39m, in \x1B[36msage.symbolic.expression.Expression._eval_self (build/cythonized/sage/symbolic/expression.cpp:49724)\x1B[39m\x1B[34m()\x1B[39m\n' +
+      '\x1B[32m   1626\x1B[39m else:\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m1627\x1B[39m     raise TypeError("cannot evaluate symbolic expression to a numeric value")\n' +
+      '\x1B[32m   1628\x1B[39m \n',
+    '\x1B[31mTypeError\x1B[39m: cannot evaluate symbolic expression to a numeric value',
+    '\nDuring handling of the above exception, another exception occurred:\n',
+    '\x1B[31mTypeError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/sage/symbolic/expression.pyx:1946\x1B[39m, in \x1B[36msage.symbolic.expression.Expression.__float__ (build/cythonized/sage/symbolic/expression.cpp:52734)\x1B[39m\x1B[34m()\x1B[39m\n' +
+      '\x1B[32m   1945\x1B[39m try:\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m1946\x1B[39m     c = (self._eval_self(complex))\n' +
+      '\x1B[32m   1947\x1B[39m     if imag(c) == 0:\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/sage/symbolic/expression.pyx:1627\x1B[39m, in \x1B[36msage.symbolic.expression.Expression._eval_self (build/cythonized/sage/symbolic/expression.cpp:49724)\x1B[39m\x1B[34m()\x1B[39m\n' +
+      '\x1B[32m   1626\x1B[39m else:\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m1627\x1B[39m     raise TypeError("cannot evaluate symbolic expression to a numeric value")\n' +
+      '\x1B[32m   1628\x1B[39m \n',
+    '\x1B[31mTypeError\x1B[39m: cannot evaluate symbolic expression to a numeric value',
+    '\nDuring handling of the above exception, another exception occurred:\n',
+    '\x1B[31mTypeError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[74]\x1B[39m\x1B[32m, line 48\x1B[39m\n' +
+      '\x1B[32m     40\x1B[39m y = Integer(\x1B[32m1\x1B[39m)/Integer(\x1B[32m2\x1B[39m) * a * (t-t1)**Integer(\x1B[32m2\x1B[39m) \x1B[38;5;66;03m# funkcja opisująca drugą fazę lotu\x1B[39;00m\n' +
+      `\x1B[32m     47\x1B[39m war1 = plot(x, t, Integer(\x1B[32m0\x1B[39m), t1, axes_labels=[\x1B[33m'\x1B[39m\x1B[33m$t[s]$\x1B[39m\x1B[33m'\x1B[39m, \x1B[33m'\x1B[39m\x1B[33m$X[m]$\x1B[39m\x1B[33m'\x1B[39m], figsize = Integer(\x1B[32m10\x1B[39m), legend_label=\x1B[33m"\x1B[39m\x1B[33mRakieta leci z paliwem\x1B[39m\x1B[33m"\x1B[39m, color=\x1B[33m"\x1B[39m\x1B[33mpurple\x1B[39m\x1B[33m"\x1B[39m) \n` +
+      `\x1B[32m---> \x1B[39m\x1B[32m48\x1B[39m war2 = \x1B[43mplot\x1B[49m\x1B[43m(\x1B[49m\x1B[43my\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mt\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mInteger\x1B[49m\x1B[43m(\x1B[49m\x1B[32;43m0\x1B[39;49m\x1B[43m)\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43m(\x1B[49m\x1B[43mt\x1B[49m\x1B[43m-\x1B[49m\x1B[43mt1\x1B[49m\x1B[43m)\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43maxes_labels\x1B[49m\x1B[43m=\x1B[49m\x1B[43m[\x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43m$t[s]$\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43m$X[m]$\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m]\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mfigsize\x1B[49m\x1B[43m \x1B[49m\x1B[43m=\x1B[49m\x1B[43m \x1B[49m\x1B[43mInteger\x1B[49m\x1B[43m(\x1B[49m\x1B[32;43m10\x1B[39;49m\x1B[43m)\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mlegend_label\x1B[49m\x1B[43m=\x1B[49m\x1B[33;43m"\x1B[39;49m\x1B[33;43mRakieta leci sama z siebie\x1B[39;49m\x1B[33;43m"\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mcolor\x1B[49m\x1B[43m=\x1B[49m\x1B[33;43m"\x1B[39;49m\x1B[33;43mgreen\x1B[39;49m\x1B[33;43m"\x1B[39;49m\x1B[43m)\x1B[49m \n` +
+      `\x1B[32m     49\x1B[39m war3 = plot(t3, Integer(\x1B[32m0\x1B[39m), Integer(\x1B[32m7\x1B[39m), axes_labels=[\x1B[33m'\x1B[39m\x1B[33m$t[s]$\x1B[39m\x1B[33m'\x1B[39m, \x1B[33m'\x1B[39m\x1B[33m$X[m]$\x1B[39m\x1B[33m'\x1B[39m], figsize = Integer(\x1B[32m10\x1B[39m), legend_label=\x1B[33m"\x1B[39m\x1B[33mRakieta ląduje\x1B[39m\x1B[33m"\x1B[39m, color=\x1B[33m"\x1B[39m\x1B[33mred\x1B[39m\x1B[33m"\x1B[39m) \n` +
+      '\x1B[32m     51\x1B[39m show(war1 + war2)\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/sage/misc/decorators.py:495\x1B[39m, in \x1B[36moptions.__call__.<locals>.wrapper\x1B[39m\x1B[34m(*args, **kwds)\x1B[39m\n' +
+      "\x1B[32m    493\x1B[39m     options[\x1B[33m'\x1B[39m\x1B[33m__original_opts\x1B[39m\x1B[33m'\x1B[39m] = kwds\n" +
+      '\x1B[32m    494\x1B[39m options.update(kwds)\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m495\x1B[39m \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[43mfunc\x1B[49m\x1B[43m(\x1B[49m\x1B[43m*\x1B[49m\x1B[43margs\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43m*\x1B[49m\x1B[43m*\x1B[49m\x1B[43moptions\x1B[49m\x1B[43m)\x1B[49m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/sage/plot/plot.py:2033\x1B[39m, in \x1B[36mplot\x1B[39m\x1B[34m(funcs, *args, **kwds)\x1B[39m\n' +
+      '\x1B[32m   2030\x1B[39m     funcs = \x1B[38;5;28mtuple\x1B[39m(funcs)\n' +
+      "\x1B[32m   2032\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28mhasattr\x1B[39m(funcs, \x1B[33m'\x1B[39m\x1B[33mplot\x1B[39m\x1B[33m'\x1B[39m):\n" +
+      '\x1B[32m-> \x1B[39m\x1B[32m2033\x1B[39m     G = \x1B[43mfuncs\x1B[49m\x1B[43m.\x1B[49m\x1B[43mplot\x1B[49m\x1B[43m(\x1B[49m\x1B[43m*\x1B[49m\x1B[43margs\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43m*\x1B[49m\x1B[43m*\x1B[49m\x1B[43moriginal_opts\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   2035\x1B[39m     \x1B[38;5;66;03m# If we have extra keywords already set, then update them\x1B[39;00m\n' +
+      '\x1B[32m   2036\x1B[39m     \x1B[38;5;28;01mfor\x1B[39;00m ext \x1B[38;5;129;01min\x1B[39;00m G._extra_kwds:\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/sage/symbolic/expression.pyx:12899\x1B[39m, in \x1B[36msage.symbolic.expression.Expression.plot (build/cythonized/sage/symbolic/expression.cpp:118800)\x1B[39m\x1B[34m()\x1B[39m\n' +
+      '\x1B[32m  12897\x1B[39m         except NotImplementedError:\n' +
+      '\x1B[32m  12898\x1B[39m             return self.function(param)\n' +
+      '\x1B[32m> \x1B[39m\x1B[32m12899\x1B[39m     return plot(f, *args, **kwds)\n' +
+      '\x1B[32m  12900\x1B[39m \n' +
+      '\x1B[32m  12901\x1B[39m def _plot_fast_callable(self, *vars):\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/sage/misc/decorators.py:495\x1B[39m, in \x1B[36moptions.__call__.<locals>.wrapper\x1B[39m\x1B[34m(*args, **kwds)\x1B[39m\n' +
+      "\x1B[32m    493\x1B[39m     options[\x1B[33m'\x1B[39m\x1B[33m__original_opts\x1B[39m\x1B[33m'\x1B[39m] = kwds\n" +
+      '\x1B[32m    494\x1B[39m options.update(kwds)\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m495\x1B[39m \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[43mfunc\x1B[49m\x1B[43m(\x1B[49m\x1B[43m*\x1B[49m\x1B[43margs\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43m*\x1B[49m\x1B[43m*\x1B[49m\x1B[43moptions\x1B[49m\x1B[43m)\x1B[49m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/sage/plot/plot.py:2058\x1B[39m, in \x1B[36mplot\x1B[39m\x1B[34m(funcs, *args, **kwds)\x1B[39m\n' +
+      '\x1B[32m   2056\x1B[39m     xmax = args[\x1B[32m1\x1B[39m]\n' +
+      '\x1B[32m   2057\x1B[39m     args = args[\x1B[32m2\x1B[39m:]\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m2058\x1B[39m     G = \x1B[43m_plot\x1B[49m\x1B[43m(\x1B[49m\x1B[43mfuncs\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43m(\x1B[49m\x1B[43mxmin\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mxmax\x1B[49m\x1B[43m)\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43m*\x1B[49m\x1B[43margs\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43m*\x1B[49m\x1B[43m*\x1B[49m\x1B[43mkwds\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   2059\x1B[39m \x1B[38;5;28;01melif\x1B[39;00m n == \x1B[32m3\x1B[39m:\n' +
+      '\x1B[32m   2060\x1B[39m \x1B[38;5;66;03m# if there are three extra args, then pull them out and pass them as a tuple\x1B[39;00m\n' +
+      '\x1B[32m   2061\x1B[39m     var = args[\x1B[32m0\x1B[39m]\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/sage/plot/plot.py:2175\x1B[39m, in \x1B[36m_plot\x1B[39m\x1B[34m(funcs, xrange, parametric, polar, fill, label, randomize, **options)\x1B[39m\n' +
+      '\x1B[32m   2173\x1B[39m excluded_points = []\n' +
+      '\x1B[32m   2174\x1B[39m imag_tol = options[\x1B[33m"\x1B[39m\x1B[33mimaginary_tolerance\x1B[39m\x1B[33m"\x1B[39m]\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m2175\x1B[39m funcs, ranges = \x1B[43msetup_for_eval_on_grid\x1B[49m\x1B[43m(\x1B[49m\x1B[43mfuncs\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   2176\x1B[39m \x1B[43m                                       \x1B[49m\x1B[43m[\x1B[49m\x1B[43mxrange\x1B[49m\x1B[43m]\x1B[49m\x1B[43m,\x1B[49m\n' +
+      "\x1B[32m   2177\x1B[39m \x1B[43m                                       \x1B[49m\x1B[43moptions\x1B[49m\x1B[43m[\x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mplot_points\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m]\x1B[49m\x1B[43m,\x1B[49m\n" +
+      '\x1B[32m   2178\x1B[39m \x1B[43m                                       \x1B[49m\x1B[43mimaginary_tolerance\x1B[49m\x1B[43m=\x1B[49m\x1B[43mimag_tol\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   2179\x1B[39m xmin, xmax, delta = ranges[\x1B[32m0\x1B[39m]\n' +
+      '\x1B[32m   2180\x1B[39m xrange = ranges[\x1B[32m0\x1B[39m][:\x1B[32m2\x1B[39m]\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/sage/plot/misc.py:154\x1B[39m, in \x1B[36msetup_for_eval_on_grid\x1B[39m\x1B[34m(funcs, ranges, plot_points, return_vars, imaginary_tolerance)\x1B[39m\n' +
+      '\x1B[32m    151\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28mlen\x1B[39m(\x1B[38;5;28mvars\x1B[39m) < nargs:\n' +
+      "\x1B[32m    152\x1B[39m     \x1B[38;5;28mvars\x1B[39m += (\x1B[33m'\x1B[39m\x1B[33m_\x1B[39m\x1B[33m'\x1B[39m,)*(nargs-\x1B[38;5;28mlen\x1B[39m(\x1B[38;5;28mvars\x1B[39m))\n" +
+      '\x1B[32m--> \x1B[39m\x1B[32m154\x1B[39m ranges = [[\x1B[38;5;28;43mfloat\x1B[39;49m\x1B[43m(\x1B[49m\x1B[43mz\x1B[49m\x1B[43m)\x1B[49m \x1B[38;5;28;01mfor\x1B[39;00m z \x1B[38;5;129;01min\x1B[39;00m r] \x1B[38;5;28;01mfor\x1B[39;00m r \x1B[38;5;129;01min\x1B[39;00m ranges]\n' +
+      '\x1B[32m    156\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m plot_points \x1B[38;5;129;01mis\x1B[39;00m \x1B[38;5;28;01mNone\x1B[39;00m:\n' +
+      '\x1B[32m    157\x1B[39m     plot_points = \x1B[32m2\x1B[39m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/sage/symbolic/expression.pyx:1952\x1B[39m, in \x1B[36msage.symbolic.expression.Expression.__float__ (build/cythonized/sage/symbolic/expression.cpp:52876)\x1B[39m\x1B[34m()\x1B[39m\n' +
+      '\x1B[32m   1950\x1B[39m             raise\n' +
+      '\x1B[32m   1951\x1B[39m     except TypeError:\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m1952\x1B[39m         raise TypeError("unable to simplify to float approximation")\n' +
+      '\x1B[32m   1953\x1B[39m return ret\n' +
+      '\x1B[32m   1954\x1B[39m \n',
+    '\x1B[31mTypeError\x1B[39m: unable to simplify to float approximation'
+  ]
+}
+16:02:40.254 [warn] Cell completed with errors [su [Error]: plot start point and end point must be different
+	at n.execute (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.1.0-universal/dist/extension.node.js:297:4958)] {
+  ename: 'ValueError',
+  evalue: 'plot start point and end point must be different',
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mValueError\x1B[39m                                Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[113]\x1B[39m\x1B[32m, line 47\x1B[39m\n' +
+      `\x1B[32m     45\x1B[39m war1 = plot(x, t, Integer(\x1B[32m0\x1B[39m), t1, axes_labels=[\x1B[33m'\x1B[39m\x1B[33m$t[s]$\x1B[39m\x1B[33m'\x1B[39m, \x1B[33m'\x1B[39m\x1B[33m$X[m]$\x1B[39m\x1B[33m'\x1B[39m], figsize = Integer(\x1B[32m10\x1B[39m), legend_label=\x1B[33m"\x1B[39m\x1B[33mRakieta leci z paliwem\x1B[39m\x1B[33m"\x1B[39m, color=\x1B[33m"\x1B[39m\x1B[33mpurple\x1B[39m\x1B[33m"\x1B[39m) \n` +
+      `\x1B[32m     46\x1B[39m war2 = plot(y, t, t1, t1+t2, axes_labels=[\x1B[33m'\x1B[39m\x1B[33m$t[s]$\x1B[39m\x1B[33m'\x1B[39m, \x1B[33m'\x1B[39m\x1B[33m$X[m]$\x1B[39m\x1B[33m'\x1B[39m], figsize = Integer(\x1B[32m10\x1B[39m), legend_label=\x1B[33m"\x1B[39m\x1B[33mRakieta leci sama z siebie\x1B[39m\x1B[33m"\x1B[39m, color=\x1B[33m"\x1B[39m\x1B[33mgreen\x1B[39m\x1B[33m"\x1B[39m) \n` +
+      `\x1B[32m---> \x1B[39m\x1B[32m47\x1B[39m war3 = \x1B[43mplot\x1B[49m\x1B[43m(\x1B[49m\x1B[43mz\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mt\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mt1\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mt1\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43maxes_labels\x1B[49m\x1B[43m=\x1B[49m\x1B[43m[\x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43m$t[s]$\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43m$X[m]$\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m]\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mfigsize\x1B[49m\x1B[43m \x1B[49m\x1B[43m=\x1B[49m\x1B[43m \x1B[49m\x1B[43mInteger\x1B[49m\x1B[43m(\x1B[49m\x1B[32;43m10\x1B[39;49m\x1B[43m)\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mlegend_label\x1B[49m\x1B[43m=\x1B[49m\x1B[33;43m"\x1B[39;49m\x1B[33;43mRakieta ląduje\x1B[39;49m\x1B[33;43m"\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mcolor\x1B[49m\x1B[43m=\x1B[49m\x1B[33;43m"\x1B[39;49m\x1B[33;43mred\x1B[39;49m\x1B[33;43m"\x1B[39;49m\x1B[43m)\x1B[49m \n` +
+      '\x1B[32m     49\x1B[39m show(war1 + war2 + war3)\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/sage/misc/decorators.py:495\x1B[39m, in \x1B[36moptions.__call__.<locals>.wrapper\x1B[39m\x1B[34m(*args, **kwds)\x1B[39m\n' +
+      "\x1B[32m    493\x1B[39m     options[\x1B[33m'\x1B[39m\x1B[33m__original_opts\x1B[39m\x1B[33m'\x1B[39m] = kwds\n" +
+      '\x1B[32m    494\x1B[39m options.update(kwds)\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m495\x1B[39m \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[43mfunc\x1B[49m\x1B[43m(\x1B[49m\x1B[43m*\x1B[49m\x1B[43margs\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43m*\x1B[49m\x1B[43m*\x1B[49m\x1B[43moptions\x1B[49m\x1B[43m)\x1B[49m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/sage/plot/plot.py:2033\x1B[39m, in \x1B[36mplot\x1B[39m\x1B[34m(funcs, *args, **kwds)\x1B[39m\n' +
+      '\x1B[32m   2030\x1B[39m     funcs = \x1B[38;5;28mtuple\x1B[39m(funcs)\n' +
+      "\x1B[32m   2032\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28mhasattr\x1B[39m(funcs, \x1B[33m'\x1B[39m\x1B[33mplot\x1B[39m\x1B[33m'\x1B[39m):\n" +
+      '\x1B[32m-> \x1B[39m\x1B[32m2033\x1B[39m     G = \x1B[43mfuncs\x1B[49m\x1B[43m.\x1B[49m\x1B[43mplot\x1B[49m\x1B[43m(\x1B[49m\x1B[43m*\x1B[49m\x1B[43margs\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43m*\x1B[49m\x1B[43m*\x1B[49m\x1B[43moriginal_opts\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   2035\x1B[39m     \x1B[38;5;66;03m# If we have extra keywords already set, then update them\x1B[39;00m\n' +
+      '\x1B[32m   2036\x1B[39m     \x1B[38;5;28;01mfor\x1B[39;00m ext \x1B[38;5;129;01min\x1B[39;00m G._extra_kwds:\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/sage/symbolic/expression.pyx:12899\x1B[39m, in \x1B[36msage.symbolic.expression.Expression.plot (build/cythonized/sage/symbolic/expression.cpp:118800)\x1B[39m\x1B[34m()\x1B[39m\n' +
+      '\x1B[32m  12897\x1B[39m         except NotImplementedError:\n' +
+      '\x1B[32m  12898\x1B[39m             return self.function(param)\n' +
+      '\x1B[32m> \x1B[39m\x1B[32m12899\x1B[39m     return plot(f, *args, **kwds)\n' +
+      '\x1B[32m  12900\x1B[39m \n' +
+      '\x1B[32m  12901\x1B[39m def _plot_fast_callable(self, *vars):\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/sage/misc/decorators.py:495\x1B[39m, in \x1B[36moptions.__call__.<locals>.wrapper\x1B[39m\x1B[34m(*args, **kwds)\x1B[39m\n' +
+      "\x1B[32m    493\x1B[39m     options[\x1B[33m'\x1B[39m\x1B[33m__original_opts\x1B[39m\x1B[33m'\x1B[39m] = kwds\n" +
+      '\x1B[32m    494\x1B[39m options.update(kwds)\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m495\x1B[39m \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[43mfunc\x1B[49m\x1B[43m(\x1B[49m\x1B[43m*\x1B[49m\x1B[43margs\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43m*\x1B[49m\x1B[43m*\x1B[49m\x1B[43moptions\x1B[49m\x1B[43m)\x1B[49m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/sage/plot/plot.py:2058\x1B[39m, in \x1B[36mplot\x1B[39m\x1B[34m(funcs, *args, **kwds)\x1B[39m\n' +
+      '\x1B[32m   2056\x1B[39m     xmax = args[\x1B[32m1\x1B[39m]\n' +
+      '\x1B[32m   2057\x1B[39m     args = args[\x1B[32m2\x1B[39m:]\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m2058\x1B[39m     G = \x1B[43m_plot\x1B[49m\x1B[43m(\x1B[49m\x1B[43mfuncs\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43m(\x1B[49m\x1B[43mxmin\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mxmax\x1B[49m\x1B[43m)\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43m*\x1B[49m\x1B[43margs\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43m*\x1B[49m\x1B[43m*\x1B[49m\x1B[43mkwds\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   2059\x1B[39m \x1B[38;5;28;01melif\x1B[39;00m n == \x1B[32m3\x1B[39m:\n' +
+      '\x1B[32m   2060\x1B[39m \x1B[38;5;66;03m# if there are three extra args, then pull them out and pass them as a tuple\x1B[39;00m\n' +
+      '\x1B[32m   2061\x1B[39m     var = args[\x1B[32m0\x1B[39m]\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/sage/plot/plot.py:2175\x1B[39m, in \x1B[36m_plot\x1B[39m\x1B[34m(funcs, xrange, parametric, polar, fill, label, randomize, **options)\x1B[39m\n' +
+      '\x1B[32m   2173\x1B[39m excluded_points = []\n' +
+      '\x1B[32m   2174\x1B[39m imag_tol = options[\x1B[33m"\x1B[39m\x1B[33mimaginary_tolerance\x1B[39m\x1B[33m"\x1B[39m]\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m2175\x1B[39m funcs, ranges = \x1B[43msetup_for_eval_on_grid\x1B[49m\x1B[43m(\x1B[49m\x1B[43mfuncs\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   2176\x1B[39m \x1B[43m                                       \x1B[49m\x1B[43m[\x1B[49m\x1B[43mxrange\x1B[49m\x1B[43m]\x1B[49m\x1B[43m,\x1B[49m\n' +
+      "\x1B[32m   2177\x1B[39m \x1B[43m                                       \x1B[49m\x1B[43moptions\x1B[49m\x1B[43m[\x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mplot_points\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m]\x1B[49m\x1B[43m,\x1B[49m\n" +
+      '\x1B[32m   2178\x1B[39m \x1B[43m                                       \x1B[49m\x1B[43mimaginary_tolerance\x1B[49m\x1B[43m=\x1B[49m\x1B[43mimag_tol\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   2179\x1B[39m xmin, xmax, delta = ranges[\x1B[32m0\x1B[39m]\n' +
+      '\x1B[32m   2180\x1B[39m xrange = ranges[\x1B[32m0\x1B[39m][:\x1B[32m2\x1B[39m]\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/sage/plot/misc.py:167\x1B[39m, in \x1B[36msetup_for_eval_on_grid\x1B[39m\x1B[34m(funcs, ranges, plot_points, return_vars, imaginary_tolerance)\x1B[39m\n' +
+      '\x1B[32m    165\x1B[39m range_steps = [\x1B[38;5;28mabs\x1B[39m(\x1B[38;5;28mrange\x1B[39m[\x1B[32m1\x1B[39m] - \x1B[38;5;28mrange\x1B[39m[\x1B[32m0\x1B[39m])/(p-\x1B[32m1\x1B[39m) \x1B[38;5;28;01mfor\x1B[39;00m \x1B[38;5;28mrange\x1B[39m, p \x1B[38;5;129;01min\x1B[39;00m \x1B[38;5;28mzip\x1B[39m(ranges, plot_points)]\n' +
+      '\x1B[32m    166\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28mmin\x1B[39m(range_steps) == \x1B[38;5;28mfloat\x1B[39m(\x1B[32m0\x1B[39m):\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m167\x1B[39m     \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mValueError\x1B[39;00m(\x1B[33m"\x1B[39m\x1B[33mplot start point and end point must be different\x1B[39m\x1B[33m"\x1B[39m)\n' +
+      '\x1B[32m    169\x1B[39m eov = \x1B[38;5;28;01mFalse\x1B[39;00m  \x1B[38;5;66;03m# eov = "expect one value"\x1B[39;00m\n' +
+      '\x1B[32m    170\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m nargs == \x1B[32m1\x1B[39m:\n',
+    '\x1B[31mValueError\x1B[39m: plot start point and end point must be different'
+  ]
+}
+12:24:29.015 [info] Disposing request as the cell (6) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.015 [info] Disposing request as the cell (6) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.015 [info] Disposing request as the cell (6) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.015 [info] Disposing request as the cell (6) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.015 [info] Disposing request as the cell (6) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.015 [info] Disposing request as the cell (6) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.015 [info] Disposing request as the cell (6) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.015 [info] Disposing request as the cell (6) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.015 [info] Disposing request as the cell (6) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.015 [info] Disposing request as the cell (6) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.015 [info] Disposing request as the cell (6) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.015 [info] Disposing request as the cell (6) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.015 [info] Disposing request as the cell (6) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.015 [info] Disposing request as the cell (6) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.015 [info] Disposing request as the cell (6) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.015 [info] Disposing request as the cell (6) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.015 [info] Disposing request as the cell (6) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.015 [info] Disposing request as the cell (6) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.015 [info] Disposing request as the cell (6) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.015 [info] Disposing request as the cell (6) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.015 [info] Disposing request as the cell (6) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.015 [info] Disposing request as the cell (6) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.015 [info] Disposing request as the cell (6) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.015 [info] Disposing request as the cell (6) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.015 [info] Disposing request as the cell (6) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.015 [info] Disposing request as the cell (6) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.015 [info] Disposing request as the cell (6) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.015 [info] Disposing request as the cell (6) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.015 [info] Disposing request as the cell (6) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.015 [info] Disposing request as the cell (6) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.015 [info] Disposing request as the cell (6) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.015 [info] Disposing request as the cell (6) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.015 [info] Disposing request as the cell (6) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.015 [info] Disposing request as the cell (6) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.015 [info] Disposing request as the cell (6) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.015 [info] Disposing request as the cell (6) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.015 [info] Disposing request as the cell (6) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.015 [info] Disposing request as the cell (6) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.015 [info] Disposing request as the cell (6) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.015 [info] Disposing request as the cell (6) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.015 [info] Disposing request as the cell (6) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.015 [info] Disposing request as the cell (6) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.015 [info] Disposing request as the cell (6) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.016 [info] Disposing request as the cell (8) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.016 [info] Disposing request as the cell (8) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.016 [info] Disposing request as the cell (8) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.016 [info] Disposing request as the cell (8) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.016 [info] Disposing request as the cell (8) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.016 [info] Disposing request as the cell (8) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.016 [info] Disposing request as the cell (8) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.016 [info] Disposing request as the cell (8) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.016 [info] Disposing request as the cell (8) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.016 [info] Disposing request as the cell (8) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.016 [info] Disposing request as the cell (8) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.016 [info] Disposing request as the cell (8) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.016 [info] Disposing request as the cell (8) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.016 [info] Disposing request as the cell (8) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.016 [info] Disposing request as the cell (8) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.016 [info] Disposing request as the cell (8) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.016 [info] Disposing request as the cell (8) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.016 [info] Disposing request as the cell (8) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.016 [info] Disposing request as the cell (8) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.016 [info] Disposing request as the cell (8) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.016 [info] Disposing request as the cell (8) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.016 [info] Disposing request as the cell (8) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.016 [info] Disposing request as the cell (8) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.016 [info] Disposing request as the cell (8) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.016 [info] Disposing request as the cell (8) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.016 [info] Disposing request as the cell (8) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.016 [info] Disposing request as the cell (8) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.016 [info] Disposing request as the cell (8) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.016 [info] Disposing request as the cell (8) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.016 [info] Disposing request as the cell (8) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.016 [info] Disposing request as the cell (8) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.016 [info] Disposing request as the cell (8) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.016 [info] Disposing request as the cell (8) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.016 [info] Disposing request as the cell (8) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.016 [info] Disposing request as the cell (8) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.016 [info] Disposing request as the cell (8) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.016 [info] Disposing request as the cell (8) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.016 [info] Disposing request as the cell (8) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.016 [info] Disposing request as the cell (8) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.016 [info] Disposing request as the cell (8) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.016 [info] Disposing request as the cell (8) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.016 [info] Disposing request as the cell (8) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.016 [info] Disposing request as the cell (8) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.016 [info] Disposing request as the cell (8) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.016 [info] Disposing request as the cell (8) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.016 [info] Disposing request as the cell (8) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.016 [info] Disposing request as the cell (8) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.016 [info] Disposing request as the cell (8) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.016 [info] Disposing request as the cell (8) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.016 [info] Disposing request as the cell (8) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.016 [info] Disposing request as the cell (8) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.016 [info] Disposing request as the cell (8) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.016 [info] Disposing request as the cell (8) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.016 [info] Disposing request as the cell (8) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.016 [info] Disposing request as the cell (8) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.016 [info] Disposing request as the cell (8) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.016 [info] Disposing request as the cell (8) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.016 [info] Disposing request as the cell (8) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.016 [info] Disposing request as the cell (8) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.016 [info] Disposing request as the cell (8) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.017 [info] Disposing request as the cell (8) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.017 [info] Disposing request as the cell (8) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.017 [info] Disposing request as the cell (8) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.017 [info] Disposing request as the cell (8) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.017 [info] Disposing request as the cell (8) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.017 [info] Disposing request as the cell (8) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.017 [info] Disposing request as the cell (8) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.017 [info] Disposing request as the cell (8) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.017 [info] Disposing request as the cell (8) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.017 [info] Disposing request as the cell (8) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.017 [info] Disposing request as the cell (8) was deleted ~/programowanie/pythonowa_nauka/matma_sage.ipynb
+12:24:29.017 [info] Dispose Kernel '~/programowanie/pythonowa_nauka/matma_sage.ipynb' associated with '~/programowanie/pythonowa_nauka/matma_sage.ipynb'
+12:24:33.615 [info] Dispose Kernel '~/programowanie/pythonowa_nauka/matma_dalejsage.ipynb' associated with '~/programowanie/pythonowa_nauka/matma_dalejsage.ipynb'

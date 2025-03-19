@@ -1,0 +1,72 @@
+2025-03-12 15:40:12.462 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 2 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='vscode-notebook-cell:/home/bartosh/programowanie/pythonowa_nauka/matma_sage.ipynb#W5sZmlsZQ%3D%3D'), range=25:0-26:0, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ~~~~~~~^^^^^^^^
+  File "/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/python_files/lib/jedilsp/jedi_language_server/server.py", line 605, in code_action
+    extract_variable_refactoring = jedi_script.extract_variable(
+        new_name=extract_var, **jedi_lines_extract
+    )
+  File "/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/python_files/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/python_files/lib/jedilsp/jedi/api/__init__.py", line 628, in extract_variable
+    return extract_variable(
+        self._inference_state, self.path, self._module_node,
+        new_name, (line, column), until_pos
+    )
+  File "/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable
+    nodes = _find_nodes(module_node, pos, until_pos)
+  File "/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes
+    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)
+  File "/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 199, in _remove_unwanted_expression_nodes
+    nodes[-1:] = _remove_unwanted_expression_nodes(nodes[-1], pos, until_pos)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes
+    nodes = nodes[start_index:end_index + 1]
+                              ^^^^^^^^^
+UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value
+
+2025-03-12 15:40:12.476 [info] [Error - 3:40:12 PM] Request textDocument/codeAction failed.
+2025-03-12 15:40:12.476 [info]   Message: UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value
+  Code: -32603 
+[object Object]
+2025-03-12 15:41:29.672 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 4 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='vscode-notebook-cell:/home/bartosh/programowanie/pythonowa_nauka/matma_sage.ipynb#W5sZmlsZQ%3D%3D'), range=25:0-26:0, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ~~~~~~~^^^^^^^^
+  File "/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/python_files/lib/jedilsp/jedi_language_server/server.py", line 605, in code_action
+    extract_variable_refactoring = jedi_script.extract_variable(
+        new_name=extract_var, **jedi_lines_extract
+    )
+  File "/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/python_files/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/python_files/lib/jedilsp/jedi/api/__init__.py", line 628, in extract_variable
+    return extract_variable(
+        self._inference_state, self.path, self._module_node,
+        new_name, (line, column), until_pos
+    )
+  File "/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable
+    nodes = _find_nodes(module_node, pos, until_pos)
+  File "/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes
+    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)
+  File "/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 199, in _remove_unwanted_expression_nodes
+    nodes[-1:] = _remove_unwanted_expression_nodes(nodes[-1], pos, until_pos)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes
+    nodes = nodes[start_index:end_index + 1]
+                              ^^^^^^^^^
+UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value
+
+2025-03-12 15:41:29.674 [info] [Error - 3:41:29 PM] Request textDocument/codeAction failed.
+2025-03-12 15:41:29.674 [info]   Message: UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value
+  Code: -32603 
+[object Object]
+2025-03-12 15:41:29.675 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "3"
+

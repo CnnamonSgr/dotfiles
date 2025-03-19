@@ -1,0 +1,6 @@
+2025/03/05-15:35:06.839 32c6 Creating DB /home/bartosh/.config/discord/WebStorage/1/IndexedDB/indexeddb.leveldb since it was missing.
+2025/03/05-15:35:06.847 32c6 Reusing MANIFEST /home/bartosh/.config/discord/WebStorage/1/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2025/03/05-16:02:19.494 3255 Level-0 table #5: started
+2025/03/05-16:02:19.496 3255 Level-0 table #5: 2865 bytes OK
+2025/03/05-16:02:19.499 3255 Delete type=0 #3
+2025/03/05-16:02:19.499 3255 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,53 @@
+2025-03-13 11:37:55.708 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "11"
+
+2025-03-13 11:37:55.860 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "12"
+
+2025-03-13 11:41:41.407 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "68"
+
+2025-03-13 11:52:13.469 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "147"
+
+2025-03-13 11:55:55.564 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "197"
+
+2025-03-13 12:03:33.625 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "367"
+
+2025-03-13 12:03:59.360 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "391"
+
+2025-03-13 12:07:45.617 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "488"
+
+2025-03-13 12:38:35.878 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "762"
+
+2025-03-13 12:39:43.558 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 780 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='file:///home/bartosh/programowanie/pythonowa_nauka/coswymysle.py'), range=42:27-42:27, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ~~~~~~~^^^^^^^^
+  File "/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/python_files/lib/jedilsp/jedi_language_server/server.py", line 605, in code_action
+    extract_variable_refactoring = jedi_script.extract_variable(
+        new_name=extract_var, **jedi_lines_extract
+    )
+  File "/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/python_files/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/python_files/lib/jedilsp/jedi/api/__init__.py", line 628, in extract_variable
+    return extract_variable(
+        self._inference_state, self.path, self._module_node,
+        new_name, (line, column), until_pos
+    )
+  File "/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable
+    nodes = _find_nodes(module_node, pos, until_pos)
+  File "/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes
+    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)
+  File "/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 198, in _remove_unwanted_expression_nodes
+    nodes[0:1] = _remove_unwanted_expression_nodes(nodes[0], pos, until_pos)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes
+    nodes = nodes[start_index:end_index + 1]
+                  ^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+
+2025-03-13 12:39:43.569 [info] [Error - 12:39:43 PM] Request textDocument/codeAction failed.
+2025-03-13 12:39:43.569 [info]   Message: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+  Code: -32603 
+[object Object]

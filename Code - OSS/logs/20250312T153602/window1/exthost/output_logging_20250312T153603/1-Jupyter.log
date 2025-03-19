@@ -1,0 +1,25 @@
+Code - OSS (1.97.2, undefined, desktop)
+Jupyter Extension Version: 2025.1.0.
+Python Extension Version: 2025.2.0.
+Pylance Extension not installed.
+Platform: linux (x64).
+Temp Storage folder ~/.config/Code - OSS/User/globalStorage/ms-toolsai.jupyter/version-2025.1.0
+Workspace folder ~/programowanie, Home = /home/bartosh
+15:36:04.838 [info] Starting Kernel (SageMath 10.5) for '~/programowanie/pythonowa_nauka/matma_sage.ipynb' (disableUI=true)
+15:36:05.109 [info] Launching Raw Kernel SageMath 10.5 # /usr/bin/sage
+15:36:05.115 [info] Process Execution: /usr/bin/sage --python -m sage.repl.ipython_kernel -f /home/~/.local/share/jupyter/runtime/kernel-v3180ccba7c4f167f35276af1aa99e5cae8d0c0409.json
+    > cwd: ~/programowanie/pythonowa_nauka
+15:36:07.901 [warn] Kernel completions not enabled for 'SageMath 10.5'. 
+To enable Kernel completion for this language please add the following setting 
+jupyter.completionTriggerCharacters = {sage: [<List of characters that will trigger completions>]}. 
+For more information please see https://aka.ms/vscodeJupyterCompletion
+15:36:07.902 [info] Kernel successfully started
+15:36:07.902 [warn] No nbextensions folder found for kernel .sagemath./usr/bin/sage././usr/bin/sage#--python#-m#sage.repl.ipython_kernel#-f#{connection_file}
+16:50:50.845 [info] Dispose Kernel '~/programowanie/pythonowa_nauka/matma_sage.ipynb' associated with '~/programowanie/pythonowa_nauka/matma_sage.ipynb'
+16:50:50.870 [warn] Failed to delete connection file file:///home/~/.local/share/jupyter/runtime/kernel-v3180ccba7c4f167f35276af1aa99e5cae8d0c0409.json for pid 12000 [Canceled (FileSystemError): Canceled
+	at Zi.e (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:9922)
+	at Object.stat (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:7076)
+	at async qc.delete (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.1.0-universal/dist/extension.node.js:239:15448)
+	at async /home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.1.0-universal/dist/extension.node.js:303:469] {
+  code: 'Unknown'
+}

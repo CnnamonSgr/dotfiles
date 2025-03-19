@@ -1,0 +1,14 @@
+autologin.canonical_username="eurowskibw"
+autologin.username="eurowskibw"
+autologin.blob="2Y2iDHVGEcnMMY5lhx+6ckGO2Wd/9xhPpHZX+yIKyKQJOGTcdBgY5pZjHcxUUTiErxHwnv+iJrmFUizhS1CWhmvC8eO05d5znA24MQ2rKY7EPG5DXkzRVIx7pm7ATzhnlX64zZDD6fOd8B7nK9LCncyvB93Kncg44XIKy4t8SRRz7J+6DDNa70J7TomYzq0gEbSi2CjVB8N/uOABxgRrn0V7Jt0CTn33Hwpa3mze4dR8s1YWKAIYi7N/PcVCU6X3"
+autologin.saved_credentials="{\"eurowskibw\":[\"eurowskibw\",\"2Y2iDHVGEcnMMY5lhx+6ckGO2Wd/9xhPpHZX+yIKyKQJOGTcdBgY5pZjHcxUUTiErxHwnv+iJrmFUizhS1CWhmvC8eO05d5znA24MQ2rKY7EPG5DXkzRVIx7pm7ATzhnlX64zZDD6fOd8B7nK9LCncyvB93Kncg44XIKy4t8SRRz7J+6DDNa70J7TomYzq0gEbSi2CjVB8N/uOABxgRrn0V7Jt0CTn33Hwpa3mze4dR8s1YWKAIYi7N/PcVCU6X3\"]}"
+app.window.state.saved=true
+app.window.position.width=1908
+es.send-on-startup=true
+core.clock_delta=0
+app.window.position.saved=true
+app.window.position.height=1028
+app.window.position.y=46
+storage.last-location="/home/bartosh/.cache/spotify/Storage"
+app.window.position.x=6
+app.last-launched-version="1.2.59.514.g834e17d4"

@@ -1,0 +1,198 @@
+2025-03-13 11:37:48.455 [warning] Dir "/home/bartosh/programowanie/pythonowa_nauka/.pixi/envs" is not watchable (directory does not exist)
+2025-03-13 11:37:48.455 [error] Unable to check if shell integration is active [Error: Extension 'ms-python.python' CANNOT use API proposal: terminalDataWriteEvent.
+Its package.json#enabledApiProposals-property declares:  but NOT terminalDataWriteEvent.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at N (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:110:16858)
+	at a.onDidWriteTerminalData (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:172:46213)
+	at new v (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:877941)
+	at ge (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1684578)
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1687942
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1687970
+	at Se (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1688037)
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1688517
+	at we (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1688458)
+	at Pe (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1688492)
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1685731
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1687336
+	at Array.reduce (<anonymous>)
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1687308
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1687590
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1687970
+	at Se (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1688037)
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1688517
+	at we (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1688458)
+	at Pe (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1688492)
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1685731
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1715401
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1715422
+	at e._get (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1714435)
+	at e._getButThrowIfAsync (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1714495)
+	at e.get (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1710204)
+	at e.dynamicValue (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1699937)
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1686114
+	at Ee (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1686370)
+	at Se (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1688086)
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1688517
+	at we (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1688458)
+	at Pe (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1688492)
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1685731
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1685665
+	at Array.map (<anonymous>)
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1685636
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1687336
+	at Array.reduce (<anonymous>)
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1687308
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1687590
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1687970
+	at Se (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1688037)
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1688517
+	at we (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1688458)
+	at Pe (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1688492)
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1685731
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1715401
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1715422
+	at e._get (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1714435)
+	at e._getButThrowIfAsync (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1714495)
+	at e.get (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:1710204)
+	at a.get (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:536568)
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:451405
+	at async t.activateComponents (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:449685)
+	at async /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:2639568
+	at async e (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:2639100)
+	at async aw.n (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:4447)
+	at async aw.m (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:4410)
+	at async aw.l (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:3866)]
+2025-03-13 11:37:48.455 [info] Starting Environment refresh
+2025-03-13 11:37:48.455 [info] > hatch env show --json
+2025-03-13 11:37:48.455 [info] cwd: .
+2025-03-13 11:37:48.455 [info] > conda info --json
+2025-03-13 11:37:48.455 [info] Python interpreter path: /bin/python
+2025-03-13 11:37:48.455 [info] Starting Environment refresh
+2025-03-13 11:37:48.494 [info] > /bin/python -I ~/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/python_files/interpreterInfo.py
+2025-03-13 11:37:48.494 [info] Environments refresh paths discovered: 192 milliseconds
+2025-03-13 11:37:48.494 [info] Environments refresh paths discovered: 42 milliseconds
+2025-03-13 11:37:48.538 [info] Environments refresh finished (event): 236 milliseconds
+2025-03-13 11:37:48.538 [info] Environments refresh finished (event): 86 milliseconds
+2025-03-13 11:37:48.541 [info] Environment refresh took 240 milliseconds
+2025-03-13 11:37:48.542 [info] Environment refresh took 91 milliseconds
+2025-03-13 11:37:48.548 [info] > pyenv which python
+2025-03-13 11:37:48.548 [info] cwd: .
+2025-03-13 11:37:48.563 [error] [
+  'Failed to activate a workspace, Class name = v, completed in 261ms, has a falsy return value, Arg 1: <Uri:/home/bartosh/programowanie/pythonowa_nauka/coswymysle.py>, Arg 2: {"started":1741862267972}, Return Value: undefined',
+  [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+  Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+   The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+  	at N (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:110:16858)
+  	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:172:39426)
+  	at C.activate (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:908493)
+  	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:2457
+  	at Array.map (<anonymous>)
+  	at v.activateWorkspace (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:2447)]
+]
+2025-03-13 11:37:48.563 [error] Failure during activation. [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at N (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:110:16858)
+	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:172:39426)
+	at C.activate (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:908493)
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:2457
+	at Array.map (<anonymous>)
+	at v.activateWorkspace (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:2447)]
+2025-03-13 11:37:48.563 [error] sendStartupTelemetry() failed. [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at N (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:110:16858)
+	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:172:39426)
+	at C.activate (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:908493)
+	at /home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:2457
+	at Array.map (<anonymous>)
+	at v.activateWorkspace (/home/bartosh/.vscode-oss/extensions/ms-python.python-2025.2.0-universal/out/client/extension.js:2:2447)]
+2025-03-13 11:37:49.248 [info] Starting Jedi language server for pythonowa_nauka.
+2025-03-13 11:41:55.687 [info] CreateEnv Trigger - Skipping for /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 11:41:55.914 [info] Discover tests for workspace name: pythonowa_nauka - uri: /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 11:41:56.277 [info] Send text to terminal: /bin/python /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 11:42:12.208 [info] Discover tests for workspace name: pythonowa_nauka - uri: /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 11:42:13.760 [info] Send text to terminal: /bin/python /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 11:52:16.553 [info] Send text to terminal: /bin/python /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 11:52:16.802 [info] Discover tests for workspace name: pythonowa_nauka - uri: /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 11:52:38.852 [info] Send text to terminal: /bin/python /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 11:52:49.709 [info] Send text to terminal: /bin/python /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 11:53:01.267 [info] Send text to terminal: /bin/python /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 11:56:46.848 [info] Send text to terminal: /bin/python /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 11:56:47.098 [info] Discover tests for workspace name: pythonowa_nauka - uri: /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 11:57:12.005 [info] Send text to terminal: /bin/python /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 11:57:12.255 [info] Discover tests for workspace name: pythonowa_nauka - uri: /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 11:59:36.459 [info] Send text to terminal: /bin/python /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 11:59:36.708 [info] Discover tests for workspace name: pythonowa_nauka - uri: /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 12:01:07.930 [info] Send text to terminal: /bin/python /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 12:01:08.179 [info] Discover tests for workspace name: pythonowa_nauka - uri: /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 12:03:07.308 [info] Send text to terminal: /bin/python /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 12:03:07.558 [info] Discover tests for workspace name: pythonowa_nauka - uri: /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 12:03:35.511 [info] Send text to terminal: /bin/python /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 12:03:35.760 [info] Discover tests for workspace name: pythonowa_nauka - uri: /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 12:03:41.662 [info] Send text to terminal: /bin/python /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 12:03:54.211 [info] Send text to terminal: /bin/python /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 12:03:54.460 [info] Discover tests for workspace name: pythonowa_nauka - uri: /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 12:04:06.095 [info] Send text to terminal: /bin/python /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 12:04:06.345 [info] Discover tests for workspace name: pythonowa_nauka - uri: /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 12:04:15.343 [info] Send text to terminal: /bin/python /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 12:04:15.591 [info] Discover tests for workspace name: pythonowa_nauka - uri: /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 12:04:41.677 [info] Send text to terminal: /bin/python /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 12:04:56.070 [info] Send text to terminal: /bin/python /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 12:05:51.159 [info] Send text to terminal: /bin/python /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 12:05:51.408 [info] Discover tests for workspace name: pythonowa_nauka - uri: /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 12:09:02.511 [info] Discover tests for workspace name: pythonowa_nauka - uri: /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 12:09:04.473 [info] Send text to terminal: /bin/python /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 12:09:22.415 [info] Send text to terminal: /bin/python /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 12:09:22.664 [info] Discover tests for workspace name: pythonowa_nauka - uri: /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 12:09:27.008 [info] Send text to terminal: /bin/python /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 12:09:27.258 [info] Discover tests for workspace name: pythonowa_nauka - uri: /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 12:09:34.188 [info] Send text to terminal: /bin/python /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 12:09:34.436 [info] Discover tests for workspace name: pythonowa_nauka - uri: /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 12:09:41.871 [info] Send text to terminal: /bin/python /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 12:09:42.121 [info] Discover tests for workspace name: pythonowa_nauka - uri: /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 12:09:51.898 [info] Send text to terminal: /bin/python /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 12:09:52.146 [info] Discover tests for workspace name: pythonowa_nauka - uri: /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 12:09:54.013 [info] Send text to terminal: /bin/python /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 12:09:57.216 [info] Send text to terminal: /bin/python /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 12:09:57.465 [info] Discover tests for workspace name: pythonowa_nauka - uri: /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 12:10:06.877 [info] Send text to terminal: /bin/python /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 12:10:07.126 [info] Discover tests for workspace name: pythonowa_nauka - uri: /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 12:10:51.806 [info] Send text to terminal: /bin/python /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 12:10:52.055 [info] Discover tests for workspace name: pythonowa_nauka - uri: /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 12:10:57.547 [info] Send text to terminal: /bin/python /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 12:10:57.797 [info] Discover tests for workspace name: pythonowa_nauka - uri: /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 12:11:12.627 [info] Send text to terminal: /bin/python /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 12:11:18.859 [info] Send text to terminal: /bin/python /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 12:11:19.109 [info] Discover tests for workspace name: pythonowa_nauka - uri: /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 12:11:26.129 [info] Send text to terminal: /bin/python /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 12:11:26.378 [info] Discover tests for workspace name: pythonowa_nauka - uri: /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 12:11:33.534 [info] Send text to terminal: /bin/python /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 12:11:33.783 [info] Discover tests for workspace name: pythonowa_nauka - uri: /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 12:30:34.163 [info] Discover tests for workspace name: pythonowa_nauka - uri: /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 12:34:38.042 [info] Send text to terminal: /bin/python /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 12:34:38.291 [info] Discover tests for workspace name: pythonowa_nauka - uri: /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 12:36:06.643 [info] Send text to terminal: /bin/python /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 12:36:06.892 [info] Discover tests for workspace name: pythonowa_nauka - uri: /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 12:36:22.555 [info] Send text to terminal: /bin/python /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 12:36:22.805 [info] Discover tests for workspace name: pythonowa_nauka - uri: /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 12:36:37.829 [info] Send text to terminal: /bin/python /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 12:36:38.079 [info] Discover tests for workspace name: pythonowa_nauka - uri: /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 12:38:02.138 [info] Send text to terminal: /bin/python /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 12:38:02.387 [info] Discover tests for workspace name: pythonowa_nauka - uri: /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 12:38:29.233 [info] Discover tests for workspace name: pythonowa_nauka - uri: /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 12:38:30.464 [info] Send text to terminal: /bin/python /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 12:38:39.588 [info] Send text to terminal: /bin/python /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 12:38:39.837 [info] Discover tests for workspace name: pythonowa_nauka - uri: /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 12:39:50.407 [info] Discover tests for workspace name: pythonowa_nauka - uri: /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 12:39:52.065 [info] Send text to terminal: /bin/python /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 12:39:53.421 [info] Send text to terminal: /bin/python /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 12:40:52.643 [info] Discover tests for workspace name: pythonowa_nauka - uri: /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 12:40:54.700 [info] Send text to terminal: /bin/python /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 12:41:33.012 [info] Send text to terminal: /bin/python /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 12:41:33.261 [info] Discover tests for workspace name: pythonowa_nauka - uri: /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 12:41:37.873 [info] Send text to terminal: /bin/python /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 12:41:38.122 [info] Discover tests for workspace name: pythonowa_nauka - uri: /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 12:47:00.331 [info] Discover tests for workspace name: pythonowa_nauka - uri: /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 12:47:01.796 [info] Send text to terminal: /bin/python /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
+2025-03-13 12:47:18.816 [info] Discover tests for workspace name: pythonowa_nauka - uri: /home/bartosh/programowanie/pythonowa_nauka/coswymysle.py
